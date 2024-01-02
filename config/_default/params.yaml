@@ -17,7 +17,7 @@ keywords: Hugo, Bootstrap, Blog Theme
 # logo: false # Disable Logo
 brand: HBS
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: indigo # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
