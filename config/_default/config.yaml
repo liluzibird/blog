@@ -1,4 +1,4 @@
-baseURL: https://hbs-skeleton.netlify.app/
+baseURL: https://userliluzibert.github.io/
 title: Hugo Bootstrap Skeleton
 theme: github.com/razonyang/hugo-theme-bootstrap
 copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
@@ -22,7 +22,7 @@ taxonomies:
   category: categories
   series: series
   tag: tags
-  authors: authors
+  authors: Albert Huynh
 
 build:
   writeStats: true
