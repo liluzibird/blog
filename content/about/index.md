@@ -1,9 +1,9 @@
 +++
 title = "About"
-description = "Describe yourself."
+description = "Computer Science student pursuing a career of computer network security. I enjoy messing about with computers, playing video games, and touching grass."
 reward = false
 postDate = false
 readingTime = false
 +++
 
-Hi there, I'm XXX.
+Hope you enjoy the site.
