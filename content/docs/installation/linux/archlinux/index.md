@@ -1,6 +1,6 @@
 ---
 date: 2022-09-06T22:42:23+08:00
-title: Install on Arch Linux
+title: Install on POTATO MASTER 2000
 linkTitle: Arch Linux
 series:
   - Guide
