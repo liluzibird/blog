@@ -6,6 +6,6 @@ tags:
   - README
 ---
 
-See also [README.md](https://github.com/razonyang/hugo-theme-bootstrap-skeleton/blob/main/README.md).
+See also [README.md](https://github.com/userliluzibert/userliluzibert.github.io/blob/main/README.md).
 
 <!--more-->
