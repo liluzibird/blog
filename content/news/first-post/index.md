@@ -22,7 +22,7 @@ Now, it may be surprising to some of you guys out there but I actually have frie
 
 __Future plans__
 Even though I've slaved many days on just getting this site up and running, I still plan on adding more features to it.
-1. Giscuss widget for comments
+1. Giscus widget for comments
 2. Uploading my documentations for projects I've done
 3. Make some categories for personal life, gaming, school, rant, and whatnot
 4. Whatever the heck pops into my mind
