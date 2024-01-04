@@ -170,10 +170,10 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "userliluzibert.github.io" # required.
-  repoId: "737969844" # required.
-  category: "General" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+  repo: "userliluzibert/userliluzibert.github.io" # required.
+  repoId: "R_kgDOK_yGtA" # required.
+  category: "Giscus" # required.
+  categoryId: "DIC_kwDOK_yGtM4CcLrU" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
