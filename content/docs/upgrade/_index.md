@@ -1,22 +1,6 @@
 ---
-# type: docs 
 title: Upgrade
-date: 2024-01-04T18:00:14-08:00
-featured: false
-draft: true
-comment: true
-toc: true
-reward: true
-pinned: false
-carousel: false
-series:
-categories: []
-tags: []
-images: []
+linkTitle: Upgrade # The title of left navigation, optional.
+linkTitleIcon: <i class="fas fa-fw fa-cog"></i> # The icon of the link title, optional.
+navWeight: 700 # Upper weight gets higher precedence, optional.
 ---
-
-Summary.
-
-<!--more-->
-
-Content.
