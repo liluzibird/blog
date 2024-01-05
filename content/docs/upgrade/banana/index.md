@@ -10,4 +10,6 @@ tags:
   - Banana
 ---
 
-This guide show you how to install on a banana.
+![banana](https://images.pexels.com/photos/5945848/pexels-photo-5945848.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&dpr=1)This guide show you how to upgrade a banana.
+
+
