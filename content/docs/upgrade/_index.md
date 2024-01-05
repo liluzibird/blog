@@ -1,9 +1,9 @@
 ---
-# type: docs 
+type : docs
 title: Upgrade
-date: 2024-01-04T18:00:14-08:00
+date: 2024-01-04T23:12:16-08:00
 featured: false
-draft: true
+draft: false
 comment: true
 toc: true
 reward: true

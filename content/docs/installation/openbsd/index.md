@@ -1,5 +1,5 @@
 ---
-# type: docs 
+#type: docs 
 title: Openbsd
 date: 2024-01-04T00:02:45-08:00
 featured: false
