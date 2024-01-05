@@ -2,7 +2,7 @@
 # type: docs 
 title: First Post
 date: 2024-01-03T16:50:23-08:00
-featured: true
+featured: false
 draft: false
 comment: true
 toc: true
