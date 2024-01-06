@@ -10,7 +10,7 @@ tags:
   - KDE
 ---
 
-For some reason turning on your monitors in Linux is a bit funky, so you might need to type a few commands in the terminal for monitors to power off. I believe this method works on both X11 and Wayland.
+For some reason turning on your monitors in Linux is a bit funky, so you might need to type a few commands in the terminal for monitors to power off. I believe this method only works on x11.
 
 ---
 
