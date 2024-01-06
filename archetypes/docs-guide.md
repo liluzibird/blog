@@ -3,7 +3,7 @@ date: {{ .Date }}
 title: {{ replace .Name "-" " " | title }}
 linkTitle: {{ replace .Name "-" " " | title }}
 series: 
-  - Guide
+  - Guides
 categories:
   - 
 tags:
