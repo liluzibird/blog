@@ -98,6 +98,7 @@ sidebar:
   # featuredPosts: true # Enable featured posts widget
   # recentPosts: true # Enable featured posts widget
   # collapsed: true # Collapse sidebar widgets by default on small screens.
+  enableGitInfo: true
 
 codeBlock:
   # maxLines: 8
