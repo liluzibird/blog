@@ -3,7 +3,7 @@ date: 2024-01-05T18:23:25-08:00
 title: Team Fortress 2
 linkTitle: Team Fortress 2
 series: 
-  - Guides
+  - Docs
 categories:
   - 
 tags:

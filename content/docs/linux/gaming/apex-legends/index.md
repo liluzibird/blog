@@ -3,7 +3,7 @@ date: 2024-01-05T16:59:46-08:00
 title: Apex Legends
 linkTitle: Apex Legends
 series: 
-  - Guides
+  - Docs
 categories:
   - 
 tags:

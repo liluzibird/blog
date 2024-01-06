@@ -3,7 +3,7 @@ date: 2024-01-05T16:59:46-08:00
 title: Superflight
 linkTitle: Superflight
 series: 
-  - Guides
+  - Docs
 categories:
   - 
 tags:

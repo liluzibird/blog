@@ -4,7 +4,7 @@ title: Introduction
 navWeight: 1000 # Upper weight gets higher precedence, optional.
 linkTitleIcon: <i class="fas fa-fw fa-book"></i> # The icon of the link title, optional.
 series:
-  - Guides
+  - Docs
 ---
 
-Guides for whatever I'm doing.
+Docs for whatever I'm doing.

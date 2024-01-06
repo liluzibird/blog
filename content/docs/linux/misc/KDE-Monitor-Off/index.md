@@ -3,7 +3,7 @@ date: 2024-01-05T18:31:01-08:00
 title: KDE Monitor Off
 linkTitle: KDE Monitor Off
 series: 
-  - Guides
+  - Docs
 categories:
   - Linux
 tags:
