@@ -50,7 +50,7 @@ googleAdsense:
 # breadcrumb: false # Disable breadcrumb
 # breadcrumbDivider: > # Breadcrumb divider
 # diagram: true
-# socialShare: false # disable social network sharing
+socialShare: false # disable social network sharing
 # searchBar: false # disable search-bar
 
 # poweredBy: false # Whether to show powered by.
