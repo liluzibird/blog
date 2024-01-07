@@ -13,7 +13,7 @@ This page does not use any telemetry. You should be able to browse this site wit
 
 ## License
 
-This website is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
+This website is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) 
 
 > You are free to:
 >
