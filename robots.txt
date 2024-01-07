@@ -1,2 +1,69 @@
-User-agent: *
-Sitemap: https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/sitemap.xml
+User-agent: GPTBot
+
+Disallow: /hugo-theme-bootstrap-skeleton/
+
+Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/second-thoughts/
+
+Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/kde/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/kde-monitor-off/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/tf2/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/apex-legends/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/superflight/
+
+Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/first-post/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/introduction/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/readme/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2022/04/readme/
+
+Disallow: /hugo-theme-bootstrap-skeleton/archives/2022/
+
+Disallow: /hugo-theme-bootstrap-skeleton/about/
+
+Disallow: /hugo-theme-bootstrap-skeleton/albert-huynh/
+
+Disallow: /hugo-theme-bootstrap-skeleton/authors/albert-huynh/
+
+Disallow: /hugo-theme-bootstrap-skeleton/archives/
+
+Disallow: /hugo-theme-bootstrap-skeleton/authors/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/
+
+Disallow: /hugo-theme-bootstrap-skeleton/contact/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/
+
+Disallow: /hugo-theme-bootstrap-skeleton/news/
+
+Disallow: /hugo-theme-bootstrap-skeleton/offline/
+
+Disallow: /hugo-theme-bootstrap-skeleton/search/
+
+Disallow: /hugo-theme-bootstrap-skeleton/series/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/
+
+Disallow: /
+
+User-agent: Google-Extended
+
+Disallow: /
