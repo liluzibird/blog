@@ -2,7 +2,7 @@
 title: Albert Huynh
 description: Arch Linux user, FOSS Advocate, Computer Network Security Student
 social:
-  github: userliluzibert
+  github: liluzibird
   email: alberth03@protonmail.com
-  website: https://userliluzibert.github.io/
+  website: https://liluzibird.github.io/
 ---

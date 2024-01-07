@@ -7,7 +7,7 @@ mainSections:
 # titleSeparator: '|' # Title separator. Default to -.
 
 description: A website where I talk about whatever comes into my mind
-keywords: Hugo, Bootstrap, Blog Dude, userliluzibert, Blog, Documentation, Linux Documentation, Linux Gaming
+keywords: Hugo, Bootstrap, Blog Dude, liluzibird, Blog, Documentation, Linux Documentation, Linux Gaming
 # images:
 #   - site-feature-image.jpg
 
@@ -172,7 +172,7 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "userliluzibert/userliluzibert.github.io" # required.
+  repo: "liluzibird/liluzibird.github.io" # required.
   repoId: "R_kgDOK_yGtA" # required.
   category: "Giscus" # required.
   categoryId: "DIC_kwDOK_yGtM4CcLrU" # required.
@@ -250,7 +250,7 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/userliluzibert/userliluzibert.github.io
+  url: https://github.com/liluzibird/liluzibird.github.io
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -258,7 +258,7 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: userliluzibert/userliluzibert.github.io
+    github: liluzibird/liluzibird.github.io
     #patreon: razonyang
     #paypal: razonyang
 
@@ -273,7 +273,7 @@ social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   email: user@domain.tld
   #facebook: yourfacebookusername
-  github: userliluzibert/userliluzibert.github.io
+  github: liluzibird/liluzibird.github.io
   #gitlab: yourgitlabusername
   linkedin: albert-huynh-50658b176
   #xing: yourxingusername
