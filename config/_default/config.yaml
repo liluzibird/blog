@@ -16,6 +16,7 @@ paginate: 10
 enableRobotsTXT: true
 enableEmoji: true
 pygmentsUseClasses: true
+enableGitInfo: true
 
 blackfriday:
   hrefTargetBlank: true
