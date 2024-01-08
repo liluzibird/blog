@@ -25,7 +25,7 @@ Don't even get me started on making image captions. Check my last post for evide
 ```
 | ![](image.png) | 
 |:--:| 
-| *Space* |
+| *Caption* |
 ```
 Soooo I did the table thing but without linking the image directory, making it just the table title. That made my entire sentence bold. Since Markdown doesn't give tools to resize fonts and styles, I was left there with hideous font.
 
