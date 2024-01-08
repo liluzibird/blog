@@ -10,11 +10,11 @@ Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/second-thoughts/
 
 Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/kde/
-
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/kde-monitor-off/
-
 Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/linux-x11-monitors-off/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/x11/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/tf2/
 
