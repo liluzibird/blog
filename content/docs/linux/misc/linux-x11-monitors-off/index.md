@@ -1,14 +1,16 @@
 ---
 date: 2024-01-05T18:31:01-08:00
-title: KDE Monitor Off
-linkTitle: KDE Monitor Off
+title: Linux X11 Monitors Off
+linkTitle: Linux X11 Monitors Off
 series: 
   - Docs
 categories:
   - Linux
 tags:
-  - KDE
+  - X11
 ---
+*Image stolen from https://www.x.org*
+
 
 For some reason turning on your monitors in Linux is a bit funky, so you might need to type a few commands in the terminal for monitors to power off. I believe this method only works on x11.
 
