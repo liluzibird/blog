@@ -2,6 +2,10 @@ User-agent: GPTBot
 
 Disallow: /hugo-theme-bootstrap-skeleton/
 
+Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/markdown-kinda-sucks/
+
+Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/name-change-and-regenerating-gpg-keys/
+
 Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/second-thoughts/
 
 Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
