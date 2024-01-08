@@ -17,7 +17,7 @@ images: []
 *Image stolen from [Adam Michael Wood](https://adammichaelwood.com/talks/docs-are-engineering/)*
 
 ## Basic font emphasis styles
-First of all, I think markdown is pretty good if you want to do basic stuff like *italics*, **bold**, ~~strikeout~~, underli--. Oh what?? Markdown doesn't have a syntax for underline you say? Well what am I to do now. Oh maybe because markdown supports HTML5, I can use <u> tags. What now? yOu cAN't dO thaT, doesn't work either because this site can't do it for some inexplicable reason even though it's supposed to?
+First of all, I think markdown is pretty good if you want to do basic stuff like *italics*, **bold**, ~~strikeout~~, underli--. Oh what?? Markdown doesn't have a syntax for underline you say? Well what am I to do now. Oh maybe because markdown supports HTML5, I can use <u> tags. What now? yOu cAN't dO thaT. This doesn't work either because this site can't do it for some inexplicable reason even though it's supposed to?
 
 ## Image captions
 Don't even get me started on making image captions. Check my last post for evidence of this. I was trying to give credit to the sources where I found my gif and decided to write a bit more. Well, turns out Markdown doesn't exactly have a caption thing for images. Instead, you can either italicize and make it look like it's properly formatted right underneath the photo, or you can make a little table. Well because this site is using a [featured photo](https://hbs.razonyang.com/v1/en/docs/content/#featured-images-selection-order) and I'm not displaying the image using ```![](image.png)```, I can't exactly use
