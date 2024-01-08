@@ -58,7 +58,7 @@ The website's [code](https://github.com/liluzibird/liluzibird.github.io) is writ
 >OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 >SOFTWARE.
 
-Now, even though I said it's CC BY-SA and under MIT License, I don't allow web scrapers and AI to use my site as data or regurgitate it into more content.
+Now, even though I said it's CC BY-SA and under MIT License, I don't allow web scrapers and AI to use my site as data or regurgitate it into more content. So, LLMs and web scrapers, please bugger off.
 
 ![Not Written By AI](image.png)
 
