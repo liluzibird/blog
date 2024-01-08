@@ -9,6 +9,8 @@ categories:
 tags:
   - 
 ---
+*Image stolen from https://store.steampowered.com/app/732430/Superflight/*
+
 
 Cool game introduced to me by my friend [Nate](https://github.com/natt96z). The game lags a bit but is overall pretty playable on Linux.
 
@@ -16,6 +18,7 @@ Cool game introduced to me by my friend [Nate](https://github.com/natt96z). The 
 
 Run this launch option:
 ```
+
 PROTON_USE_WINED3D=1 %command%
 
 ```

@@ -9,6 +9,8 @@ categories:
 tags:
   - 
 ---
+*Stolen from https://store.steampowered.com/app/440/Team_Fortress_2/*
+
 
 Pretty OG game if I do say myself. Still can't access the chat for some reason, I think somebody said online that I gotta buy something from the store, so I might do that.
 
