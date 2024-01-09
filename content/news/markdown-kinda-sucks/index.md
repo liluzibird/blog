@@ -31,9 +31,13 @@ Soooo I did the table thing but without linking the image directory, making it j
 
 
 ## Sections
-Now onto, sections, look at this. Look above this line right now. It's a little too large wouldn't you say? Why does it have to by like 3 times the size as the regular body of the text? I mean it's nice that there's a little link when you hover over it. I just wish that it would be a smidge bigger than normal body text but not as big as it is now. Maybe double the size of normal body text would do. The last post I did, I just bolded the sections just to give it a go, turned out alright tbh.
+Now onto, sections, look at this. Look above this line right now. It's a little too large wouldn't you say? Why does it have to by like 3 times the size as the regular body of the text? I mean it's nice that there's a little link when you hover over it.
 
 ![Sections Link](image1.png)
+
+I just wish that it would be a smidge bigger than normal body text but not as big as it is now. Maybe double the size of normal body text would do. The last post I did, I just bolded the sections just to give it a go, turned out alright tbh.
+
+
 
 ## People agree with me
 - https://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/
