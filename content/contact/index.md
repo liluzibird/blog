@@ -1,4 +1,26 @@
 +++
 title = "Contact Me"
-layout = "contact"
+layout = ""
 +++
+Email: alberth03@protonmail.com
+
+Public PGP Key:
+
+<!--more-->
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEZaOF1hYJKwYBBAHaRw8BAQdAFOArIEfEV/XYmut3rgQeyM/037YbUyQx
+NkzZbJ1VarXNI0FsYmVydCBIIDxhbGJlcnRoMDNAcHJvdG9ubWFpbC5jb20+
+wpMEExYKADsWIQQZGjFn62sqFlOhXDpcOYbPQU07rAUCZaOF1gIbAwULCQgH
+AgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRBcOYbPQU07rFaDAP94fnkjgJ9N
+QCgL6HICLhuN5VJwYeCb+1Y+rfvC1e7V5QD/WgpQxkfiWCyMO9oxbIpytJfP
+lw1FWPORocevR6/GYgPOOARlo4XWEgorBgEEAZdVAQUBAQdAse4pqd6dWrvo
+1IDdprAm0MzUFwfHLJHQpBdqI9/MVUgDAQgHwngEGBYKACAWIQQZGjFn62sq
+FlOhXDpcOYbPQU07rAUCZaOF1gIbDAAKCRBcOYbPQU07rDpWAP4h5rGCS6zn
+4PQGDlfz9I45zdQNX3ifyMdz+Boqq6lMVwEA8+LYKYRcoMsq7P54AtGpGNJJ
+L2sGdYe8GagMpQqY8Aw=
+=FCjz
+-----END PGP PUBLIC KEY BLOCK-----
+```
