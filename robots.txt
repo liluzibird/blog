@@ -2,6 +2,8 @@ User-agent: GPTBot
 
 Disallow: /hugo-theme-bootstrap-skeleton/
 
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/i-broke-my-computer...twice/
+
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/first-blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/markdown-kinda-sucks/
