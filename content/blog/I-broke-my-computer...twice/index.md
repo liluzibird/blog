@@ -33,7 +33,7 @@ So I was like alright, I still have my SSD I can back things up to. But my deskt
 Then I reinstalled my OS and enabled disk encryption. After a while of setting things up to how I wanted it, I restarted. That restart bricked everything. It couldn't mount to my boot partition. I looked up help and guides but because everything was encrypted, nothing worked, even ram was encrypted, so I couldn't even fix things when I booted into flash drive.
 
 ## Finally got it to work
-After my second install without disk encryption, it is finally working. Tried to install zsh and configure everything. Didn't like it, but that's a story for next time.
+After my second install without disk encryption, it is finally working. Tried to install ZSH and configure everything. Didn't like it, but that's a story for next time.
 
 
 ## Moral of the story
