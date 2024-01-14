@@ -1,8 +1,16 @@
 User-agent: GPTBot
 
+Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
+
 Disallow: /hugo-theme-bootstrap-skeleton/
 
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/i-broke-my-computer...twice/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/linux/
 
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/first-blog/
 
@@ -13,8 +21,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/name-change-and-regenerati
 Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/second-thoughts/
 
 Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
-
-Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/linux-x11-monitors-off/
 
@@ -29,10 +35,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/superflight/
 Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/first-post/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/introduction/
-
-Disallow: /hugo-theme-bootstrap-skeleton/tags/readme/
-
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2022/04/readme/
 
 Disallow: /hugo-theme-bootstrap-skeleton/archives/2022/
 
