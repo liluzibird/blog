@@ -1,1 +1,2 @@
 janky
+automount
