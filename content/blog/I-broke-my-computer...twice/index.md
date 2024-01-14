@@ -19,7 +19,7 @@ _image from [IT Crowd S1E5](https://www.imdb.com/title/tt0609851/)_
 ---
 
 
-I already messaged this to my friend already, so to keep myself from coming up with a new way to reformat those words, I'll just paste that conversation here.
+I already messaged this to my friend already, so to keep myself from coming up with a new way to reformat those words, I'll just paste what I messaged them here.
 
 I don't have this blog listed on my resume or anything, so I feel like it would be kind of safe to curse on here. Albeit, if an employer is going through every repo and sees this they might be a little put off. Granted, they would have to actually skim a bit to reach this post. Hopefully this post doesn't get me disqualified of a job. It's pretty socially acceptable to curse, come the fuck on guys.
 
