@@ -10,8 +10,8 @@ reward: true
 pinned: false
 carousel: false
 series:
-categories: []
-tags: []
+categories: [blog]
+tags: [blog]
 images: []
 ---
 _"[Torc waterfall, co. Kerry, Ireland #photo #photography #iphone #iphone5s #iphoneography #ireland #landscape #travel #outdoor #nature #sky #clouds #lake(https://www.flickr.com/photos/87690240@N03/14133418959)]" by [Giuseppe Milo (www.pixael.com)](https://www.flickr.com/photos/87690240@N03) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse)._

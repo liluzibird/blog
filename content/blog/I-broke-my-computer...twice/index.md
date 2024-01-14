@@ -10,8 +10,8 @@ reward: true
 pinned: false
 carousel: false
 series:
-categories: []
-tags: []
+categories: [blog, linux]
+tags: [blog, Linux]
 images: []
 ---
 _image from [IT Crowd S1E5](https://www.imdb.com/title/tt0609851/)_
