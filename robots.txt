@@ -1,10 +1,12 @@
 User-agent: GPTBot
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
-
 Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/do-you-really-need-a-/home-partition/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/i-broke-my-computer...twice/
 
