@@ -2,13 +2,23 @@ User-agent: GPTBot
 
 Disallow: /hugo-theme-bootstrap-skeleton/
 
+Disallow: /hugo-theme-bootstrap-skeleton/tags/docker/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/docker/docker-name-change/featured/
+
+Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/networking/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/networking/
+
 Disallow: /hugo-theme-bootstrap-skeleton/tags/bluetooth/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/bluetooth-controller-slowing-downloads/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/controllers/
-
-Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
 
@@ -76,6 +86,8 @@ Disallow: /hugo-theme-bootstrap-skeleton/categories/
 
 Disallow: /hugo-theme-bootstrap-skeleton/contact/
 
+Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/docker/
+
 Disallow: /hugo-theme-bootstrap-skeleton/docs/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/
@@ -83,6 +95,8 @@ Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/
 
 Disallow: /hugo-theme-bootstrap-skeleton/news/
 
