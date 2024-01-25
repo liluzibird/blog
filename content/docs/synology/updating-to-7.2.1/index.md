@@ -27,5 +27,8 @@ The only option left to do was to uninstall and reinstall, maybe Synology didn't
 
 ![Alt text](image.png)
 
+## It's Still Not Working...
+After doing all this, I was able to access my drive through the web app and photos through web app but for some reason my Super Productivity folder on my mobile still wasn't syncing. I don't know why, but server sided looks all fine and dandy. It must be an issue with the phone client. So I decided the bright idea of updating all my apps and it started working again. Who knew that updating is a good practice? 
+
 ## The End
-Yeah, so if you ever come across this issue, just reinstall Synology Drive. Hope it doesn't give me any more troubles again.
+Yeah, so if you ever come across this issue, just reinstall Synology Drive and update all your clients. Pray it doesn't have any more issues.
