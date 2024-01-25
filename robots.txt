@@ -1,14 +1,22 @@
 User-agent: GPTBot
 
+Disallow: /hugo-theme-bootstrap-skeleton/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/bluetooth/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/bluetooth-controller-slowing-downloads/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/controllers/
+
+Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
+
 Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
 
-Disallow: /hugo-theme-bootstrap-skeleton/
-
 Disallow: /hugo-theme-bootstrap-skeleton/tags/consoles/
-
-Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/pc/
 
@@ -35,8 +43,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/markdown-kinda-sucks/
 Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/name-change-and-regenerating-gpg-keys/
 
 Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/second-thoughts/
-
-Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/linux-x11-monitors-off/
 
