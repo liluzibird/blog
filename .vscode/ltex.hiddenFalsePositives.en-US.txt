@@ -1,0 +1,1 @@
+{"rule":"PRP_MD_NN","sentence":"^\\QIf you are tight, you can sale the high seas and pay for the game when you are in a good place.\\E$"}
