@@ -14,14 +14,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/categories/networking/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/synology/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/nas/
-
-Disallow: /hugo-theme-bootstrap-skeleton/series/networking/
-
-Disallow: /hugo-theme-bootstrap-skeleton/tags/server/
-
-Disallow: /hugo-theme-bootstrap-skeleton/docs/synology/updating-to-7.2.1/
-
 Disallow: /hugo-theme-bootstrap-skeleton/tags/bluetooth/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/bluetooth-controller-slowing-downloads/
