@@ -1,12 +1,20 @@
 User-agent: GPTBot
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/2fa/
-
 Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/consoles/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/pc/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/why-are-people-buying-consoles/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/2fa/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/mfa/
 
