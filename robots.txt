@@ -2,6 +2,12 @@ User-agent: GPTBot
 
 Disallow: /hugo-theme-bootstrap-skeleton/
 
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/02/how-to-erase-your-information-online/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/privacy/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/privacy/
+
 Disallow: /hugo-theme-bootstrap-skeleton/tags/docker/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/docker/docker-name-change/
