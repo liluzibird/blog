@@ -2,6 +2,18 @@ User-agent: GPTBot
 
 Disallow: /hugo-theme-bootstrap-skeleton/
 
+Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/openwrt/i-bought-a-new-router/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/networking/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/networking/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/openwrt/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/router/
+
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/02/how-to-erase-your-information-online/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/privacy/
@@ -11,12 +23,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/categories/privacy/
 Disallow: /hugo-theme-bootstrap-skeleton/tags/docker/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/docker/docker-name-change/
-
-Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
-
-Disallow: /hugo-theme-bootstrap-skeleton/tags/networking/
-
-Disallow: /hugo-theme-bootstrap-skeleton/categories/networking/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/synology/
 
@@ -115,6 +121,8 @@ Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/
 Disallow: /hugo-theme-bootstrap-skeleton/news/
 
 Disallow: /hugo-theme-bootstrap-skeleton/offline/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/openwrt/
 
 Disallow: /hugo-theme-bootstrap-skeleton/search/
 
