@@ -62,9 +62,9 @@ Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/do-you-really-need-a-/home
 
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/i-broke-my-computer...twice/
 
-Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
-
 Disallow: /hugo-theme-bootstrap-skeleton/tags/linux/
+
+Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
 
 Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/first-blog/
 
