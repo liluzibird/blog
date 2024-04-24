@@ -5,9 +5,10 @@ linkTitle: Apex Legends
 series: 
   - Docs
 categories:
-  - 
+  - gaming
 tags:
-  - 
+  - gaming
+  - apex legends
 ---
 *Image stolen from https://store.steampowered.com/app/1172470/Apex_Legends/*
 

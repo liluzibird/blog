@@ -7,7 +7,8 @@ series:
 categories:
   - 
 tags:
-  - 
+  - gaming
+  - Superflight
 ---
 *Image stolen from https://store.steampowered.com/app/732430/Superflight/*
 

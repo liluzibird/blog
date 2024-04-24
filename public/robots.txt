@@ -80,9 +80,19 @@ Disallow: /docs/linux/misc/linux-x11-monitors-off/
 
 Disallow: /tags/x11/
 
+Disallow: /tags/team-fortress-2/
+
 Disallow: /docs/linux/gaming/tf2/
 
+Disallow: /tags/tf2/
+
+Disallow: /tags/apex-legends/
+
 Disallow: /docs/linux/gaming/apex-legends/
+
+Disallow: /categories/gaming/
+
+Disallow: /tags/superflight/
 
 Disallow: /docs/linux/gaming/superflight/
 

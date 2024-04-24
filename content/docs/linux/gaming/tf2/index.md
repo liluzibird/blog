@@ -7,7 +7,9 @@ series:
 categories:
   - 
 tags:
-  - 
+  - gaming
+  - TF2
+  - Team Fortress 2
 ---
 *Stolen from https://store.steampowered.com/app/440/Team_Fortress_2/*
 
