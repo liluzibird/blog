@@ -1,0 +1,780 @@
+<!doctype html>
+<html class="position-relative" itemscope itemtype="https://schema.org/WebPage" lang="en"
+  data-bs-theme="auto" data-palette="indigo">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/assets/init/bundle.min.e12ce2d006b1350ec9f71db84519dc62488298c91a806b7e347b4e1ef1ffd562.js" integrity="sha256-4Szi0AaxNQ7J9x24RRncYkiCmMkagGt&#43;NHtOHvH/1WI=" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Docker Name Change - Blog Dude</title>
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_16x16_resize_q75_h2_box_2.webp" sizes="16x16" type="image/webp">
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_32x32_resize_q75_h2_box_2.webp" sizes="32x32" type="image/webp">
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_150x150_resize_q75_h2_box_2.webp" sizes="150x150" type="image/webp">
+    <link rel="apple-touch-icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_180x180_resize_q75_h2_box_2.webp" sizes="180x180" type="image/webp">
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_192x192_resize_q75_h2_box_2.webp" sizes="192x192" type="image/webp">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f42c1">
+<meta name="keywords" content="Hugo, Bootstrap, Blog Dude, liluzibird, Blog, Documentation, Linux Documentation, Linux Gaming" />
+  <meta name="description" content="Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files." /><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/docs/networking/docker/docker-name-change/featured.png"><meta name="twitter:title" content="Docker Name Change">
+<meta name="twitter:description" content="Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.">
+<meta property="og:url" content="http://localhost:1313/docs/networking/docker/docker-name-change/">
+  <meta property="og:site_name" content="Blog Dude">
+  <meta property="og:title" content="Docker Name Change">
+  <meta property="og:description" content="Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&amp;rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&amp;rsquo;t find Docker located anywhere in my files.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2024-01-24T17:06:25-08:00">
+    <meta property="article:modified_time" content="2024-01-24T17:52:48-08:00">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="Synology">
+    <meta property="article:tag" content="Networking">
+    <meta property="og:image" content="http://localhost:1313/docs/networking/docker/docker-name-change/featured.png">
+      <meta property="og:see_also" content="http://localhost:1313/docs/networking/openwrt/i-bought-a-new-router/">
+      <meta property="og:see_also" content="http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/">
+      <meta property="og:see_also" content="http://localhost:1313/docs/linux/gaming/bluetooth-controller-slowing-downloads/">
+      <meta property="og:see_also" content="http://localhost:1313/docs/linux/misc/linux-x11-monitors-off/">
+      <meta property="og:see_also" content="http://localhost:1313/docs/linux/gaming/tf2/">
+      <meta property="og:see_also" content="http://localhost:1313/docs/linux/gaming/apex-legends/">
+
+  <meta itemprop="name" content="Docker Name Change">
+  <meta itemprop="description" content="Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.">
+  <meta itemprop="datePublished" content="2024-01-24T17:06:25-08:00">
+  <meta itemprop="dateModified" content="2024-01-24T17:52:48-08:00">
+  <meta itemprop="wordCount" content="343">
+  <meta itemprop="image" content="http://localhost:1313/docs/networking/docker/docker-name-change/featured.png">
+  <meta itemprop="keywords" content="Docker,Synology,Networking">
+  <meta property="og:image:alt" content="Docker Name Change" />
+  <meta name="twitter:image:alt" content="Docker Name Change" />
+  <link rel="manifest" href="/manifest.json">
+
+  
+
+
+<link data-precache rel="stylesheet" href="/assets/main/bundle.min.d7957cb2a47e7f7df198f20d4c3154293ff99e769d2b123a108ffc753c03832f.css" integrity="sha256-15V8sqR&#43;f33xmPINTDFUKT/5nnadKxI6EI/8dTwDgy8=" crossorigin="anonymous">
+
+    <link data-precache rel="stylesheet" href="/assets/viewer/bundle.min.81fc6ea2b654c63ccf8e3c859d12072f72f8cbe3f759361479f8b0c00f754e95.css" integrity="sha256-gfxuorZUxjzPjjyFnRIHL3L4y&#43;P3WTYUefiwwA91TpU=" crossorigin="anonymous">
+
+
+</head>
+  <body><header class="mb-4 sticky-top">
+  
+<nav class="top-app-bar shadow navbar navbar-expand-xxl">
+  <div class="container">
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDocsNav"
+      aria-expanded="false" aria-label="Toggle docs navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+<a class="navbar-brand d-flex align-items-center flex-grow-1 flex-xxl-grow-0 justify-content-xxl-start justify-content-center ms-2 ms-xxl-0 mx-auto me-xxl-2"
+    href="http://localhost:1313/">
+    <picture><img class="logo " alt="Logo" src="http://localhost:1313/images/logo.webp?v=3be87b9c2ce61591a6eff97da5358695" loading="lazy" width="600" height="398" />
+</picture>
+Blog Dude
+</a>
+
+    <div class="offcanvas-xxl offcanvas-end flex-grow-1" data-bs-scroll="true" tabindex="-1" id="navbarMenus" aria-labelledby="navbarMenusLabel">
+      <div class="offcanvas-header px-4 pb-0">
+        <div class="offcanvas-title h5" id="navbarMenusLabel">Blog Dude</div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#navbarMenus" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body p-4 pt-0 p-xxl-0">
+        <hr class="d-xxl-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center me-auto"><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/news/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-newspaper"></i></span>News
+            </a>
+          </li>
+          <li class="nav-item col-12 col-xxl-auto dropdown px-0">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-blog"></i></span>Blog
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" data-bs-popper="none">
+                <li><h6 class="dropdown-header">Blog Menu Description</h6></li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/archives/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-file-archive text-primary"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Archives</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/series/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-columns"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Series</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of series.</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/categories/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-folder text-success"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Categories</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of categories.</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/tags/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-tags"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Tags</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of tags.</p>
+                  </div></a>
+              </li>
+            </ul>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/docs/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-file"></i></span>Docs
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="https://github.com/liluzibird/liluzibird.github.io/discussions/categories/giscus" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fas fa-comments"></i></span>Comments
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/about">
+<span class="menu-icon me-1"><i class="fas fa-info-circle"></i></span>About
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/contact">
+<span class="menu-icon me-1"><i class="fas fa-envelope"></i></span>Contact
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="https://github.com/liluzibird/liluzibird.github.io" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fab fa-github"></i></span>Source Code
+            </a>
+          </li>
+        </ul>
+        
+    <hr class="d-xxl-none">
+    <form class="search-bar ms-auto my-auto" action="/search/" novalidate>
+      <div class="input-group align-items-center">
+        <span class="btn btn-search disabled position-absolute left-0 border-0 px-1">
+          <i class="fas fa-fw fa-search fa-lg"></i>
+        </span>
+        <input
+          class="my-1 form-control border-white rounded-5 search-input bg-body"
+          name="q"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          required>
+          <span class="search-shortcut position-absolute end-0 top-0 me-2">
+            <kbd class="text-dark bg-white opacity-75 rounded-3 shadow border border-primary py-1 fw-bold">/</kbd>
+          </span>
+      </div>
+    </form><hr class="d-xxl-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto">
+<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+
+
+<nav class="social-links nav justify-content-center flex-row">
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://github.com/liluzibird/liluzibird.github.io" title="GitHub" rel="me">
+        <i class="fa-fw fab fa-github"
+          ></i>
+        <span class="ms-1 d-xxl-none">Github</span>
+      </a>
+  <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="/index.xml" title="RSS" rel="me">
+    <i class="fas fa-fw fa-rss"></i>
+    <span class="ms-1 d-xxl-none">RSS</span>
+  </a>
+</nav>
+
+</li>
+<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+  <div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div>
+  <hr class="d-xxl-none my-2">
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="fontSizeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-font"></i>
+        <span class="d-xxl-none">Font Size</span>
+    </a>
+    <ul class="font-size-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="fontSizeDropdown">
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xs">
+                Extra Small
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="sm">
+                Small
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item active" data-size="md">
+                Medium
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="lg">
+                Large
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xl">
+                Extra Large
+            </button>
+        </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="paletteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-palette"></i>
+        <span class="d-xxl-none">Palette</span>
+    </a>
+    <ul class="palette-dropdown-menu dropdown-menu dropdown-menu-end px-2 row g-2" aria-labelledby="paletteDropdown">
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue" aria-label="Blue"
+                    class="btn btn-sm w-100 palette text-bg-blue" data-palette="blue">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue-gray" aria-label="Blue Gray"
+                    class="btn btn-sm w-100 palette text-bg-blue-gray" data-palette="blue-gray">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-brown" aria-label="Brown"
+                    class="btn btn-sm w-100 palette text-bg-brown" data-palette="brown">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-cyan" aria-label="Cyan"
+                    class="btn btn-sm w-100 palette text-bg-cyan" data-palette="cyan">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-green" aria-label="Green"
+                    class="btn btn-sm w-100 palette text-bg-green" data-palette="green">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-indigo" aria-label="Indigo"
+                    class="btn btn-sm w-100 palette text-bg-indigo" data-palette="indigo">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-orange" aria-label="Orange"
+                    class="btn btn-sm w-100 palette text-bg-orange" data-palette="orange">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-pink" aria-label="Pink"
+                    class="btn btn-sm w-100 palette text-bg-pink" data-palette="pink">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-purple" aria-label="Purple"
+                    class="btn btn-sm w-100 palette text-bg-purple" data-palette="purple">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-red" aria-label="Red"
+                    class="btn btn-sm w-100 palette text-bg-red" data-palette="red">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-teal" aria-label="Teal"
+                    class="btn btn-sm w-100 palette text-bg-teal" data-palette="teal">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-yellow" aria-label="Yellow"
+                    class="btn btn-sm w-100 palette text-bg-yellow" data-palette="yellow">
+                </a>
+            </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="modeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="mode-icon fas fa-fw fa-adjust" id="modeIcon"></i>
+        <span class="d-xxl-none">Mode</span>
+    </a>
+    <ul class="mode-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="modeDropdown">
+        <li class="mode-item" data-color-mode="light" data-icon="sun">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-sun"></i> Light
+            </button>
+        </li>
+        <li class="mode-item" data-color-mode="dark" data-icon="moon">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-moon"></i> Dark
+            </button>
+        </li>
+        <li class="mode-item active" data-color-mode="auto" data-icon="adjust">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-adjust"></i> Auto
+            </button>
+        </li>
+    </ul>
+</li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex">
+      <button class="navbar-toggler order-5 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMenus"
+        aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-ellipsis-h"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+    <main class="container">
+      <div class="row content"><noscript>
+    <div class="alert alert-danger" role="alert">Your browser does not support JavaScript.</div>
+</noscript>
+<aside class="docs-nav col-xxl-2" tabindex="-1" data-bs-hide="focusout">
+  <div class="offcanvas-xxl offcanvas-start" id="offcanvasDocsNav" aria-labelledby="offcanvasDocsNavLabel">
+    <div class="offcanvas-header border-bottom">
+      <div class="offcanvas-title h5" id="offcanvasDocsNavLabel">Browse docs</div>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#offcanvasDocsNav"></button>
+    </div>
+    <div class="offcanvas-body pt-2 flex-column">
+<ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/introduction/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-book"></i></span><span class="docs-nav-title">Introduction</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3 text-primary">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/networking/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Networking</span></a>
+            <a class="btn-toggle ms-1" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-a3ce25f3280a6c590d83df5fd38502fd" aria-expanded="true" aria-controls="nav-a3ce25f3280a6c590d83df5fd38502fd">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse  show border-primary" id="nav-a3ce25f3280a6c590d83df5fd38502fd">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3 text-primary">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/networking/docker/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Docker</span></a>
+            <a class="btn-toggle ms-1" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-ada3c44d7a622453f1d9af5df41cf132" aria-expanded="true" aria-controls="nav-ada3c44d7a622453f1d9af5df41cf132">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse  show border-primary" id="nav-ada3c44d7a622453f1d9af5df41cf132">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3 text-primary" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/networking/docker/docker-name-change/"><span class="docs-nav-title">Docker Name Change</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/networking/openwrt/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Openwrt</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-9b40fddd661b7726902f32a406cd98c0" aria-expanded="false" aria-controls="nav-9b40fddd661b7726902f32a406cd98c0">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-9b40fddd661b7726902f32a406cd98c0">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/networking/openwrt/i-bought-a-new-router/"><span class="docs-nav-title">I Bought a New Router</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/synology/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Synology</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-2650a6bc1726ef543090f31a7e5b013a" aria-expanded="false" aria-controls="nav-2650a6bc1726ef543090f31a7e5b013a">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-2650a6bc1726ef543090f31a7e5b013a">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/synology/updating-to-dsm-7.2.1/"><span class="docs-nav-title">Updating to DSM 7.2.1</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Linux</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-5990d373ac824b52e97a76c2b3e2ff2c" aria-expanded="false" aria-controls="nav-5990d373ac824b52e97a76c2b3e2ff2c">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-5990d373ac824b52e97a76c2b3e2ff2c">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/gaming/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Gaming</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-01fac3792d4c88a341132866384bc295" aria-expanded="false" aria-controls="nav-01fac3792d4c88a341132866384bc295">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-01fac3792d4c88a341132866384bc295">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/gaming/apex-legends/"><span class="docs-nav-title">Apex Legends</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/gaming/bluetooth-controller-slowing-downloads/"><span class="docs-nav-title">Bluetooth Controller Slowing Downloads</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/gaming/superflight/"><span class="docs-nav-title">Superflight</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/gaming/tf2/"><span class="docs-nav-title">Team Fortress 2</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/misc/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cog"></i></span><span class="docs-nav-title">Misc</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-c0ef5004419f6cf978471b2227816d3f" aria-expanded="false" aria-controls="nav-c0ef5004419f6cf978471b2227816d3f">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-c0ef5004419f6cf978471b2227816d3f">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/docs/linux/misc/linux-x11-monitors-off/"><span class="docs-nav-title">Linux X11 Monitors Off</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li></ul>
+            </div>
+          </div>
+        </li></ul></div>
+  </div>
+</aside><div class="col-xxl-7 ms-auto">
+  <div class="container-fluid"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body pb-0">
+    <ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href="/">Home</a></li><li class="breadcrumb-item text-surface"><a href="/docs/">Docs</a></li><li class="breadcrumb-item text-surface"><a href="/docs/networking/">Networking</a></li><li class="breadcrumb-item text-surface"><a href="/docs/networking/docker/">Docker</a></li><li class="breadcrumb-item active">Docker Name Change</li></ol>
+  </div>
+</nav><div class="post-panel-wrapper position-relative d-flex justify-content-center">
+  <div class="d-flex flex-row justify-content-center rounded-5 border post-panel position-fixed px-3 py-1 surface shadow-1">
+    
+    
+
+    
+    
+    
+<a class="action action-toc d-block d-xxl-none" href="#post-toc-container" role="button" title="Contents">
+  <i class="fas fa-fw fa-list-alt"></i>
+</a>
+    <a class="action action-copyright" href="#post-copyright" role="button" aria-label="Copyright" title="Copyright">
+  <i class="fas fa-fw fa-copyright"></i>
+</a>
+    <a class="action action-post-comments" href="#post-comments" role="button" aria-label="Comments" title="Comments">
+  <i class="fas fa-fw fa-comments"></i>
+</a>
+    
+<a id="sidebarToggler" class="action action-sidebar-toggler d-none d-xxl-block" role="button" title="Toggle sidebar">
+  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
+</a>
+
+    
+  </div>
+</div><article class="row card component mb-4 post">
+<div class="card-header ">
+    <h1 class="card-title post-title my-2">Docker Name Change</h1>
+</div>
+<div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="created on 2024-01-24 17:06:25 -0800 PST, updated on 2024-01-24 17:52:48 -0800 PST.">January 24, 2024</span><span class="post-reading-time me-1 mb-1">2 min read</span><a href="/categories/networking/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>Networking</a><a href="/series/docs/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>Docs</a><a href="/tags/docker/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Docker</a><a href="/tags/networking/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Networking</a><a href="/tags/synology/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Synology</a>
+</div>
+<picture class="d-flex justify-content-center"><source srcset="/docs/networking/docker/docker-name-change/featured_hua125f83ecbc6e50365c17ae35e3f00ee_35411_0x270_resize_box_3.png" type="image/png" media="(max-width: 576px)" width="308" height="270">
+      <img class="post-featured-img h-auto w-auto mb-3" alt="Docker Name Change" src="/docs/networking/docker/docker-name-change/featured_hua125f83ecbc6e50365c17ae35e3f00ee_35411_0x480_resize_box_3.png" width="547" height="480" data-src="/docs/networking/docker/docker-name-change/featured.png"/>
+    </picture>
+<div class="mt-2 mb-3 d-block d-xxl-none">
+    <h2 class="text-surface mb-3">Contents</h2>
+    <div id="post-toc-container">
+        </div>
+    <hr class="text-secondary">
+</div><div class="post-content mb-3" data-bs-spy="scroll" data-bs-target="#TableOfContents" tabindex="0">
+        <div id="post-content-body">
+<h2 id="updated-synology-version" data-numberify>Updated Synology Version<a class="anchor ms-1" href="#updated-synology-version"></a></h2>
+<p>Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.</p>
+
+<h2 id="docker-name-changes" data-numberify>Docker Name Changes<a class="anchor ms-1" href="#docker-name-changes"></a></h2>
+<p>As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files. I was freaking out so much because I thought that Docker got corrupted or accidentally got deleted in the process of updating. I screamed and cried a little inside and I was manually looking through all my programs, looking for anything that looked like the Docker logo, although, I couldn&rsquo;t find the Whale, I noticed a little blue icon, underneath, it said &ldquo;Container Manager&rdquo;. Maybe Docker changed its name, or at least changed their name in Synology into a weird logo and different name. Whatever it may be, I&rsquo;m just glad that nothing happened to the docker containers I had on there. I configured a number of services with different port numbers, user accounts, folders, categories, the hundreds of hours that I&rsquo;ve spent setting them all work with my domain. I was relieved to find it.</p>
+<p>Just now, I just found an <a href="https://mariushosting.com/synology-how-to-update-containers-in-container-manager/" target="_blank" rel="noopener noreferrer">article<i class="fas fa-external-link-square-alt ms-1"></i></a> from Marius Hosting where he went over the name change and the updates done to Docker if you guys want to read it. I hate it, and I would like to criticize Synology for it. Everybody knows this is Docker, why would they ever rename such a renowned appplication. If you are looking for a container manager or know what a container manager is, you would know Docker, nobody would ever look for an application called Container manager, even less one that has a completely different logo with no whale on it. I am absolutely outraged.</p>
+
+<h2 id="conclusion" data-numberify>Conclusion<a class="anchor ms-1" href="#conclusion"></a></h2>
+<p>Well that&rsquo;s it from me.</p>
+<p>TLDR; Synology renamed Docker to Container Manager and I hate it.</p>
+</div>
+</div>
+</div></article><div class="post-copyright mb-3 row card component" id="post-copyright">
+    <div class="card-header">
+        <h2 class="card-title fs-4 my-2 text-surface">Copyright</h2>
+    </div>
+    <div class="card-body"><a class="d-flex align-items-center flex-column" target="_blank" rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+  <span><i class="fab fa-fw fa-2x fa-creative-commons"></i><i class="fab fa-fw fa-2x fa-creative-commons-by"></i><i class="fab fa-fw fa-2x fa-creative-commons-sa"></i></span>
+  CC BY-SA 4.0 
+</a>
+
+
+    </div>
+</div><section class="related-posts row card component">
+      <div class="card-header">
+        <h2 class="card-title fs-4 my-2 text-surface">
+          Related Posts
+        </h2>
+      </div>
+      <div class="card-body slide px-1">
+        <div class="slide-inner row gx-0"><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/docs/synology/updating-to-dsm-7.2.1/featured_hu6df6104ee0f187b88db57d01ea0bd6c6_7591565_500x0_resize_box_3.png" media="(max-width: 576px)" height="500" width="500">
+      <img class="img-fluid" height="180" width="180" alt="featured.png" src="/docs/synology/updating-to-dsm-7.2.1/featured_hu6df6104ee0f187b88db57d01ea0bd6c6_7591565_180x0_resize_box_3.png" data-src="/docs/synology/updating-to-dsm-7.2.1/featured.png" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/docs/synology/updating-to-dsm-7.2.1/">
+    Updating to DSM 7.2.1
+  </a>
+  <div class="post-meta mb-0">
+    January 24, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured_hud9651b28d605a6d0d0f22ce3d45aa527_140385_500x0_resize_box_3.png" media="(max-width: 576px)" height="261" width="500">
+      <img class="img-fluid" height="94" width="180" alt="featured.png" src="/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured_hud9651b28d605a6d0d0f22ce3d45aa527_140385_180x0_resize_box_3.png" data-src="/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured.png" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/docs/linux/gaming/bluetooth-controller-slowing-downloads/">
+    Bluetooth Controller Slowing Downloads
+  </a>
+  <div class="post-meta mb-0">
+    January 24, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/blog/2024/01/why-are-people-buying-consoles/featured_hua775f36d04bb0e54d5bdbe8f7d23f7c7_1881174_500x0_resize_box_3.png" media="(max-width: 576px)" height="517" width="500">
+      <img class="img-fluid" height="186" width="180" alt="featured.png" src="/blog/2024/01/why-are-people-buying-consoles/featured_hua775f36d04bb0e54d5bdbe8f7d23f7c7_1881174_180x0_resize_box_3.png" data-src="/blog/2024/01/why-are-people-buying-consoles/featured.png" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/blog/2024/01/why-are-people-buying-consoles/">
+    Why Are People Buying Consoles?
+  </a>
+  <div class="post-meta mb-0">
+    January 24, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/featured_hucacc957b60103a42b06e64c9a08d77df_192672_500x0_resize_box_3.png" media="(max-width: 576px)" height="260" width="500">
+      <img class="img-fluid" height="93" width="180" alt="featured.png" src="/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/featured_hucacc957b60103a42b06e64c9a08d77df_192672_180x0_resize_box_3.png" data-src="/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/featured.png" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/">
+    Mfa and Why Our Most Sensitive Stuff Is the Least Secure
+  </a>
+  <div class="post-meta mb-0">
+    January 23, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/blog/2024/01/do-you-really-need-a-/home-partition/featured_hu5e1d3150e321236f5a860d33bb6cd592_3082050_500x0_resize_box_1.gif" media="(max-width: 576px)" height="286" width="500">
+      <img class="img-fluid" height="103" width="180" alt="featured.gif" src="/blog/2024/01/do-you-really-need-a-/home-partition/featured_hu5e1d3150e321236f5a860d33bb6cd592_3082050_180x0_resize_box_1.gif" data-src="/blog/2024/01/do-you-really-need-a-/home-partition/featured.gif" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/blog/2024/01/do-you-really-need-a-/home-partition/">
+    Do You Really Need a /Home Partition?
+  </a>
+  <div class="post-meta mb-0">
+    January 15, 2024
+
+  </div>
+</div>
+
+          </div></div>
+        <button class="slide-control-left">
+          <i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i>
+          <span class="visually-hidden">Left</span>
+        </button>
+        <button class="slide-control-right">
+          <i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-270"></i>
+          <span class="visually-hidden">Right</span>
+        </button>
+      </div>
+    </section><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title my-2 fs-4 text-surface">Comments</h2>
+  </div>
+  <div class="card-body">
+<div class="giscus"></div>
+
+
+
+</div>
+</div></div>
+</div>
+<aside class="sidebar d-flex docs-sidebar col-xxl-3 position-sticky order-xxl-5">
+  <div class="container">
+    
+    <div class="accordion post-toc d-none d-lg-block">
+  <div class="accordion-item row mb-4 card component" id="postTOC">
+    <div class="card-header accordion-header">
+      <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">Contents</h2>
+      <a class="accordion-button d-lg-none mb-1 collapsed shadow-none p-0 bg-transparent" role="button" data-bs-toggle="collapse" href="#post-toc" aria-expanded="false" aria-controls="post-toc">
+        Contents
+      </a>
+    </div>
+    <div class="card-body collapse accordion-collapse accordion-body d-lg-block" id="post-toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#updated-synology-version">Updated Synology Version</a></li>
+    <li><a href="#docker-name-changes">Docker Name Changes</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+  </div>
+</div>
+    <div class="accordion">
+    <div class="accordion-item docs-repo row card component">
+        <div class="card-header accordion-header" id="repo-header">
+            <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">Repository</h2>
+            <a
+                class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
+                role="button" data-bs-toggle="collapse" href="#repo" aria-expanded="true" aria-controls="repo">
+                Repository
+            </a>
+        </div>
+        <div class="card-body collapse accordion-collapse accordion-body text-secondary-on-surface d-lg-block show" id="repo" aria-labelledby="repo-header">
+            <ul class="list-unstyled"><li class="mb-1">
+                    <a href="https://github.com/liluzibird/liluzibird.github.io/blob/main//content/docs/networking/docker/docker-name-change/index.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-file-archive text-success"></i> View page source
+                    </a>
+                </li>
+                <li class="mb-1">
+                    <a href="https://github.com/liluzibird/liluzibird.github.io/edit/main//content/docs/networking/docker/docker-name-change/index.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-edit text-primary"></i> Edit this page
+                    </a>
+                </li><li class="mb-1">
+                    <i class="fas fa-fw fa-code text-warning"></i> <a href="https://github.com/liluzibird/liluzibird.github.io/commit/40775336aa8e10d9372499339d16113d6729f67b" target="_blank" rel="noopener noreferrer">4077533</a>
+                </li>
+                <li class="mb-1">
+                    <i class="fas fa-fw fa-history text-info"></i> 24/01/2024, 17:52:48 PM
+                </li></ul>
+        </div>
+    </div>
+</div>
+
+  </div>
+</aside>
+
+      </div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasActionsPanel"
+  aria-labelledby="offcanvasActionsPanelLabel">
+  <div class="offcanvas-header">
+    <div class="offcanvas-title h5" id="offcanvasActionsPanelLabel">
+      <i class="fas fa-fw fa-th-large me-1"></i>
+      Actions
+    </div>
+    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="offcanvasActionsPanel" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body mt-2"><div class="actions d-flex overflow-auto align-items-center">
+      <a role="button" class="action action-go-back d-flex flex-column align-items-center me-3" href="javascript: window.history.back();">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i></span> Go back
+      </a>
+      <a role="button" class="action action-reload-page d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-redo-alt"></i></span> Reload
+      </a>
+      <a role="button" class="action action-copy-url d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-link"></i></span> Copy URL
+      </a>
+    </div>
+  </div>
+</div><div class="row text-center">
+  <div class="col-12 mt-2">
+    <p class="mb-2">Blog Dude</p>
+    <p class="text-secondary mb-2"><small>A website where I talk about whatever comes into my mind</small></p><div class="copyright mb-2 text-secondary">
+  <small>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
+</small>
+</div>
+<div class="powered-by mb-2 text-secondary">
+  <small>
+    Build with ❤️ from the <a class="text-primary" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> and the <a class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">HBS</a> theme.
+  </small>
+</div>
+
+
+<nav class="social-links nav justify-content-center mb-2 mt-3">
+    <a class="nav-link social-link p-0 me-1 mb-2" href="mailto:alberth03@protonmail.com" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope" style="color: #0963ac;"></i>
+    </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://github.com/liluzibird/liluzibird.github.io" title="GitHub" rel="me">
+        <i class="fa-fw fa-2x fab fa-github"
+          ></i>
+      </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://linkedin.com/in/albert-huynh-50658b176" title="LinkedIn" rel="me">
+        <i class="fa-fw fa-2x fab fa-linkedin-in"
+           style="color: #0a66c2;"></i>
+      </a>
+  <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="/index.xml" title="RSS" rel="me">
+    <i class="fas fa-fw fa-2x fa-rss" style="color: #ea6221;"></i>
+  </a>
+</nav>
+</div>
+  <div class="col-12 col-lg-8 offset-0 offset-lg-1"></div>
+</div>
+</footer>
+<script data-precache src="/assets/main/bundle.min.cf6bc31ed0ad42597097fd0c273d07c0a6c6fe662fcc88904a4bf57ecf083ef9.js" integrity="sha256-z2vDHtCtQllwl/0MJz0HwKbG/mYvzIiQSkv1fs8IPvk=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.6af28c0fbbc59a786e45c150d62ac1d34457531212dfd2ac9abc37d229138221.js" integrity="sha256-avKMD7vFmnhuRcFQ1irB00RXUxIS39Ksmrw30ikTgiE=" crossorigin="anonymous" defer></script>
+<script data-precache src="/assets/viewer/bundle.min.63446e9b14a34d7454264cf4ab5ca23a1ba072f085c956012fbc10c88a0132aa.js" integrity="sha256-Y0RumxSjTXRUJkz0q1yiOhugcvCFyVYBL7wQyIoBMqo=" crossorigin="anonymous" defer></script>
+<script src="/js/sw-register.js" defer></script>
+<script src="https://giscus.app/client.js"
+    data-repo="liluzibird/liluzibird.github.io"
+    data-repo-id="R_kgDOK_yGtA"
+    data-category="Giscus"
+    data-category-id="DIC_kwDOK_yGtM4CcLrU"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    defer>
+</script>
+
+
+  </body>
+</html>

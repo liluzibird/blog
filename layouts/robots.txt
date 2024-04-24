@@ -1,0 +1,9 @@
+User-agent: GPTBot
+{{ range .Pages }}
+Disallow: {{ .RelPermalink }}
+{{ end }}
+Disallow: /
+
+User-agent: Google-Extended
+
+Disallow: /

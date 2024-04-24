@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nas on Blog Dude</title>
+    <link>http://localhost:1313/tags/nas/</link>
+    <description>Recent content in Nas on Blog Dude</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Wed, 24 Jan 2024 17:05:32 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updating to DSM 7.2.1</title>
+      <link>http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/</link>
+      <pubDate>Wed, 24 Jan 2024 17:05:32 -0800</pubDate>
+      
+      <guid>http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/</guid>
+      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
+    </item>
+    
+  </channel>
+</rss>
+

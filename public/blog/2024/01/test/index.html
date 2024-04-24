@@ -1,0 +1,943 @@
+<!doctype html>
+<html class="position-relative" itemscope itemtype="https://schema.org/WebPage" lang="en"
+  data-bs-theme="auto" data-palette="indigo">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/assets/init/bundle.min.e12ce2d006b1350ec9f71db84519dc62488298c91a806b7e347b4e1ef1ffd562.js" integrity="sha256-4Szi0AaxNQ7J9x24RRncYkiCmMkagGt&#43;NHtOHvH/1WI=" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test - Blog Dude</title>
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_16x16_resize_q75_h2_box_2.webp" sizes="16x16" type="image/webp">
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_32x32_resize_q75_h2_box_2.webp" sizes="32x32" type="image/webp">
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_150x150_resize_q75_h2_box_2.webp" sizes="150x150" type="image/webp">
+    <link rel="apple-touch-icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_180x180_resize_q75_h2_box_2.webp" sizes="180x180" type="image/webp">
+    <link rel="icon" href="/favicon_hu1cbb7d21b738fd541f41a11db6f680fb_22026_192x192_resize_q75_h2_box_2.webp" sizes="192x192" type="image/webp">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f42c1">
+<meta name="keywords" content="Hugo, Bootstrap, Blog Dude, liluzibird, Blog, Documentation, Linux Documentation, Linux Gaming" />
+  <meta name="description" content="So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last blog). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&rsquo;t enough space in usr/share for it to download anymore packages." /><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/blog/2024/01/test/featured.gif"><meta name="twitter:title" content="test">
+<meta name="twitter:description" content="So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last blog). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&rsquo;t enough space in usr/share for it to download anymore packages.">
+<meta property="og:url" content="http://localhost:1313/blog/2024/01/test/">
+  <meta property="og:site_name" content="Blog Dude">
+  <meta property="og:title" content="test">
+  <meta property="og:description" content="So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last blog). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&amp;rsquo;t enough space in usr/share for it to download anymore packages.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-01-15T14:02:37-08:00">
+    <meta property="article:modified_time" content="2024-01-19T13:44:40-08:00">
+    <meta property="og:image" content="http://localhost:1313/blog/2024/01/test/featured.gif">
+
+  <meta itemprop="name" content="test">
+  <meta itemprop="description" content="So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last blog). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&rsquo;t enough space in usr/share for it to download anymore packages.">
+  <meta itemprop="datePublished" content="2024-01-15T14:02:37-08:00">
+  <meta itemprop="dateModified" content="2024-01-19T13:44:40-08:00">
+  <meta itemprop="wordCount" content="428">
+  <meta itemprop="image" content="http://localhost:1313/blog/2024/01/test/featured.gif">
+  <meta itemprop="keywords" content="Blog">
+  <meta property="og:image:alt" content="test" />
+  <meta name="twitter:image:alt" content="test" />
+  <link rel="manifest" href="/manifest.json">
+
+  
+
+
+<link data-precache rel="stylesheet" href="/assets/main/bundle.min.d7957cb2a47e7f7df198f20d4c3154293ff99e769d2b123a108ffc753c03832f.css" integrity="sha256-15V8sqR&#43;f33xmPINTDFUKT/5nnadKxI6EI/8dTwDgy8=" crossorigin="anonymous">
+
+    <link data-precache rel="stylesheet" href="/assets/viewer/bundle.min.81fc6ea2b654c63ccf8e3c859d12072f72f8cbe3f759361479f8b0c00f754e95.css" integrity="sha256-gfxuorZUxjzPjjyFnRIHL3L4y&#43;P3WTYUefiwwA91TpU=" crossorigin="anonymous">
+
+
+</head>
+  <body><header class="mb-4 sticky-top">
+  
+<nav class="top-app-bar shadow navbar navbar-expand-xxl">
+  <div class="container">
+<a class="navbar-brand d-flex align-items-center flex-grow-1 flex-xxl-grow-0 justify-content-xxl-start ms-2 ms-xxl-0 mx-auto me-xxl-2"
+    href="http://localhost:1313/">
+    <picture><img class="logo " alt="Logo" src="http://localhost:1313/images/logo.webp?v=3be87b9c2ce61591a6eff97da5358695" loading="lazy" width="600" height="398" />
+</picture>
+Blog Dude
+</a>
+
+    <div class="offcanvas-xxl offcanvas-end flex-grow-1" data-bs-scroll="true" tabindex="-1" id="navbarMenus" aria-labelledby="navbarMenusLabel">
+      <div class="offcanvas-header px-4 pb-0">
+        <div class="offcanvas-title h5" id="navbarMenusLabel">Blog Dude</div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#navbarMenus" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body p-4 pt-0 p-xxl-0">
+        <hr class="d-xxl-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center me-auto"><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/news/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-newspaper"></i></span>News
+            </a>
+          </li>
+          <li class="nav-item col-12 col-xxl-auto dropdown px-0">
+            <a href="#"
+              class="nav-link dropdown-toggle active"
+              id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-blog"></i></span>Blog
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" data-bs-popper="none">
+                <li><h6 class="dropdown-header">Blog Menu Description</h6></li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/archives/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-file-archive text-primary"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Archives</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/series/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-columns"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Series</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of series.</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/categories/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-folder text-success"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Categories</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of categories.</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/tags/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-tags"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Tags</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of tags.</p>
+                  </div></a>
+              </li>
+            </ul>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/docs/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-file"></i></span>Docs
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="https://github.com/liluzibird/liluzibird.github.io/discussions/categories/giscus" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fas fa-comments"></i></span>Comments
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/about">
+<span class="menu-icon me-1"><i class="fas fa-info-circle"></i></span>About
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="http://localhost:1313/contact">
+<span class="menu-icon me-1"><i class="fas fa-envelope"></i></span>Contact
+            </a>
+          </li><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="https://github.com/liluzibird/liluzibird.github.io" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fab fa-github"></i></span>Source Code
+            </a>
+          </li>
+        </ul>
+        
+    <hr class="d-xxl-none">
+    <form class="search-bar ms-auto my-auto" action="/search/" novalidate>
+      <div class="input-group align-items-center">
+        <span class="btn btn-search disabled position-absolute left-0 border-0 px-1">
+          <i class="fas fa-fw fa-search fa-lg"></i>
+        </span>
+        <input
+          class="my-1 form-control border-white rounded-5 search-input bg-body"
+          name="q"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          required>
+          <span class="search-shortcut position-absolute end-0 top-0 me-2">
+            <kbd class="text-dark bg-white opacity-75 rounded-3 shadow border border-primary py-1 fw-bold">/</kbd>
+          </span>
+      </div>
+    </form><hr class="d-xxl-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto">
+<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+
+
+<nav class="social-links nav justify-content-center flex-row">
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://github.com/liluzibird/liluzibird.github.io" title="GitHub" rel="me">
+        <i class="fa-fw fab fa-github"
+          ></i>
+        <span class="ms-1 d-xxl-none">Github</span>
+      </a>
+  <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="/index.xml" title="RSS" rel="me">
+    <i class="fas fa-fw fa-rss"></i>
+    <span class="ms-1 d-xxl-none">RSS</span>
+  </a>
+</nav>
+
+</li>
+<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+  <div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div>
+  <hr class="d-xxl-none my-2">
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="fontSizeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-font"></i>
+        <span class="d-xxl-none">Font Size</span>
+    </a>
+    <ul class="font-size-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="fontSizeDropdown">
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xs">
+                Extra Small
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="sm">
+                Small
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item active" data-size="md">
+                Medium
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="lg">
+                Large
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xl">
+                Extra Large
+            </button>
+        </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="paletteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-palette"></i>
+        <span class="d-xxl-none">Palette</span>
+    </a>
+    <ul class="palette-dropdown-menu dropdown-menu dropdown-menu-end px-2 row g-2" aria-labelledby="paletteDropdown">
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue" aria-label="Blue"
+                    class="btn btn-sm w-100 palette text-bg-blue" data-palette="blue">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue-gray" aria-label="Blue Gray"
+                    class="btn btn-sm w-100 palette text-bg-blue-gray" data-palette="blue-gray">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-brown" aria-label="Brown"
+                    class="btn btn-sm w-100 palette text-bg-brown" data-palette="brown">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-cyan" aria-label="Cyan"
+                    class="btn btn-sm w-100 palette text-bg-cyan" data-palette="cyan">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-green" aria-label="Green"
+                    class="btn btn-sm w-100 palette text-bg-green" data-palette="green">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-indigo" aria-label="Indigo"
+                    class="btn btn-sm w-100 palette text-bg-indigo" data-palette="indigo">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-orange" aria-label="Orange"
+                    class="btn btn-sm w-100 palette text-bg-orange" data-palette="orange">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-pink" aria-label="Pink"
+                    class="btn btn-sm w-100 palette text-bg-pink" data-palette="pink">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-purple" aria-label="Purple"
+                    class="btn btn-sm w-100 palette text-bg-purple" data-palette="purple">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-red" aria-label="Red"
+                    class="btn btn-sm w-100 palette text-bg-red" data-palette="red">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-teal" aria-label="Teal"
+                    class="btn btn-sm w-100 palette text-bg-teal" data-palette="teal">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-yellow" aria-label="Yellow"
+                    class="btn btn-sm w-100 palette text-bg-yellow" data-palette="yellow">
+                </a>
+            </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="modeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="mode-icon fas fa-fw fa-adjust" id="modeIcon"></i>
+        <span class="d-xxl-none">Mode</span>
+    </a>
+    <ul class="mode-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="modeDropdown">
+        <li class="mode-item" data-color-mode="light" data-icon="sun">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-sun"></i> Light
+            </button>
+        </li>
+        <li class="mode-item" data-color-mode="dark" data-icon="moon">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-moon"></i> Dark
+            </button>
+        </li>
+        <li class="mode-item active" data-color-mode="auto" data-icon="adjust">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-adjust"></i> Auto
+            </button>
+        </li>
+    </ul>
+</li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex">
+      <button class="navbar-toggler order-5 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMenus"
+        aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-ellipsis-h"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+    <main class="container">
+      <div class="row content"><noscript>
+    <div class="alert alert-danger" role="alert">Your browser does not support JavaScript.</div>
+</noscript>
+
+<div class="col-xxl-8">
+  <div class="container"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body pb-0">
+    <ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href="/">Home</a></li><li class="breadcrumb-item text-surface"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Test</li></ol>
+  </div>
+</nav><div class="post-panel-wrapper position-relative d-flex justify-content-center">
+  <div class="d-flex flex-row justify-content-center rounded-5 border post-panel position-fixed px-3 py-1 surface shadow-1">
+    
+    
+
+    
+    
+    
+    <a class="action action-copyright" href="#post-copyright" role="button" aria-label="Copyright" title="Copyright">
+  <i class="fas fa-fw fa-copyright"></i>
+</a>
+    <a class="action action-post-comments" href="#post-comments" role="button" aria-label="Comments" title="Comments">
+  <i class="fas fa-fw fa-comments"></i>
+</a>
+    
+<a id="sidebarToggler" class="action action-sidebar-toggler d-none d-xxl-block" role="button" title="Toggle sidebar">
+  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
+</a>
+
+    
+  </div>
+</div><article class="row card component mb-4 post">
+  <div class="card-header ">
+    <h1 class="card-title post-title my-2">Test</h1>
+  </div>
+  <div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="created on 2024-01-15 14:02:37 -0800 PST, updated on 2024-01-19 13:44:40 -0800 PST.">January 15, 2024</span><span class="post-reading-time me-1 mb-1">3 min read</span><a href="/categories/blog/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>Blog</a>
+</div>
+<picture class="d-flex justify-content-center"><source srcset="/blog/2024/01/test/featured_hu5e1d3150e321236f5a860d33bb6cd592_3082050_0x270_resize_box_1.gif" type="image/gif" media="(max-width: 576px)" width="473" height="270">
+      <img class="post-featured-img h-auto w-auto mb-3" alt="test" src="/blog/2024/01/test/featured_hu5e1d3150e321236f5a860d33bb6cd592_3082050_0x480_resize_box_1.gif" width="840" height="480" data-src="/blog/2024/01/test/featured.gif"/>
+    </picture><div class="post-content mb-3" data-bs-spy="scroll" data-bs-target="#TableOfContents" tabindex="0">
+        <div id="post-content-body"><p>So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last <a href="/blog/2024/01/i-broke-my-computer...twice/">blog</a>). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&rsquo;t enough space in usr/share for it to download anymore packages. So that left me like 1.8TB of storage in my home partition and almost nothing in the directory where I install files. So I reinstalled everything again and booted it back up.</p>
+<p>My question is this; do you even need a /Home partition? I mean if you back things up like a normal person whether to another external drive or to your server somewhere like you&rsquo;re supposed to, there&rsquo;s like almost no reason to have a separate partition for /Home. It&rsquo;s just a pain for figuring out how much to allocate each partition. Yes, it is the noob partitioning scheme, but, for me, there&rsquo;s absolutely nothing wrong with this noob method. You don&rsquo;t have to worry about oh, how much would I need to save in my /Home directory in the end how many packages would you download in the future. What if all of a sudden you decided to just start doing AI stuff. The reason I got into this mess was because I was trying to get stable diffusion to work, but the dependencies are huuuge, so I had to download a bunch of packages, and it told me I was out of space. I got really confused because I got like 2 TB of storage. So then, I remembered that I chose that separate /Home partition scheme in the archinstall script and that fucked things up.</p>
+<p>
+      <picture><img class="img-fluid mx-auto d-block" alt="Alt text" src="/blog/2024/01/test/image_hu4a2bd91dc2af4fc3d1c9edd2c18acdca_1422207_300x0_resize_box_3.png" loading="lazy" width="300" height="225" />
+</picture>
+
+</p>
+<p>A couple of days have passed since I&rsquo;ve started on this blog and I tried installing Debian 12 in a VM and with the /home partition it is broken. I most likely have no idea what I&rsquo;m doing, just let the installer run by itself and only messing with the size of the partition. I don&rsquo;t want to deal with which data block and how many bytes it stops. So it doesn&rsquo;t install, so I went back and installed using the noob partition scheme, and it works just fine.</p>
+<p>To those people using a separate /home partition; why? Stop torturing yourselves. Keep It Simple Stupid (KISS).</p>
+<p><picture><img class="img-fluid mx-auto d-block" alt="Alt text" src="/blog/2024/01/test/image-1.png" loading="lazy" width="624" height="244" />
+</picture>
+
+</p>
+<p><em>Why is this default? If you&rsquo;re using archinstall, you are probably a noob, they should set it to &ldquo;no&rdquo; as default.</em></p>
+</div>
+</div>
+</div><div class="card-footer">
+  <div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev">
+      <i class="fas fa-fw fa-chevron-down post-prev-icon me-1" data-fa-transform="rotate-90"></i>
+      <a href="/blog/2024/01/i-broke-my-computer...twice/">I Broke My Computer...twice</a>
+    </div><div class="post-nav post-next">
+      <a href="/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/">Mfa and Why Our Most Sensitive Stuff Is the Least Secure</a>
+      <i class="fas fa-fw fa-chevron-down post-next-icon ms-1" data-fa-transform="rotate-270"></i>
+    </div></div>
+</div></article><div class="post-copyright mb-3 row card component" id="post-copyright">
+    <div class="card-header">
+        <h2 class="card-title fs-4 my-2 text-surface">Copyright</h2>
+    </div>
+    <div class="card-body"><a class="d-flex align-items-center flex-column" target="_blank" rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+  <span><i class="fab fa-fw fa-2x fa-creative-commons"></i><i class="fab fa-fw fa-2x fa-creative-commons-by"></i><i class="fab fa-fw fa-2x fa-creative-commons-sa"></i></span>
+  CC BY-SA 4.0 
+</a>
+
+
+    </div>
+</div><section class="related-posts row card component">
+      <div class="card-header">
+        <h2 class="card-title fs-4 my-2 text-surface">
+          Related Posts
+        </h2>
+      </div>
+      <div class="card-body slide px-1">
+        <div class="slide-inner row gx-0"><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/blog/2024/01/i-broke-my-computer...twice/featured_hu726e249b44078ce364da881f5d3157d1_15156_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="375" width="500">
+      <img class="img-fluid" height="135" width="180" alt="featured.jpg" src="/blog/2024/01/i-broke-my-computer...twice/featured_hu726e249b44078ce364da881f5d3157d1_15156_180x0_resize_q75_box.jpg" data-src="/blog/2024/01/i-broke-my-computer...twice/featured.jpg" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/blog/2024/01/i-broke-my-computer...twice/">
+    I Broke My Computer...twice
+  </a>
+  <div class="post-meta mb-0">
+    January 13, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/blog/2024/01/first-blog/featured_hu7f33f21fdb53936ad9da576db127f640_388740_500x0_resize_q75_box.jpg" media="(max-width: 576px)" height="500" width="500">
+      <img class="img-fluid" height="180" width="180" alt="featured.jpg" src="/blog/2024/01/first-blog/featured_hu7f33f21fdb53936ad9da576db127f640_388740_180x0_resize_q75_box.jpg" data-src="/blog/2024/01/first-blog/featured.jpg" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/blog/2024/01/first-blog/">
+    First Blog
+  </a>
+  <div class="post-meta mb-0">
+    January 13, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/news/2024/01/markdown-kinda-sucks/featured_hu17afcb2551516f81feaabddfe576f7ad_688471_500x0_resize_box_3.png" media="(max-width: 576px)" height="375" width="500">
+      <img class="img-fluid" height="135" width="180" alt="featured.png" src="/news/2024/01/markdown-kinda-sucks/featured_hu17afcb2551516f81feaabddfe576f7ad_688471_180x0_resize_box_3.png" data-src="/news/2024/01/markdown-kinda-sucks/featured.png" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/news/2024/01/markdown-kinda-sucks/">
+    Markdown Kinda Sucks
+  </a>
+  <div class="post-meta mb-0">
+    January 7, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/news/2024/01/name-change-and-regenerating-gpg-keys/featured_hu52d8b816c376955456ee00b28056ec29_1925183_500x0_resize_box_1.gif" media="(max-width: 576px)" height="277" width="500">
+      <img class="img-fluid" height="100" width="180" alt="featured.gif" src="/news/2024/01/name-change-and-regenerating-gpg-keys/featured_hu52d8b816c376955456ee00b28056ec29_1925183_180x0_resize_box_1.gif" data-src="/news/2024/01/name-change-and-regenerating-gpg-keys/featured.gif" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/news/2024/01/name-change-and-regenerating-gpg-keys/">
+    Name Change and Regenerating GPG Keys
+  </a>
+  <div class="post-meta mb-0">
+    January 7, 2024
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <picture>
+      <source srcset="/news/2024/01/second-thoughts/featured_hu451a6902d3a1068cdcb789becb0c90f4_1176614_500x0_resize_box_3.png" media="(max-width: 576px)" height="333" width="500">
+      <img class="img-fluid" height="120" width="180" alt="featured.png" src="/news/2024/01/second-thoughts/featured_hu451a6902d3a1068cdcb789becb0c90f4_1176614_180x0_resize_box_3.png" data-src="/news/2024/01/second-thoughts/featured.png" loading="lazy"/>
+    </picture>
+
+  <a class="post-title" href="/news/2024/01/second-thoughts/">
+    Second Thoughts?
+  </a>
+  <div class="post-meta mb-0">
+    January 5, 2024
+
+  </div>
+</div>
+
+          </div></div>
+        <button class="slide-control-left">
+          <i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i>
+          <span class="visually-hidden">Left</span>
+        </button>
+        <button class="slide-control-right">
+          <i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-270"></i>
+          <span class="visually-hidden">Right</span>
+        </button>
+      </div>
+    </section><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title my-2 fs-4 text-surface">Comments</h2>
+  </div>
+  <div class="card-body">
+<div class="giscus"></div>
+
+
+
+</div>
+</div></div>
+</div>
+<aside class="col-xxl-4 sidebar d-flex">
+  <div class="container d-flex flex-column">
+    
+
+    
+<div class="accordion profile">
+  <div class="accordion-item card row text-center component">
+    <div class="accordion-header card-header border-0" id="profile-header">
+      <a
+        class="accordion-button d-lg-none mb-2 shadow-none p-0 bg-transparent text-surface"
+        role="button" data-bs-toggle="collapse" href="#profile" aria-expanded="true" aria-controls="profile">
+        Profile
+      </a>
+    </div>
+    <div class="card-body collapse accordion-collapse accordion-body d-lg-block show" id="profile" aria-labelledby="profile-header">
+      <div class="col-12 d-flex align-items-center justify-content-center"><picture><img class="profile-avatar rounded-circle " alt="Albert Huynh" src="http://localhost:1313/images/profile.webp?v=3be87b9c2ce61591a6eff97da5358695" loading="lazy" data-viewer-invisible width="600" height="398" />
+</picture>
+</div>
+      <div class="col-12 profile-meta"><div class="profile-name fw-fold fs-lg">Albert Huynh</div><div class="profile-bio">Arch Linux user, FOSS Advocate, Computer Science Student, Network Security Learner</div><div class="profile-company"><i class="fas fa-fw fa-building"></i>Santa Ana College</div><div class="profile-location"><i class="fas fa-fw fa-map-marker-alt"></i>Earth</div><a class="profile-about text-primary" href="/about/"><i class="fas fa-fw fa-user"></i>About</a><a class="profile-contact text-primary" href="/contact/"><i class="fas fa-fw fa-question-circle"></i>Contact Me</a></div>
+
+
+<nav class="social-links nav justify-content-center mt-1 justify-content-around">
+    <a class="nav-link social-link" href="mailto:alberth03@protonmail.com" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope" style="color: #0963ac;"></i>
+    </a>
+      <a class="nav-link social-link" target="_blank" href="https://github.com/liluzibird" title="GitHub" rel="me">
+        <i class="fa-fw fa-2x fab fa-github"
+          ></i>
+      </a>
+</nav>
+</div>
+  </div>
+</div>
+
+
+<div class="accordion taxonomies-toggle">
+    <div class="row card component accordion-item">
+        <div class="accordion-header card-header border-0">
+            <a
+                class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
+                role="button" data-bs-toggle="collapse" href="#taxonomies-toggle" aria-expanded="true" aria-controls="taxonomies-toggle">
+                Taxonomies
+            </a>
+        </div>
+        <div class="card-body collapse accordion-collapse accordion-body d-lg-block show" id="taxonomies-toggle">
+            <ul class="nav nav-pills nav-fill" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="taxonomySeriesTab" data-bs-toggle="tab" data-bs-target="#taxonomySeries" 
+                            type="button" role="tab" aria-controls="taxonomySeries" aria-selected="true">
+                            Series
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="taxonomyCategoriesTab" data-bs-toggle="tab" data-bs-target="#taxonomyCategories" 
+                            type="button" role="tab" aria-controls="taxonomyCategories" aria-selected="true">
+                            Categories
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="taxonomyTagsTab" data-bs-toggle="tab" data-bs-target="#taxonomyTags" 
+                            type="button" role="tab" aria-controls="taxonomyTags" aria-selected="true">
+                            Tags
+                        </button>
+                    </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="taxonomyArchivesTab" data-bs-toggle="tab" data-bs-target="#taxonomyArchives" 
+                        type="button" role="tab" aria-controls="taxonomyArchives" aria-selected="true">
+                        Archives
+                    </button>
+                </li>
+            </ul>
+            
+            <div class="tab-content mt-3">
+                    <div class="tab-pane active" id="taxonomySeries" role="tabpanel" aria-labelledby="taxonomySeriesTab" tabindex="0">
+                        <a href="/series/docs/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-series me-2 mb-2" title="Docs">
+                            Docs
+                            <span class="badge badge-sm text-secondary bg-white ms-1">9</span>
+                        </a>
+                        <a href="/series/networking/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-series me-2 mb-2" title="Networking">
+                            Networking
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                    </div>
+                    <div class="tab-pane" id="taxonomyCategories" role="tabpanel" aria-labelledby="taxonomyCategoriesTab" tabindex="0">
+                        <a href="/categories/blog/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Blog">
+                            Blog
+                            <span class="badge badge-sm text-secondary bg-white ms-1">6</span>
+                        </a>
+                        <a href="/categories/networking/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Networking">
+                            Networking
+                            <span class="badge badge-sm text-secondary bg-white ms-1">3</span>
+                        </a>
+                        <a href="/categories/linux/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Linux">
+                            Linux
+                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
+                        </a>
+                        <a href="/categories/privacy/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-category me-2 mb-2" title="Privacy">
+                            Privacy
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                    </div>
+                    <div class="tab-pane" id="taxonomyTags" role="tabpanel" aria-labelledby="taxonomyTagsTab" tabindex="0">
+                        <a href="/tags/blog/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Blog">
+                            Blog
+                            <span class="badge badge-sm text-secondary bg-white ms-1">4</span>
+                        </a>
+                        <a href="/tags/networking/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Networking">
+                            Networking
+                            <span class="badge badge-sm text-secondary bg-white ms-1">3</span>
+                        </a>
+                        <a href="/tags/gaming/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Gaming">
+                            Gaming
+                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
+                        </a>
+                        <a href="/tags/synology/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Synology">
+                            Synology
+                            <span class="badge badge-sm text-secondary bg-white ms-1">2</span>
+                        </a>
+                        <a href="/tags/2fa/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="2FA">
+                            2FA
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                        <a href="/tags/bluetooth/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Bluetooth">
+                            Bluetooth
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                        <a href="/tags/consoles/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Consoles">
+                            Consoles
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                        <a href="/tags/controllers/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Controllers">
+                            Controllers
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                        <a href="/tags/docker/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Docker">
+                            Docker
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                        <a href="/tags/linux/" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title="Linux">
+                            Linux
+                            <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+                        </a>
+                        <a href="http://localhost:1313/tags" class="btn btn-sm btn-secondary post-taxonomy ps-3 post-tag me-2 mb-2" title='ALL'>
+                        ALL
+                        <span class="badge badge-sm text-secondary bg-white ms-1">18</span>
+                        </a>
+                    </div>
+                <div class="tab-pane" id="taxonomyArchives" role="tabpanel" aria-labelledby="taxonomyArchivesTab" tabindex="0">
+
+    <a href="" class="btn btn-sm btn-secondary post-taxonomy ps-3 me-2 mb-2" title="2024">
+    2024 <span class="badge badge-sm text-secondary bg-white ms-1">19</span>
+    </a>
+
+    <a href="" class="btn btn-sm btn-secondary post-taxonomy ps-3 me-2 mb-2" title="2023">
+    2023 <span class="badge badge-sm text-secondary bg-white ms-1">1</span>
+    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="accordion posts-toggle">
+      <div class="row card component accordion-item">
+        <div class="accordion-header card-header border-0">
+          <a
+            class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
+            role="button"
+            data-bs-toggle="collapse"
+            href="#posts-toggle"
+            aria-expanded="true"
+            aria-controls="posts-toggle">
+            Posts
+          </a>
+        </div>
+        <div
+          class="card-body collapse accordion-collapse accordion-body d-lg-block show"
+          id="posts-toggle">
+          <ul class="nav nav-pills nav-fill" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="recent-posts-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#recent-posts"
+                  type="button"
+                  role="tab"
+                  aria-controls="recent-posts"
+                  aria-selected="true">
+                  Recent Posts
+                </button>
+              </li>
+          </ul>
+
+          <div class="tab-content mt-3">
+              <div
+                class="tab-pane active"
+                id="recent-posts"
+                role="tabpanel"
+                aria-labelledby="recent-posts-tab"
+                tabindex="0">
+                <ul class="post-list list-unstyled ms-1">
+                    <li class="mb-2">
+  <div class="d-flex">
+    <div
+      class="flex-grow-1 d-flex flex-column h-auto justify-content-center">
+      <a class="post-title" href="/blog/2024/04/last-post-changing-blog-website-link/">
+        LAST POST! Changing Blog Website Link
+      </a>
+      <div class="post-meta mt-2">
+        <span class="post-date">
+          April 23, 2024
+        </span>
+      </div>
+    </div>
+  </div>
+                    </li>
+                    <li class="mb-2">
+  <div class="d-flex">
+      <div
+        class="flex-shrink-0 d-flex justify-content-center align-items-center"
+        style="max-width: 100px"><picture>
+      <source srcset="/docs/networking/openwrt/i-bought-a-new-router/featured_hu2b53851858d473e3f6d8fb461a50087b_220370_500x0_resize_box_3.png" media="(max-width: 576px)" height="579" width="500">
+      <img class="img-fluid" height="208" width="180" alt="featured.png" src="/docs/networking/openwrt/i-bought-a-new-router/featured_hu2b53851858d473e3f6d8fb461a50087b_220370_180x0_resize_box_3.png" data-src="/docs/networking/openwrt/i-bought-a-new-router/featured.png" loading="lazy"/>
+    </picture>
+      </div>
+    <div
+      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
+      <a class="post-title" href="/docs/networking/openwrt/i-bought-a-new-router/">
+        I Bought a New Router
+      </a>
+      <div class="post-meta mt-2">
+        <span class="post-date">
+          February 5, 2024
+        </span>
+      </div>
+    </div>
+  </div>
+                    </li>
+                    <li class="mb-2">
+  <div class="d-flex">
+      <div
+        class="flex-shrink-0 d-flex justify-content-center align-items-center"
+        style="max-width: 100px"><picture>
+      <source srcset="/blog/2024/02/how-to-erase-your-information-online/featured_huc4cd7b1c37655f6550bfb438a6bb7c27_325211_500x0_resize_box_3.png" media="(max-width: 576px)" height="282" width="500">
+      <img class="img-fluid" height="101" width="180" alt="featured.png" src="/blog/2024/02/how-to-erase-your-information-online/featured_huc4cd7b1c37655f6550bfb438a6bb7c27_325211_180x0_resize_box_3.png" data-src="/blog/2024/02/how-to-erase-your-information-online/featured.png" loading="lazy"/>
+    </picture>
+      </div>
+    <div
+      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
+      <a class="post-title" href="/blog/2024/02/how-to-erase-your-information-online/">
+        How to Erase Your Information Online
+      </a>
+      <div class="post-meta mt-2">
+        <span class="post-date">
+          February 1, 2024
+        </span>
+      </div>
+    </div>
+  </div>
+                    </li>
+                    <li class="mb-2">
+  <div class="d-flex">
+      <div
+        class="flex-shrink-0 d-flex justify-content-center align-items-center"
+        style="max-width: 100px"><picture>
+      <source srcset="/docs/networking/docker/docker-name-change/featured_hua125f83ecbc6e50365c17ae35e3f00ee_35411_500x0_resize_box_3.png" media="(max-width: 576px)" height="439" width="500">
+      <img class="img-fluid" height="158" width="180" alt="featured.png" src="/docs/networking/docker/docker-name-change/featured_hua125f83ecbc6e50365c17ae35e3f00ee_35411_180x0_resize_box_3.png" data-src="/docs/networking/docker/docker-name-change/featured.png" loading="lazy"/>
+    </picture>
+      </div>
+    <div
+      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
+      <a class="post-title" href="/docs/networking/docker/docker-name-change/">
+        Docker Name Change
+      </a>
+      <div class="post-meta mt-2">
+        <span class="post-date">
+          January 24, 2024
+        </span>
+      </div>
+    </div>
+  </div>
+                    </li>
+                    <li class="mb-2">
+  <div class="d-flex">
+      <div
+        class="flex-shrink-0 d-flex justify-content-center align-items-center"
+        style="max-width: 100px"><picture>
+      <source srcset="/docs/synology/updating-to-dsm-7.2.1/featured_hu6df6104ee0f187b88db57d01ea0bd6c6_7591565_500x0_resize_box_3.png" media="(max-width: 576px)" height="500" width="500">
+      <img class="img-fluid" height="180" width="180" alt="featured.png" src="/docs/synology/updating-to-dsm-7.2.1/featured_hu6df6104ee0f187b88db57d01ea0bd6c6_7591565_180x0_resize_box_3.png" data-src="/docs/synology/updating-to-dsm-7.2.1/featured.png" loading="lazy"/>
+    </picture>
+      </div>
+    <div
+      class="flex-grow-1 d-flex flex-column h-auto justify-content-center ms-3">
+      <a class="post-title" href="/docs/synology/updating-to-dsm-7.2.1/">
+        Updating to DSM 7.2.1
+      </a>
+      <div class="post-meta mt-2">
+        <span class="post-date">
+          January 24, 2024
+        </span>
+      </div>
+    </div>
+  </div>
+                    </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="accordion">
+    <div class="accordion-item docs-repo row card component">
+        <div class="card-header accordion-header" id="repo-header">
+            <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">Repository</h2>
+            <a
+                class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
+                role="button" data-bs-toggle="collapse" href="#repo" aria-expanded="true" aria-controls="repo">
+                Repository
+            </a>
+        </div>
+        <div class="card-body collapse accordion-collapse accordion-body text-secondary-on-surface d-lg-block show" id="repo" aria-labelledby="repo-header">
+            <ul class="list-unstyled"><li class="mb-1">
+                    <a href="https://github.com/liluzibird/liluzibird.github.io/blob/main//content/blog/do-you-really-need-a-home-partition?/index.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-file-archive text-success"></i> View page source
+                    </a>
+                </li>
+                <li class="mb-1">
+                    <a href="https://github.com/liluzibird/liluzibird.github.io/edit/main//content/blog/do-you-really-need-a-home-partition?/index.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-edit text-primary"></i> Edit this page
+                    </a>
+                </li><li class="mb-1">
+                    <i class="fas fa-fw fa-code text-warning"></i> <a href="https://github.com/liluzibird/liluzibird.github.io/commit/084020be780aa69b1a017f02cf74abdf84f9e69c" target="_blank" rel="noopener noreferrer">084020b</a>
+                </li>
+                <li class="mb-1">
+                    <i class="fas fa-fw fa-history text-info"></i> 19/01/2024, 13:44:40 PM
+                </li></ul>
+        </div>
+    </div>
+</div>
+
+  </div>
+</aside>
+
+      </div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasActionsPanel"
+  aria-labelledby="offcanvasActionsPanelLabel">
+  <div class="offcanvas-header">
+    <div class="offcanvas-title h5" id="offcanvasActionsPanelLabel">
+      <i class="fas fa-fw fa-th-large me-1"></i>
+      Actions
+    </div>
+    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="offcanvasActionsPanel" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body mt-2"><div class="actions d-flex overflow-auto align-items-center">
+      <a role="button" class="action action-go-back d-flex flex-column align-items-center me-3" href="javascript: window.history.back();">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i></span> Go back
+      </a>
+      <a role="button" class="action action-reload-page d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-redo-alt"></i></span> Reload
+      </a>
+      <a role="button" class="action action-copy-url d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-link"></i></span> Copy URL
+      </a>
+    </div>
+  </div>
+</div><div class="row text-center">
+  <div class="col-12 mt-2">
+    <p class="mb-2">Blog Dude</p>
+    <p class="text-secondary mb-2"><small>A website where I talk about whatever comes into my mind</small></p><div class="copyright mb-2 text-secondary">
+  <small>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
+</small>
+</div>
+<div class="powered-by mb-2 text-secondary">
+  <small>
+    Build with ❤️ from the <a class="text-primary" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> and the <a class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">HBS</a> theme.
+  </small>
+</div>
+
+
+<nav class="social-links nav justify-content-center mb-2 mt-3">
+    <a class="nav-link social-link p-0 me-1 mb-2" href="mailto:alberth03@protonmail.com" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope" style="color: #0963ac;"></i>
+    </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://github.com/liluzibird/liluzibird.github.io" title="GitHub" rel="me">
+        <i class="fa-fw fa-2x fab fa-github"
+          ></i>
+      </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://linkedin.com/in/albert-huynh-50658b176" title="LinkedIn" rel="me">
+        <i class="fa-fw fa-2x fab fa-linkedin-in"
+           style="color: #0a66c2;"></i>
+      </a>
+  <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="/index.xml" title="RSS" rel="me">
+    <i class="fas fa-fw fa-2x fa-rss" style="color: #ea6221;"></i>
+  </a>
+</nav>
+</div>
+  <div class="col-12 col-lg-8 offset-0 offset-lg-1"></div>
+</div>
+</footer>
+<script data-precache src="/assets/main/bundle.min.cf6bc31ed0ad42597097fd0c273d07c0a6c6fe662fcc88904a4bf57ecf083ef9.js" integrity="sha256-z2vDHtCtQllwl/0MJz0HwKbG/mYvzIiQSkv1fs8IPvk=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.6af28c0fbbc59a786e45c150d62ac1d34457531212dfd2ac9abc37d229138221.js" integrity="sha256-avKMD7vFmnhuRcFQ1irB00RXUxIS39Ksmrw30ikTgiE=" crossorigin="anonymous" defer></script>
+<script data-precache src="/assets/viewer/bundle.min.63446e9b14a34d7454264cf4ab5ca23a1ba072f085c956012fbc10c88a0132aa.js" integrity="sha256-Y0RumxSjTXRUJkz0q1yiOhugcvCFyVYBL7wQyIoBMqo=" crossorigin="anonymous" defer></script>
+<script src="/js/sw-register.js" defer></script>
+<script src="https://giscus.app/client.js"
+    data-repo="liluzibird/liluzibird.github.io"
+    data-repo-id="R_kgDOK_yGtA"
+    data-category="Giscus"
+    data-category-id="DIC_kwDOK_yGtM4CcLrU"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    defer>
+</script>
+
+
+  </body>
+</html>

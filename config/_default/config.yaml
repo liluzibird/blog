@@ -1,0 +1,42 @@
+baseURL: https://liluzibird.github.io/
+title: Blog Dude
+theme: github.com/razonyang/hugo-theme-bootstrap
+copyright: 'Copyright © 2023-{year} Albert Huynh. All Rights Reserved.'
+defaultContentLanguage: en
+# hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
+# defaultContentLanguageInSubdir: true
+disableLanguages:
+  - fr
+  - zh-cn
+  - zh-tw
+  - zh-hans
+  - es
+paginate: 10
+# paginatePath: page
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+enableGitInfo: true
+
+blackfriday:
+  hrefTargetBlank: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  authors: Albert Huynh
+
+build:
+  writeStats: true
+
+permalinks:
+  news: /news/:year/:month/:title/
+  blog: /blog/:year/:month/:title/
+
+# module:
+  # proxy: https://goproxy.cn
+
+# services:
+#   disqus:
+#     shortname: your-disqus-shortname

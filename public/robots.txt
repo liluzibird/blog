@@ -1,0 +1,141 @@
+User-agent: GPTBot
+
+Disallow: /categories/blog/
+
+Disallow: /
+
+Disallow: /blog/2024/04/last-post-changing-blog-website-link/
+
+Disallow: /series/docs/
+
+Disallow: /docs/networking/openwrt/i-bought-a-new-router/
+
+Disallow: /tags/networking/
+
+Disallow: /categories/networking/
+
+Disallow: /tags/openwrt/
+
+Disallow: /tags/router/
+
+Disallow: /blog/2024/02/how-to-erase-your-information-online/
+
+Disallow: /tags/privacy/
+
+Disallow: /categories/privacy/
+
+Disallow: /tags/docker/
+
+Disallow: /docs/networking/docker/docker-name-change/
+
+Disallow: /tags/synology/
+
+Disallow: /tags/nas/
+
+Disallow: /series/networking/
+
+Disallow: /tags/server/
+
+Disallow: /docs/synology/updating-to-dsm-7.2.1/
+
+Disallow: /tags/bluetooth/
+
+Disallow: /docs/linux/gaming/bluetooth-controller-slowing-downloads/
+
+Disallow: /tags/controllers/
+
+Disallow: /tags/gaming/
+
+Disallow: /tags/blog/
+
+Disallow: /tags/consoles/
+
+Disallow: /tags/pc/
+
+Disallow: /blog/2024/01/why-are-people-buying-consoles/
+
+Disallow: /tags/2fa/
+
+Disallow: /tags/mfa/
+
+Disallow: /blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/
+
+Disallow: /blog/2024/01/do-you-really-need-a-/home-partition/
+
+Disallow: /blog/2024/01/i-broke-my-computer...twice/
+
+Disallow: /tags/linux/
+
+Disallow: /categories/linux/
+
+Disallow: /blog/2024/01/first-blog/
+
+Disallow: /news/2024/01/markdown-kinda-sucks/
+
+Disallow: /news/2024/01/name-change-and-regenerating-gpg-keys/
+
+Disallow: /news/2024/01/second-thoughts/
+
+Disallow: /docs/linux/misc/linux-x11-monitors-off/
+
+Disallow: /tags/x11/
+
+Disallow: /docs/linux/gaming/tf2/
+
+Disallow: /docs/linux/gaming/apex-legends/
+
+Disallow: /docs/linux/gaming/superflight/
+
+Disallow: /news/2024/01/first-post/
+
+Disallow: /docs/introduction/
+
+Disallow: /archives/2022/
+
+Disallow: /about/
+
+Disallow: /albert-huynh/
+
+Disallow: /authors/albert-huynh/
+
+Disallow: /archives/
+
+Disallow: /authors/
+
+Disallow: /blog/
+
+Disallow: /categories/
+
+Disallow: /contact/
+
+Disallow: /docs/networking/docker/
+
+Disallow: /docs/
+
+Disallow: /docs/linux/gaming/
+
+Disallow: /docs/linux/
+
+Disallow: /docs/linux/misc/
+
+Disallow: /docs/networking/
+
+Disallow: /news/
+
+Disallow: /offline/
+
+Disallow: /docs/networking/openwrt/
+
+Disallow: /search/
+
+Disallow: /series/
+
+Disallow: /docs/synology/
+
+Disallow: /tags/
+
+Disallow: /
+
+User-agent: Google-Extended
+
+Disallow: /

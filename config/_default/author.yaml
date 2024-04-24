@@ -1,0 +1,14 @@
+name: Albert Huynh
+# avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
+bio: 'Arch Linux user, FOSS Advocate, Computer Science Student, Network Security Learner'
+company: Santa Ana College # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+# about: https://razonyang.com # The external about page. The internal about page will be used if not set.
+params: {
+  # layout: compact
+}
+# See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
+social:
+  email: alberth03@protonmail.com
+  github: liluzibird
+  rss: "" # Remove RSS

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on Blog Dude</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on Blog Dude</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Wed, 24 Jan 2024 17:06:25 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Name Change</title>
+      <link>http://localhost:1313/docs/networking/docker/docker-name-change/</link>
+      <pubDate>Wed, 24 Jan 2024 17:06:25 -0800</pubDate>
+      
+      <guid>http://localhost:1313/docs/networking/docker/docker-name-change/</guid>
+      <description><![CDATA[Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:1313/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
+    </item>
+    
+  </channel>
+</rss>
+
