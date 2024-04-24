@@ -1,4 +1,4 @@
-baseURL: https://liluzibird.github.io/
+baseURL: https://blog/
 title: Blog Dude
 theme: github.com/razonyang/hugo-theme-bootstrap
 copyright: 'Copyright © 2023-{year} Albert Huynh. All Rights Reserved.'

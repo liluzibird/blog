@@ -32,7 +32,7 @@ This website is licensed under [CC BY-SA](https://creativecommons.org/licenses/b
 >>    No additional restrictions — You may not apply legal terms or [technological measures](https://creativecommons.org/licenses/by-sa/4.0/deed.en#ref-technological-measures) that legally restrict others from doing anything the license permits.
 
 
-The website's [code](https://github.com/liluzibird/liluzibird.github.io) is written under the MIT License
+The website's [code](https://github.com/liluzibird/blog) is written under the MIT License
 
 >MIT License
 >

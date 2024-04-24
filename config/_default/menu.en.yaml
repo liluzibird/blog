@@ -1,7 +1,7 @@
 main:
   - name: Source Code
     identifier: source
-    url: https://github.com/liluzibird/liluzibird.github.io
+    url: https://github.com/liluzibird/blog
     params:
       icon: '<i class="fab fa-github"></i>'
   # - name: My Website
@@ -17,7 +17,7 @@ main:
   - name: Comments
     identifier: comments    
     weight: 9
-    url: https://github.com/liluzibird/liluzibird.github.io/discussions/categories/giscus
+    url: https://github.com/liluzibird/blog/discussions/categories/giscus
     params:
       icon: '<i class="fas fa-comments"></i>'
   - name: About

@@ -1,4 +1,4 @@
-module github.com/liluzibird/liluzibird.github.io
+module github.com/liluzibird/blog
 
 go 1.18
 

@@ -172,7 +172,7 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "liluzibird/liluzibird.github.io" # required.
+  repo: "liluzibird/blog" # required.
   repoId: "R_kgDOK_yGtA" # required.
   category: "Giscus" # required.
   categoryId: "DIC_kwDOK_yGtM4CcLrU" # required.
@@ -250,7 +250,7 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/liluzibird/liluzibird.github.io
+  url: https://github.com/liluzibird/blog
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -258,7 +258,7 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: liluzibird/liluzibird.github.io
+    github: liluzibird/blog
     #patreon: razonyang
     #paypal: razonyang
 
@@ -273,7 +273,7 @@ social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   email: alberth03@protonmail.com
   #facebook: yourfacebookusername
-  github: liluzibird/liluzibird.github.io
+  github: liluzibird/blog
   #gitlab: yourgitlabusername
   linkedin: albert-huynh-50658b176
   #xing: yourxingusername

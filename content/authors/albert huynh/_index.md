@@ -4,6 +4,6 @@ description: Arch Linux user, FOSS Advocate, Computer Science Student, Network S
 social:
   github: liluzibird
   email: alberth03@protonmail.com
-  website: https://liluzibird.github.io/
+  website: https://blog/
 ---
 

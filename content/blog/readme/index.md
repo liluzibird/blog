@@ -6,6 +6,6 @@ tags:
   - README
 ---
 
-See also [README.md](https://github.com/liluzibird/liluzibird.github.io/blob/main/README.md).
+See also [README.md](https://github.com/liluzibird/blog/blob/main/README.md).
 
 <!--more-->
