@@ -1,26 +1,30 @@
-export function sanitizeText(text: any): string;
-export function clear(): void;
-export function getMindmap(): any;
-export function addNode(level: any, id: any, descr: any, type: any): void;
-export namespace nodeType {
-    let DEFAULT: number;
-    let NO_BORDER: number;
-    let ROUNDED_RECT: number;
-    let RECT: number;
-    let CIRCLE: number;
-    let CLOUD: number;
-    let BANG: number;
-    let HEXAGON: number;
-}
-export function getType(startStr: any, endStr: any): number;
-export function setElementForId(id: any, element: any): void;
-export function decorateNode(decoration: any): void;
-export function type2Str(type: any): "rect" | "circle" | "no-border" | "rounded-rect" | "cloud" | "bang" | "hexgon";
-export let parseError: any;
-export function setErrorHandler(handler: any): void;
-export function getLogger(): Record<import("../../logger.js").LogLevel, {
-    (...data: any[]): void;
-    (message?: any, ...optionalParams: any[]): void;
-}>;
-export function getNodeById(id: any): any;
-export function getElementById(id: any): any;
+import type { D3Element } from '../../mermaidAPI.js';
+import type { MindmapNode } from './mindmapTypes.js';
+declare const db: {
+    readonly clear: () => void;
+    readonly addNode: (level: number, id: string, descr: string, type: number) => void;
+    readonly getMindmap: () => MindmapNode | null;
+    readonly nodeType: {
+        DEFAULT: number;
+        NO_BORDER: number;
+        ROUNDED_RECT: number;
+        RECT: number;
+        CIRCLE: number;
+        CLOUD: number;
+        BANG: number;
+        HEXAGON: number;
+    };
+    readonly getType: (startStr: string, endStr: string) => number;
+    readonly setElementForId: (id: number, element: D3Element) => void;
+    readonly decorateNode: (decoration?: {
+        class?: string;
+        icon?: string;
+    }) => void;
+    readonly type2Str: (type: number) => "rect" | "circle" | "no-border" | "rounded-rect" | "cloud" | "bang" | "hexgon";
+    readonly getLogger: () => Record<import("../../logger.js").LogLevel, {
+        (...data: any[]): void;
+        (message?: any, ...optionalParams: any[]): void;
+    }>;
+    readonly getElementById: (id: number) => any;
+};
+export default db;

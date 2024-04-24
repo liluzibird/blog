@@ -39,7 +39,7 @@ export interface QuadrantBuildType {
     title?: QuadrantTextType;
     borderLines?: QuadrantLineType[];
 }
-export interface quadrantBuilderData {
+export interface QuadrantBuilderData {
     titleText: string;
     quadrant1Text: string;
     quadrant2Text: string;
@@ -99,11 +99,11 @@ export declare class QuadrantBuilder {
     private themeConfig;
     private data;
     constructor();
-    getDefaultData(): quadrantBuilderData;
+    getDefaultData(): QuadrantBuilderData;
     getDefaultConfig(): QuadrantBuilderConfig;
     getDefaultThemeConfig(): QuadrantBuilderThemeConfig;
     clear(): void;
-    setData(data: Partial<quadrantBuilderData>): void;
+    setData(data: Partial<QuadrantBuilderData>): void;
     addPoints(points: QuadrantPointInputType[]): void;
     setConfig(config: Partial<QuadrantBuilderConfig>): void;
     setThemeConfig(themeConfig: Partial<QuadrantBuilderThemeConfig>): void;

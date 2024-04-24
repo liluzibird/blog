@@ -43,7 +43,7 @@ export interface PieDB extends DiagramDB {
     getDiagramTitle: () => string;
     setAccTitle: (title: string) => void;
     getAccTitle: () => string;
-    setAccDescription: (describetion: string) => void;
+    setAccDescription: (description: string) => void;
     getAccDescription: () => string;
     addSection: (label: string, value: number) => void;
     getSections: () => Sections;

@@ -1,5 +1,5 @@
 /**
- * Draws a an info picture in the tag with id: id based on the graph definition in text.
+ * Draws an info picture in the tag with id: id based on the graph definition in text.
  *
  * @param _text - Mermaid graph definition.
  * @param id - The text for the error

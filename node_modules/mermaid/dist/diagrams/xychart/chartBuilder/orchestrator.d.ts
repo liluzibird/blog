@@ -6,7 +6,7 @@ export declare class Orchestrator {
     private componentStore;
     constructor(chartConfig: XYChartConfig, chartData: XYChartData, chartThemeConfig: XYChartThemeConfig, tmpSVGGroup: Group);
     private calculateVerticalSpace;
-    private calculateHorizonatalSpace;
+    private calculateHorizontalSpace;
     private calculateSpace;
     getDrawableElement(): DrawableElem[];
 }

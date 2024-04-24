@@ -7,7 +7,7 @@ A Light–weight CSS Preprocessor.
 [![Coverage](https://coveralls.io/repos/github/thysultan/stylis.js/badge.svg?branch=master)](https://coveralls.io/github/thysultan/stylis.js)
 [![Size](https://badgen.net/bundlephobia/minzip/stylis)](https://bundlephobia.com/result?p=stylis)
 [![Licence](https://badgen.net/badge/license/MIT/blue)](https://github.com/thysultan/stylis.js/blob/master/LICENSE)
-[![NPM](https://badgen.net/npm/v/dyo)](https://www.npmjs.com/package/stylis)
+[![NPM](https://badgen.net/npm/v/stylis)](https://www.npmjs.com/package/stylis)
 
 ## Installation
 
@@ -150,7 +150,7 @@ For example consider the following: `--foo: {};`
 
 While this is valid CSS and supported. It is unclear what should happen when the rule collides with the implicit block termination rule that allows i.e `h1{color:red}`(notice the omitted semicolon) to also be a valid CSS production. This results in the following contradiction in: `h1{--example: {}` is it to be treated as `h1{--foo:{;}` or `h1{--foo:{}` the later of which is an unterminated block or in the following: `h1{--foo:{} h1{color:red;}` should it be `h1 {--foo:{}h1{color:red;};` where `{}h1{color:red;` is part of the css variable `--foo` and not a new rule or should it be something else? 
 
-Never the less Stylis still supports the exotic forms highlighted in the spec, however you should consider it as a general rule to delimit such exotic uses of variables in strings or parentheses i.e: `h1{--foo:'{'}` or `h1{--foo:({)}`. 
+Nevertheless Stylis still supports the exotic forms highlighted in the spec, however you should consider it as a general rule to delimit such exotic uses of variables in strings or parentheses i.e: `h1{--foo:'{'}` or `h1{--foo:({)}`. 
 
 ## Benchmark
 

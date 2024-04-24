@@ -7,8 +7,8 @@ export function addSignal(idFrom: any, idTo: any, message: {
 } | undefined, messageType: any, activate?: boolean): boolean;
 export function hasAtLeastOneBox(): boolean;
 export function hasAtLeastOneBoxWithTitle(): boolean;
-export function getMessages(): any[];
-export function getBoxes(): any[];
+export function getMessages(): never[];
+export function getBoxes(): never[];
 export function getActors(): {};
 export function getCreatedActors(): {};
 export function getDestroyedActors(): {};
@@ -18,7 +18,7 @@ export function enableSequenceNumbers(): void;
 export function disableSequenceNumbers(): void;
 export function showSequenceNumbers(): boolean;
 export function setWrap(wrapSetting: any): void;
-export function autoWrap(): any;
+export function autoWrap(): boolean | undefined;
 export function clear(): void;
 export function parseMessage(str: any): {
     text: any;

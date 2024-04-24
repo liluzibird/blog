@@ -87,7 +87,7 @@ export declare const bounds: {
         };
     };
 };
-export declare const drawActors: (diagram: any, actors: any, actorKeys: any, isFooter: any) => void;
+export declare const drawActors: (diagram: any, actors: any, actorKeys: any, isFooter: any) => Promise<void>;
 export declare const drawActorsPopup: (diagram: any, actors: any, actorKeys: any, doc: any) => {
     maxHeight: number;
     maxWidth: number;
@@ -101,7 +101,7 @@ export declare const setConf: (cnf: any) => void;
  * @param _version - Mermaid version from package.json
  * @param diagObj - A standard diagram containing the db and the text and type etc of the diagram
  */
-export declare const draw: (_text: string, id: string, _version: string, diagObj: Diagram) => void;
+export declare const draw: (_text: string, id: string, _version: string, diagObj: Diagram) => Promise<void>;
 declare const _default: {
     bounds: {
         data: {
@@ -191,12 +191,12 @@ declare const _default: {
             };
         };
     };
-    drawActors: (diagram: any, actors: any, actorKeys: any, isFooter: any) => void;
+    drawActors: (diagram: any, actors: any, actorKeys: any, isFooter: any) => Promise<void>;
     drawActorsPopup: (diagram: any, actors: any, actorKeys: any, doc: any) => {
         maxHeight: number;
         maxWidth: number;
     };
     setConf: (cnf: any) => void;
-    draw: (_text: string, id: string, _version: string, diagObj: Diagram) => void;
+    draw: (_text: string, id: string, _version: string, diagObj: Diagram) => Promise<void>;
 };
 export default _default;

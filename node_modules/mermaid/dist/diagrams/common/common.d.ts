@@ -66,6 +66,34 @@ export declare const getMin: (...values: number[]) => number;
  */
 export declare const parseGenericTypes: (input: string) => string;
 export declare const countOccurrence: (string: string, substring: string) => number;
+export declare const isMathMLSupported: () => boolean;
+export declare const katexRegex: RegExp;
+/**
+ * Whether or not a text has KaTeX delimiters
+ *
+ * @param text - The text to test
+ * @returns Whether or not the text has KaTeX delimiters
+ */
+export declare const hasKatex: (text: string) => boolean;
+/**
+ * Computes the minimum dimensions needed to display a div containing MathML
+ *
+ * @param text - The text to test
+ * @param config - Configuration for Mermaid
+ * @returns Object containing \{width, height\}
+ */
+export declare const calculateMathMLDimensions: (text: string, config: MermaidConfig) => Promise<{
+    width: number;
+    height: number;
+}>;
+/**
+ * Attempts to render and return the KaTeX portion of a string with MathML
+ *
+ * @param text - The text to test
+ * @param config - Configuration for Mermaid
+ * @returns String containing MathML if KaTeX is supported, or an error message if it is not and stylesheets aren't present
+ */
+export declare const renderKatex: (text: string, config: MermaidConfig) => Promise<string>;
 declare const _default: {
     getRows: (s?: string | undefined) => string[];
     sanitizeText: (text: string, config: MermaidConfig) => string;

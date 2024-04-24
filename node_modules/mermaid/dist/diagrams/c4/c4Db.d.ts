@@ -18,6 +18,18 @@ export function getParentBoundaryParse(): string;
 export function getC4ShapeArray(parentBoundary: any): any[];
 export function getC4Shape(alias: any): any;
 export function getC4ShapeKeys(parentBoundary: any): string[];
+export function getBoundaries(parentBoundary: any): {
+    alias: string;
+    label: {
+        text: string;
+    };
+    type: {
+        text: string;
+    };
+    tags: null;
+    link: null;
+    parentBoundary: string;
+}[];
 export function getBoundarys(parentBoundary: any): {
     alias: string;
     label: {
@@ -87,6 +99,7 @@ declare namespace _default {
     export { getC4ShapeArray };
     export { getC4Shape };
     export { getC4ShapeKeys };
+    export { getBoundaries };
     export { getBoundarys };
     export { getCurrentBoundaryParse };
     export { getParentBoundaryParse };

@@ -47,8 +47,8 @@ export declare const diagram: {
     };
     renderer: {
         setConf: (cnf: any) => void;
-        addVertices: (vert: any, g: any, svgId: any, root: any, doc: any, diagObj: any) => void;
-        addEdges: (edges: object, g: object, diagObj: any) => void;
+        addVertices: (vert: any, g: any, svgId: any, root: any, doc: any, diagObj: any) => Promise<void>;
+        addEdges: (edges: object, g: object, diagObj: any) => Promise<void>;
         getClasses: (text: any, diagObj: any) => Record<string, import("../../diagram-api/types.js").DiagramStyleClassDef>;
         draw: (text: any, id: any, _version: any, diagObj: any) => Promise<void>;
     };

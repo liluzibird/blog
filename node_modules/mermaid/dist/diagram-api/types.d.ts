@@ -25,7 +25,7 @@ export interface DiagramDB {
     getDiagramTitle?: () => string;
     setAccTitle?: (title: string) => void;
     getAccTitle?: () => string;
-    setAccDescription?: (describetion: string) => void;
+    setAccDescription?: (description: string) => void;
     getAccDescription?: () => string;
     setDisplayMode?: (title: string) => void;
     bindFunctions?: (element: Element) => void;

@@ -4,7 +4,7 @@ export function getOptions(): {};
 export function commit(msg: any, id: any, type: any, tag: any): void;
 export function branch(name: any, order: any): void;
 export function merge(otherBranch: any, custom_id: any, override_type: any, custom_tag: any): void;
-export function cherryPick(sourceId: any, targetId: any, tag: any): void;
+export function cherryPick(sourceId: any, targetId: any, tag: any, parentCommitId: any): void;
 export function checkout(branch: any): void;
 export function prettyPrint(): void;
 export function clear(): void;

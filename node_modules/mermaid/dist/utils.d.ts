@@ -272,3 +272,15 @@ declare const _default: {
     InitIDGenerator: typeof InitIDGenerator;
 };
 export default _default;
+/**
+ * @param  text - text to be encoded
+ * @returns
+ */
+export declare const encodeEntities: (text: string) => string;
+/**
+ *
+ * @param  text - text to be decoded
+ * @returns
+ */
+export declare const decodeEntities: (text: string) => string;
+export declare const isString: (value: unknown) => value is string;

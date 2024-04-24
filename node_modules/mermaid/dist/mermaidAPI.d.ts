@@ -1,6 +1,6 @@
 import { Diagram } from './Diagram.js';
 import type { MermaidConfig } from './config.type.js';
-import type { DiagramStyleClassDef } from './diagram-api/types.js';
+import type { DiagramMetadata, DiagramStyleClassDef } from './diagram-api/types.js';
 export interface ParseOptions {
     suppressErrors?: boolean;
 }
@@ -29,17 +29,6 @@ export interface RenderResult {
  * @throws Error if the diagram is invalid and parseOptions.suppressErrors is false.
  */
 declare function parse(text: string, parseOptions?: ParseOptions): Promise<boolean>;
-/**
- * @param  text - text to be encoded
- * @returns
- */
-export declare const encodeEntities: (text: string) => string;
-/**
- *
- * @param  text - text to be decoded
- * @returns
- */
-export declare const decodeEntities: (text: string) => string;
 /**
  * Create a CSS style that starts with the given class name, then the element,
  * with an enclosing block that has each of the cssClasses followed by !important;
@@ -168,7 +157,7 @@ declare function initialize(options?: MermaidConfig): void;
 export declare const mermaidAPI: Readonly<{
     render: (id: string, text: string, svgContainingElement?: Element) => Promise<RenderResult>;
     parse: typeof parse;
-    getDiagramFromText: (text: string, metadata?: Pick<import("./diagram-api/types.js").DiagramMetadata, "title">) => Promise<Diagram>;
+    getDiagramFromText: (text: string, metadata?: Pick<DiagramMetadata, 'title'>) => Promise<Diagram>;
     initialize: typeof initialize;
     getConfig: () => MermaidConfig;
     setConfig: (conf: MermaidConfig) => MermaidConfig;

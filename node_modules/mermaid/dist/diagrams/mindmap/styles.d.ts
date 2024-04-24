@@ -1,2 +1,3 @@
+import type { DiagramStylesProvider } from '../../diagram-api/types.js';
+declare const getStyles: DiagramStylesProvider;
 export default getStyles;
-declare function getStyles(options: any): string;

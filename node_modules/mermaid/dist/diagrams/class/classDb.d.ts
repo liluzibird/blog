@@ -43,7 +43,7 @@ export declare const addMembers: (className: string, members: string[]) => void;
 export declare const addNote: (text: string, className: string) => void;
 export declare const cleanupLabel: (label: string) => string;
 /**
- * Called by parser when a special node is found, e.g. a clickable element.
+ * Called by parser when assigning cssClass to a class
  *
  * @param ids - Comma separated list of ids
  * @param className - Class to add
@@ -93,6 +93,7 @@ export declare const addNamespace: (id: string) => void;
  * @public
  */
 export declare const addClassesToNamespace: (id: string, classNames: string[]) => void;
+export declare const setCssStyle: (id: string, styles: string[]) => void;
 declare const _default: {
     setAccTitle: (txt: string) => void;
     getAccTitle: () => string;
@@ -138,5 +139,6 @@ declare const _default: {
     addClassesToNamespace: (id: string, classNames: string[]) => void;
     getNamespace: (name: string) => NamespaceNode;
     getNamespaces: () => NamespaceMap;
+    setCssStyle: (id: string, styles: string[]) => void;
 };
 export default _default;

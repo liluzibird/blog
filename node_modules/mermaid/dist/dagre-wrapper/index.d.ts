@@ -1,1 +1,1 @@
-export function render(elem: any, graph: any, markers: any, diagramtype: any, id: any): Promise<void>;
+export function render(elem: any, graph: any, markers: any, diagramType: any, id: any): Promise<void>;
