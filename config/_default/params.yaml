@@ -173,9 +173,9 @@ creativeCommons:
 # See https://giscus.app
 giscus:
   repo: "liluzibird/blog" # required.
-  repoId: "R_kgDOK_yGtA" # required.
+  repoId: "R_kgDOLyXdsw" # required.
   category: "Giscus" # required.
-  categoryId: "DIC_kwDOK_yGtM4CcLrU" # required.
+  categoryId: "DIC_kwDOLyXds84Ce5Y5" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
