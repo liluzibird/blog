@@ -1,6 +1,10 @@
 User-agent: GPTBot
 
+Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
+
 Disallow: /hugo-theme-bootstrap-skeleton/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/04/last-post-changing-blog-website-link/
 
 Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
 
@@ -43,8 +47,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/tags/controllers/
 Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
-
-Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/consoles/
 
