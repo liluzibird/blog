@@ -15,6 +15,10 @@ tags: []
 images: []
 ---
 
-This will be my last post on here, just letting all of you know that I will be moving the website to my new domain that I just purchased: [https://blog.liluzibird.dev](https://blog.liluzibird.dev). I hope to see all of you over there!
+This will be my last post on here, just letting all of you know that I will be moving the website to my new domain that I just purchased: [https://blog.liluzibird.dev](https://blog.liluzibird.dev).
+
+If you're reading this from the new site, yay, thank you. If there are any kinks with the new site, please let me know.
+
+I hope to see all of you over here!
 
 
