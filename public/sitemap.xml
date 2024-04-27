@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/blog/</loc>
-    <lastmod>2024-04-23T22:41:23-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-23T23:15:40-07:00</lastmod>
+    <lastmod>2024-04-27T16:15:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2024/04/successful-migration/</loc>
+    <lastmod>2024-04-27T16:15:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2024-04-27T16:15:59-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2024/04/last-post-changing-blog-website-link/</loc>
-    <lastmod>2024-04-23T22:41:23-07:00</lastmod>
+    <lastmod>2024-04-27T16:15:59-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/docs/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>

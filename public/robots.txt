@@ -1,8 +1,10 @@
 User-agent: GPTBot
 
-Disallow: /categories/blog/
-
 Disallow: /
+
+Disallow: /blog/2024/04/successful-migration/
+
+Disallow: /categories/blog/
 
 Disallow: /blog/2024/04/last-post-changing-blog-website-link/
 

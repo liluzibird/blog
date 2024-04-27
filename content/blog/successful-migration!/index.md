@@ -3,7 +3,7 @@
 title: Successful Migration!
 date: 2024-04-24T00:28:25-07:00
 featured: false
-draft: true
+draft: false
 comment: true
 toc: true
 reward: true
