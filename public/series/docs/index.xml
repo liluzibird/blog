@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docs on Blog Dude</title>
-    <link>http://localhost:45357/series/docs/</link>
+    <link>http://localhost:40219/series/docs/</link>
     <description>Recent content in Docs on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Mon, 05 Feb 2024 22:32:05 -0800</lastBuildDate><atom:link href="http://localhost:45357/series/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Feb 2024 22:32:05 -0800</lastBuildDate><atom:link href="http://localhost:40219/series/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Bought a New Router</title>
-      <link>http://localhost:45357/docs/networking/openwrt/i-bought-a-new-router/</link>
+      <link>http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/</link>
       <pubDate>Mon, 05 Feb 2024 22:32:05 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/networking/openwrt/i-bought-a-new-router/</guid>
-      <description><![CDATA[Intro Over the past week I have been looking at the project OpenWrt and checking out which routers to buy. How could I do this without consulting the home networking subreddit. Though, those people said I would need to spend like $400 or something buying ubiquiti unifi WAP, build a small pc for the router, build a pc for a firewall, etc. The task is daunting and even though I would love to do all of that.]]></description><enclosure url="http://localhost:45357/docs/networking/openwrt/i-bought-a-new-router/featured.png" length="220370" type="image/png" />
+      <guid>http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/</guid>
+      <description><![CDATA[Intro Over the past week I have been looking at the project OpenWrt and checking out which routers to buy. How could I do this without consulting the home networking subreddit. Though, those people said I would need to spend like $400 or something buying ubiquiti unifi WAP, build a small pc for the router, build a pc for a firewall, etc. The task is daunting and even though I would love to do all of that.]]></description><enclosure url="http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/featured.png" length="220370" type="image/png" />
     </item>
     
     <item>
       <title>Docker Name Change</title>
-      <link>http://localhost:45357/docs/networking/docker/docker-name-change/</link>
+      <link>http://localhost:40219/docs/networking/docker/docker-name-change/</link>
       <pubDate>Wed, 24 Jan 2024 17:06:25 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/networking/docker/docker-name-change/</guid>
+      <guid>http://localhost:40219/docs/networking/docker/docker-name-change/</guid>
       <description><![CDATA[Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
-Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:45357/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:40219/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
     </item>
     
     <item>
       <title>Updating to DSM 7.2.1</title>
-      <link>http://localhost:45357/docs/synology/updating-to-dsm-7.2.1/</link>
+      <link>http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/</link>
       <pubDate>Wed, 24 Jan 2024 17:05:32 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/synology/updating-to-dsm-7.2.1/</guid>
-      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:45357/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
+      <guid>http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/</guid>
+      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
     </item>
     
     <item>
       <title>Bluetooth Controller Slowing Downloads</title>
-      <link>http://localhost:45357/docs/linux/gaming/bluetooth-controller-slowing-downloads/</link>
+      <link>http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/</link>
       <pubDate>Wed, 24 Jan 2024 16:17:57 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/linux/gaming/bluetooth-controller-slowing-downloads/</guid>
-      <description><![CDATA[Over the weekend, I was doing some gaming on my laptop with some newly purchased bluetooth controllers I just purchased. For some reason my download speeds were hovering around 1mbps to 10 mbps. First, I thought it was my VPN, I&rsquo;ve connected to various regions, and it wouldn&rsquo;t fix my issue. Second, I tested my DNS server, as that might cause issues, so I restarted my server, still, no dice. So then I checked if there was something wrong with the provider, I went to another computer that was hardwired into the router and it was getting the normal 400 mbps speeds, so that wasn&rsquo;t the issue.]]></description><enclosure url="http://localhost:45357/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured.png" length="140385" type="image/png" />
+      <guid>http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/</guid>
+      <description><![CDATA[Over the weekend, I was doing some gaming on my laptop with some newly purchased bluetooth controllers I just purchased. For some reason my download speeds were hovering around 1mbps to 10 mbps. First, I thought it was my VPN, I&rsquo;ve connected to various regions, and it wouldn&rsquo;t fix my issue. Second, I tested my DNS server, as that might cause issues, so I restarted my server, still, no dice. So then I checked if there was something wrong with the provider, I went to another computer that was hardwired into the router and it was getting the normal 400 mbps speeds, so that wasn&rsquo;t the issue.]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured.png" length="140385" type="image/png" />
     </item>
     
     <item>
       <title>Linux X11 Monitors Off</title>
-      <link>http://localhost:45357/docs/linux/misc/linux-x11-monitors-off/</link>
+      <link>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</link>
       <pubDate>Fri, 05 Jan 2024 18:31:01 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/linux/misc/linux-x11-monitors-off/</guid>
+      <guid>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</guid>
       <description><![CDATA[Image stolen from https://www.x.org
 For some reason turning on your monitors in Linux is a bit funky, so you might need to type a few commands in the terminal for monitors to power off. I believe this method only works on x11.
 To Turn Off:
 xset -display :0.0 dpms force off
 To Turn On:
 xset -display :0.0 dpms force on
-If your display turns off and then immediately back on then try the following which adds a delay of 1 second before turning the screen off.]]></description><enclosure url="http://localhost:45357/docs/linux/misc/linux-x11-monitors-off/featured.png" length="9860" type="image/png" />
+If your display turns off and then immediately back on then try the following which adds a delay of 1 second before turning the screen off.]]></description><enclosure url="http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/featured.png" length="9860" type="image/png" />
     </item>
     
     <item>
       <title>Team Fortress 2</title>
-      <link>http://localhost:45357/docs/linux/gaming/tf2/</link>
+      <link>http://localhost:40219/docs/linux/gaming/tf2/</link>
       <pubDate>Fri, 05 Jan 2024 18:23:25 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/linux/gaming/tf2/</guid>
+      <guid>http://localhost:40219/docs/linux/gaming/tf2/</guid>
       <description><![CDATA[Stolen from https://store.steampowered.com/app/440/Team_Fortress_2/
 Pretty OG game if I do say myself. Still can&rsquo;t access the chat for some reason, I think somebody said online that I gotta buy something from the store, so I might do that.
 Anyway, first you have to install lib32-gperftools
 Run this line in launch options:
-LD_PRELOAD=$LD_PRELOAD:/usr/lib32/libtcmalloc_minimal.so %command% -secure ]]></description><enclosure url="http://localhost:45357/docs/linux/gaming/tf2/featured.png" length="372558" type="image/png" />
+LD_PRELOAD=$LD_PRELOAD:/usr/lib32/libtcmalloc_minimal.so %command% -secure ]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/tf2/featured.png" length="372558" type="image/png" />
     </item>
     
     <item>
       <title>Apex Legends</title>
-      <link>http://localhost:45357/docs/linux/gaming/apex-legends/</link>
+      <link>http://localhost:40219/docs/linux/gaming/apex-legends/</link>
       <pubDate>Fri, 05 Jan 2024 16:59:46 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/linux/gaming/apex-legends/</guid>
+      <guid>http://localhost:40219/docs/linux/gaming/apex-legends/</guid>
       <description><![CDATA[Image stolen from https://store.steampowered.com/app/1172470/Apex_Legends/
 So over my winter break I&rsquo;ve been doing a little gaming here and there. One day, my friends invited me to play Apex Legends. So I decided to hop check out protondb and give it a try. Much to my luck Apex Legends actually works (with a few tweaks).
-Pretty much, all you have to do is run this line through the Steam launcher&rsquo;s launch options:]]></description><enclosure url="http://localhost:45357/docs/linux/gaming/apex-legends/featured.png" length="486996" type="image/png" />
+Pretty much, all you have to do is run this line through the Steam launcher&rsquo;s launch options:]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/apex-legends/featured.png" length="486996" type="image/png" />
     </item>
     
     <item>
       <title>Superflight</title>
-      <link>http://localhost:45357/docs/linux/gaming/superflight/</link>
+      <link>http://localhost:40219/docs/linux/gaming/superflight/</link>
       <pubDate>Fri, 05 Jan 2024 16:59:46 -0800</pubDate>
       
-      <guid>http://localhost:45357/docs/linux/gaming/superflight/</guid>
+      <guid>http://localhost:40219/docs/linux/gaming/superflight/</guid>
       <description><![CDATA[Image stolen from https://store.steampowered.com/app/732430/Superflight/
 Cool game introduced to me by my friend Nate. The game lags a bit but is overall pretty playable on Linux.
 Run this launch option:
-PROTON_USE_WINED3D=1 %command% ]]></description><enclosure url="http://localhost:45357/docs/linux/gaming/superflight/featured.png" length="222692" type="image/png" />
+PROTON_USE_WINED3D=1 %command% ]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/superflight/featured.png" length="222692" type="image/png" />
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>http://localhost:45357/docs/introduction/</link>
+      <link>http://localhost:40219/docs/introduction/</link>
       <pubDate>Tue, 03 Jan 2023 23:42:25 +0800</pubDate>
       
-      <guid>http://localhost:45357/docs/introduction/</guid>
+      <guid>http://localhost:40219/docs/introduction/</guid>
       <description><![CDATA[Docs for whatever I&rsquo;m doing.]]></description>
     </item>
     

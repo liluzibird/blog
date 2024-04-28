@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Privacy on Blog Dude</title>
-    <link>http://localhost:45357/tags/privacy/</link>
+    <link>http://localhost:40219/tags/privacy/</link>
     <description>Recent content in Privacy on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Thu, 01 Feb 2024 13:17:33 -0800</lastBuildDate><atom:link href="http://localhost:45357/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 13:17:33 -0800</lastBuildDate><atom:link href="http://localhost:40219/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Erase Your Information Online</title>
-      <link>http://localhost:45357/blog/2024/02/how-to-erase-your-information-online/</link>
+      <link>http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/</link>
       <pubDate>Thu, 01 Feb 2024 13:17:33 -0800</pubDate>
       
-      <guid>http://localhost:45357/blog/2024/02/how-to-erase-your-information-online/</guid>
+      <guid>http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/</guid>
       <description><![CDATA[Linus Torvalds Being Based
-How Do I Remove Sensitive Information Online? I made a post on Lemmy recently and received a lot of negative feedback for requesting on advice on how to remove my information or just straight up not use my physical home address and instead maybe a PO box. After all the feedback I got, I decided that this wouldn&rsquo;t be possible. Also, it might not even be the bank that leaked my information but my government.]]></description><enclosure url="http://localhost:45357/blog/2024/02/how-to-erase-your-information-online/featured.png" length="325211" type="image/png" />
+How Do I Remove Sensitive Information Online? I made a post on Lemmy recently and received a lot of negative feedback for requesting on advice on how to remove my information or just straight up not use my physical home address and instead maybe a PO box. After all the feedback I got, I decided that this wouldn&rsquo;t be possible. Also, it might not even be the bank that leaked my information but my government.]]></description><enclosure url="http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/featured.png" length="325211" type="image/png" />
     </item>
     
   </channel>
