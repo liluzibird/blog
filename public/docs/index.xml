@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docs on Blog Dude</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>http://localhost:45357/docs/</link>
     <description>Recent content in Docs on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
-</copyright><atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="http://localhost:45357/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/docs/introduction/</link>
+      <link>http://localhost:45357/docs/introduction/</link>
       <pubDate>Tue, 03 Jan 2023 23:42:25 +0800</pubDate>
       
-      <guid>http://localhost:1313/docs/introduction/</guid>
+      <guid>http://localhost:45357/docs/introduction/</guid>
       <description><![CDATA[Docs for whatever I&rsquo;m doing.]]></description>
     </item>
     

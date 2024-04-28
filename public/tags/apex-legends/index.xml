@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Apex Legends on Blog Dude</title>
-    <link>http://localhost:1313/tags/apex-legends/</link>
+    <link>http://localhost:45357/tags/apex-legends/</link>
     <description>Recent content in Apex Legends on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Fri, 05 Jan 2024 16:59:46 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/apex-legends/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 16:59:46 -0800</lastBuildDate><atom:link href="http://localhost:45357/tags/apex-legends/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apex Legends</title>
-      <link>http://localhost:1313/docs/linux/gaming/apex-legends/</link>
+      <link>http://localhost:45357/docs/linux/gaming/apex-legends/</link>
       <pubDate>Fri, 05 Jan 2024 16:59:46 -0800</pubDate>
       
-      <guid>http://localhost:1313/docs/linux/gaming/apex-legends/</guid>
+      <guid>http://localhost:45357/docs/linux/gaming/apex-legends/</guid>
       <description><![CDATA[Image stolen from https://store.steampowered.com/app/1172470/Apex_Legends/
 So over my winter break I&rsquo;ve been doing a little gaming here and there. One day, my friends invited me to play Apex Legends. So I decided to hop check out protondb and give it a try. Much to my luck Apex Legends actually works (with a few tweaks).
-Pretty much, all you have to do is run this line through the Steam launcher&rsquo;s launch options:]]></description><enclosure url="http://localhost:1313/docs/linux/gaming/apex-legends/featured.png" length="486996" type="image/png" />
+Pretty much, all you have to do is run this line through the Steam launcher&rsquo;s launch options:]]></description><enclosure url="http://localhost:45357/docs/linux/gaming/apex-legends/featured.png" length="486996" type="image/png" />
     </item>
     
   </channel>

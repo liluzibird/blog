@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Synology on Blog Dude</title>
-    <link>http://localhost:1313/tags/synology/</link>
+    <link>http://localhost:45357/tags/synology/</link>
     <description>Recent content in Synology on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Wed, 24 Jan 2024 17:06:25 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/synology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jan 2024 17:06:25 -0800</lastBuildDate><atom:link href="http://localhost:45357/tags/synology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Name Change</title>
-      <link>http://localhost:1313/docs/networking/docker/docker-name-change/</link>
+      <link>http://localhost:45357/docs/networking/docker/docker-name-change/</link>
       <pubDate>Wed, 24 Jan 2024 17:06:25 -0800</pubDate>
       
-      <guid>http://localhost:1313/docs/networking/docker/docker-name-change/</guid>
+      <guid>http://localhost:45357/docs/networking/docker/docker-name-change/</guid>
       <description><![CDATA[Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
-Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:1313/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:45357/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
     </item>
     
     <item>
       <title>Updating to DSM 7.2.1</title>
-      <link>http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/</link>
+      <link>http://localhost:45357/docs/synology/updating-to-dsm-7.2.1/</link>
       <pubDate>Wed, 24 Jan 2024 17:05:32 -0800</pubDate>
       
-      <guid>http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/</guid>
-      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
+      <guid>http://localhost:45357/docs/synology/updating-to-dsm-7.2.1/</guid>
+      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:45357/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
     </item>
     
   </channel>

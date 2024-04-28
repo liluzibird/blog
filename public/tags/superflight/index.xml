@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Superflight on Blog Dude</title>
-    <link>http://localhost:1313/tags/superflight/</link>
+    <link>http://localhost:45357/tags/superflight/</link>
     <description>Recent content in Superflight on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Fri, 05 Jan 2024 16:59:46 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/superflight/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 16:59:46 -0800</lastBuildDate><atom:link href="http://localhost:45357/tags/superflight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Superflight</title>
-      <link>http://localhost:1313/docs/linux/gaming/superflight/</link>
+      <link>http://localhost:45357/docs/linux/gaming/superflight/</link>
       <pubDate>Fri, 05 Jan 2024 16:59:46 -0800</pubDate>
       
-      <guid>http://localhost:1313/docs/linux/gaming/superflight/</guid>
+      <guid>http://localhost:45357/docs/linux/gaming/superflight/</guid>
       <description><![CDATA[Image stolen from https://store.steampowered.com/app/732430/Superflight/
 Cool game introduced to me by my friend Nate. The game lags a bit but is overall pretty playable on Linux.
 Run this launch option:
-PROTON_USE_WINED3D=1 %command% ]]></description><enclosure url="http://localhost:1313/docs/linux/gaming/superflight/featured.png" length="222692" type="image/png" />
+PROTON_USE_WINED3D=1 %command% ]]></description><enclosure url="http://localhost:45357/docs/linux/gaming/superflight/featured.png" length="222692" type="image/png" />
     </item>
     
   </channel>

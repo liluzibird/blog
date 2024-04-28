@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Openwrt on Blog Dude</title>
-    <link>http://localhost:1313/docs/networking/openwrt/</link>
+    <link>http://localhost:45357/docs/networking/openwrt/</link>
     <description>Recent content in Openwrt on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
-</copyright><atom:link href="http://localhost:1313/docs/networking/openwrt/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="http://localhost:45357/docs/networking/openwrt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Bought a New Router</title>
-      <link>http://localhost:1313/docs/networking/openwrt/i-bought-a-new-router/</link>
+      <link>http://localhost:45357/docs/networking/openwrt/i-bought-a-new-router/</link>
       <pubDate>Mon, 05 Feb 2024 22:32:05 -0800</pubDate>
       
-      <guid>http://localhost:1313/docs/networking/openwrt/i-bought-a-new-router/</guid>
-      <description><![CDATA[Intro Over the past week I have been looking at the project OpenWrt and checking out which routers to buy. How could I do this without consulting the home networking subreddit. Though, those people said I would need to spend like $400 or something buying ubiquiti unifi WAP, build a small pc for the router, build a pc for a firewall, etc. The task is daunting and even though I would love to do all of that.]]></description><enclosure url="http://localhost:1313/docs/networking/openwrt/i-bought-a-new-router/featured.png" length="220370" type="image/png" />
+      <guid>http://localhost:45357/docs/networking/openwrt/i-bought-a-new-router/</guid>
+      <description><![CDATA[Intro Over the past week I have been looking at the project OpenWrt and checking out which routers to buy. How could I do this without consulting the home networking subreddit. Though, those people said I would need to spend like $400 or something buying ubiquiti unifi WAP, build a small pc for the router, build a pc for a firewall, etc. The task is daunting and even though I would love to do all of that.]]></description><enclosure url="http://localhost:45357/docs/networking/openwrt/i-bought-a-new-router/featured.png" length="220370" type="image/png" />
     </item>
     
   </channel>
