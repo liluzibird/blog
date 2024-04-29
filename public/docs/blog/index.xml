@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Blog Dude</title>
+    <link>http://localhost:1313/docs/blog/</link>
+    <description>Recent content in Blog on Blog Dude</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sun, 28 Apr 2024 16:36:28 -0700</lastBuildDate><atom:link href="http://localhost:1313/docs/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Site Redirect</title>
+      <link>http://localhost:1313/docs/blog/blog-site-redirect/</link>
+      <pubDate>Sun, 28 Apr 2024 16:36:28 -0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/blog/blog-site-redirect/</guid>
+      <description><![CDATA[Picture from digitalmarketing.com
+So over the course of this week, I didn&rsquo;t want to do my math homework, so I bought a domain and started moving my blog and changing my portfolio website over. It has been a tough journey and I there have been many hiccups along the way, probably messed up the few people who read my site but, it all worked out in the end.
+One of the main struggles of the migration was figuring out how I wanted to have my website structured.]]></description><enclosure url="http://localhost:1313/docs/blog/blog-site-redirect/featured.png" length="48244" type="image/png" />
+    </item>
+    
+  </channel>
+</rss>
+

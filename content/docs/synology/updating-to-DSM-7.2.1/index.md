@@ -4,7 +4,7 @@ title: Updating to DSM 7.2.1
 linkTitle: Updating to DSM 7.2.1
 series: 
   - Docs
-  - networking
+  - Networking
 categories:
   - networking
 tags:
