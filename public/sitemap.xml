@@ -2,222 +2,234 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:40219/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/blog/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/blog/blog-site-redirect/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/docs/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/redirect/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/website/</loc>
+    <lastmod>2024-04-28T16:36:28-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2024/04/successful-migration/</loc>
     <lastmod>2024-04-27T16:18:47-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/2024/04/successful-migration/</loc>
-    <lastmod>2024-04-27T16:18:47-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40219/categories/blog/</loc>
+    <loc>http://localhost:1313/blog/2024/04/last-post-changing-blog-website-link/</loc>
     <lastmod>2024-04-27T16:15:59-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/2024/04/last-post-changing-blog-website-link/</loc>
-    <lastmod>2024-04-27T16:15:59-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40219/series/docs/</loc>
+    <loc>http://localhost:1313/docs/networking/openwrt/i-bought-a-new-router/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/</loc>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/networking/</loc>
+    <loc>http://localhost:1313/categories/networking/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/categories/networking/</loc>
+    <loc>http://localhost:1313/tags/openwrt/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/openwrt/</loc>
+    <loc>http://localhost:1313/tags/router/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/router/</loc>
+    <loc>http://localhost:1313/blog/2024/02/how-to-erase-your-information-online/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/</loc>
+    <loc>http://localhost:1313/tags/privacy/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/privacy/</loc>
+    <loc>http://localhost:1313/categories/privacy/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/categories/privacy/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/docker/</loc>
+    <loc>http://localhost:1313/docs/networking/docker/docker-name-change/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/networking/docker/docker-name-change/</loc>
+    <loc>http://localhost:1313/tags/synology/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/synology/</loc>
+    <loc>http://localhost:1313/tags/nas/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/nas/</loc>
+    <loc>http://localhost:1313/series/networking/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/series/networking/</loc>
+    <loc>http://localhost:1313/tags/server/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/server/</loc>
+    <loc>http://localhost:1313/docs/synology/updating-to-dsm-7.2.1/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/</loc>
+    <loc>http://localhost:1313/tags/bluetooth/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/bluetooth/</loc>
+    <loc>http://localhost:1313/docs/linux/gaming/bluetooth-controller-slowing-downloads/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/</loc>
+    <loc>http://localhost:1313/tags/controllers/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/controllers/</loc>
+    <loc>http://localhost:1313/tags/gaming/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/gaming/</loc>
+    <loc>http://localhost:1313/tags/consoles/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/pc/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/consoles/</loc>
+    <loc>http://localhost:1313/blog/2024/01/why-are-people-buying-consoles/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/pc/</loc>
+    <loc>http://localhost:1313/tags/2fa/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/2024/01/why-are-people-buying-consoles/</loc>
+    <loc>http://localhost:1313/tags/mfa/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/2fa/</loc>
+    <loc>http://localhost:1313/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/mfa/</loc>
+    <loc>http://localhost:1313/blog/2024/01/do-you-really-need-a-/home-partition/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/</loc>
-    <lastmod>2024-04-23T22:18:02-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40219/blog/2024/01/do-you-really-need-a-/home-partition/</loc>
-    <lastmod>2024-04-23T22:18:02-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/</loc>
+    <loc>http://localhost:1313/blog/2024/01/i-broke-my-computer...twice/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/categories/linux/</loc>
+    <loc>http://localhost:1313/categories/linux/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/2024/01/first-blog/</loc>
+    <loc>http://localhost:1313/blog/2024/01/first-blog/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/news/2024/01/markdown-kinda-sucks/</loc>
+    <loc>http://localhost:1313/news/2024/01/markdown-kinda-sucks/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/news/2024/01/name-change-and-regenerating-gpg-keys/</loc>
+    <loc>http://localhost:1313/news/2024/01/name-change-and-regenerating-gpg-keys/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/news/2024/01/second-thoughts/</loc>
+    <loc>http://localhost:1313/news/2024/01/second-thoughts/</loc>
     <lastmod>2024-04-23T23:15:40-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</loc>
+    <loc>http://localhost:1313/docs/linux/misc/linux-x11-monitors-off/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/x11/</loc>
+    <loc>http://localhost:1313/tags/x11/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/team-fortress-2/</loc>
+    <loc>http://localhost:1313/tags/team-fortress-2/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/gaming/tf2/</loc>
+    <loc>http://localhost:1313/docs/linux/gaming/tf2/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/tf2/</loc>
+    <loc>http://localhost:1313/tags/tf2/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/apex-legends/</loc>
+    <loc>http://localhost:1313/tags/apex-legends/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/gaming/apex-legends/</loc>
+    <loc>http://localhost:1313/docs/linux/gaming/apex-legends/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/categories/gaming/</loc>
+    <loc>http://localhost:1313/categories/gaming/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/superflight/</loc>
+    <loc>http://localhost:1313/tags/superflight/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/gaming/superflight/</loc>
+    <loc>http://localhost:1313/docs/linux/gaming/superflight/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/news/2024/01/first-post/</loc>
+    <loc>http://localhost:1313/news/2024/01/first-post/</loc>
     <lastmod>2024-04-23T23:15:40-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/introduction/</loc>
+    <loc>http://localhost:1313/docs/introduction/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/archives/2022/</loc>
+    <loc>http://localhost:1313/archives/2022/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-04-23T23:15:40-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/albert-huynh/</loc>
+    <loc>http://localhost:1313/albert-huynh/</loc>
   </url><url>
-    <loc>http://localhost:40219/authors/albert-huynh/</loc>
+    <loc>http://localhost:1313/authors/albert-huynh/</loc>
     <lastmod>2024-04-23T23:15:40-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <lastmod>2024-04-23T23:15:40-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/networking/docker/</loc>
+    <loc>http://localhost:1313/docs/networking/docker/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/gaming/</loc>
+    <loc>http://localhost:1313/docs/linux/gaming/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/</loc>
+    <loc>http://localhost:1313/docs/linux/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/linux/misc/</loc>
+    <loc>http://localhost:1313/docs/linux/misc/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/networking/</loc>
+    <loc>http://localhost:1313/docs/networking/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/news/</loc>
+    <loc>http://localhost:1313/news/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/offline/</loc>
+    <loc>http://localhost:1313/offline/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/networking/openwrt/</loc>
+    <loc>http://localhost:1313/docs/networking/openwrt/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/docs/synology/</loc>
+    <loc>http://localhost:1313/docs/synology/</loc>
     <lastmod>2024-04-23T22:18:02-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:40219/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-23T18:06:21-07:00</lastmod>
   </url>
 </urlset>

@@ -2,29 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Dude</title>
-    <link>http://localhost:40219/</link>
+    <link>http://localhost:46799/</link>
     <description>Recent content on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 00:28:25 -0700</lastBuildDate><atom:link href="http://localhost:40219/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 16:36:28 -0700</lastBuildDate><atom:link href="http://localhost:46799/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Site Redirect</title>
+      <link>http://localhost:46799/docs/blog/blog-site-redirect/</link>
+      <pubDate>Sun, 28 Apr 2024 16:36:28 -0700</pubDate>
+      
+      <guid>http://localhost:46799/docs/blog/blog-site-redirect/</guid>
+      <description><![CDATA[This guide show you how to install on ___________.]]></description><enclosure url="http://localhost:46799/docs/blog/blog-site-redirect/featured.png" length="48244" type="image/png" />
+    </item>
+    
     <item>
       <title>Successful Migration!</title>
-      <link>http://localhost:40219/blog/2024/04/successful-migration/</link>
+      <link>http://localhost:46799/blog/2024/04/successful-migration/</link>
       <pubDate>Wed, 24 Apr 2024 00:28:25 -0700</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/04/successful-migration/</guid>
+      <guid>http://localhost:46799/blog/2024/04/successful-migration/</guid>
       <description><![CDATA[LFG boys, I successfully did it. Could&rsquo;ve gone a bit smoother but the result is as desired. Solid day of procrastinating from my classes if I do say so myself. Over the coming weeks, I&rsquo;ll probably upload my backlog of content that I&rsquo;ve written down ideas for.
-See you guys later.]]></description><enclosure url="http://localhost:40219/blog/2024/04/successful-migration/featured.png" length="137302" type="image/png" />
+See you guys later.]]></description><enclosure url="http://localhost:46799/blog/2024/04/successful-migration/featured.png" length="137302" type="image/png" />
     </item>
     
     <item>
       <title>LAST POST! Changing Blog Website Link</title>
-      <link>http://localhost:40219/blog/2024/04/last-post-changing-blog-website-link/</link>
+      <link>http://localhost:46799/blog/2024/04/last-post-changing-blog-website-link/</link>
       <pubDate>Tue, 23 Apr 2024 17:33:52 -0700</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/04/last-post-changing-blog-website-link/</guid>
+      <guid>http://localhost:46799/blog/2024/04/last-post-changing-blog-website-link/</guid>
       <description><![CDATA[This will be my last post on here, just letting all of you know that I will be moving the website to my new domain that I just purchased: https://blog.liluzibird.
 If you&rsquo;re reading this from the new site, yay, thank you. If there are any kinks with the new site, please let me know.
 I hope to see all of you over here!]]></description>
@@ -32,197 +41,197 @@ I hope to see all of you over here!]]></description>
     
     <item>
       <title>I Bought a New Router</title>
-      <link>http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/</link>
+      <link>http://localhost:46799/docs/networking/openwrt/i-bought-a-new-router/</link>
       <pubDate>Mon, 05 Feb 2024 22:32:05 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/</guid>
-      <description><![CDATA[Intro Over the past week I have been looking at the project OpenWrt and checking out which routers to buy. How could I do this without consulting the home networking subreddit. Though, those people said I would need to spend like $400 or something buying ubiquiti unifi WAP, build a small pc for the router, build a pc for a firewall, etc. The task is daunting and even though I would love to do all of that.]]></description><enclosure url="http://localhost:40219/docs/networking/openwrt/i-bought-a-new-router/featured.png" length="220370" type="image/png" />
+      <guid>http://localhost:46799/docs/networking/openwrt/i-bought-a-new-router/</guid>
+      <description><![CDATA[Intro Over the past week I have been looking at the project OpenWrt and checking out which routers to buy. How could I do this without consulting the home networking subreddit. Though, those people said I would need to spend like $400 or something buying ubiquiti unifi WAP, build a small pc for the router, build a pc for a firewall, etc. The task is daunting and even though I would love to do all of that.]]></description><enclosure url="http://localhost:46799/docs/networking/openwrt/i-bought-a-new-router/featured.png" length="220370" type="image/png" />
     </item>
     
     <item>
       <title>How to Erase Your Information Online</title>
-      <link>http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/</link>
+      <link>http://localhost:46799/blog/2024/02/how-to-erase-your-information-online/</link>
       <pubDate>Thu, 01 Feb 2024 13:17:33 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/</guid>
+      <guid>http://localhost:46799/blog/2024/02/how-to-erase-your-information-online/</guid>
       <description><![CDATA[Linus Torvalds Being Based
-How Do I Remove Sensitive Information Online? I made a post on Lemmy recently and received a lot of negative feedback for requesting on advice on how to remove my information or just straight up not use my physical home address and instead maybe a PO box. After all the feedback I got, I decided that this wouldn&rsquo;t be possible. Also, it might not even be the bank that leaked my information but my government.]]></description><enclosure url="http://localhost:40219/blog/2024/02/how-to-erase-your-information-online/featured.png" length="325211" type="image/png" />
+How Do I Remove Sensitive Information Online? I made a post on Lemmy recently and received a lot of negative feedback for requesting on advice on how to remove my information or just straight up not use my physical home address and instead maybe a PO box. After all the feedback I got, I decided that this wouldn&rsquo;t be possible. Also, it might not even be the bank that leaked my information but my government.]]></description><enclosure url="http://localhost:46799/blog/2024/02/how-to-erase-your-information-online/featured.png" length="325211" type="image/png" />
     </item>
     
     <item>
       <title>Docker Name Change</title>
-      <link>http://localhost:40219/docs/networking/docker/docker-name-change/</link>
+      <link>http://localhost:46799/docs/networking/docker/docker-name-change/</link>
       <pubDate>Wed, 24 Jan 2024 17:06:25 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/networking/docker/docker-name-change/</guid>
+      <guid>http://localhost:46799/docs/networking/docker/docker-name-change/</guid>
       <description><![CDATA[Updated Synology Version Over the past weekend I decided to update my Synology NAS server to a more up-to-date version. I wasn&rsquo;t busy that day and fortunately, none of the users were online so that gave me more time in case something goes wrong. The network was back up and running but during that time frame, I was freaking out so much.
-Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:40219/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
+Docker Name Changes As I was rebooting the server and attempted to access my Docker containers, I couldn&rsquo;t find Docker located anywhere in my files.]]></description><enclosure url="http://localhost:46799/docs/networking/docker/docker-name-change/featured.png" length="35411" type="image/png" />
     </item>
     
     <item>
       <title>Updating to DSM 7.2.1</title>
-      <link>http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/</link>
+      <link>http://localhost:46799/docs/synology/updating-to-dsm-7.2.1/</link>
       <pubDate>Wed, 24 Jan 2024 17:05:32 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/</guid>
-      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:40219/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
+      <guid>http://localhost:46799/docs/synology/updating-to-dsm-7.2.1/</guid>
+      <description><![CDATA[Preface So as stated in my last post about the Docker name change, that issue arose from me updating my server to DSM 7.2. Would you believe it if I told you that wasn&rsquo;t the only issue that I encountered? Along with that whole Docker name change, Synology Drive also messed up, and that included its dependencies like Synology Photos. I had to fix that ASAP as I had many users using those services.]]></description><enclosure url="http://localhost:46799/docs/synology/updating-to-dsm-7.2.1/featured.png" length="7591565" type="image/png" />
     </item>
     
     <item>
       <title>Bluetooth Controller Slowing Downloads</title>
-      <link>http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/</link>
+      <link>http://localhost:46799/docs/linux/gaming/bluetooth-controller-slowing-downloads/</link>
       <pubDate>Wed, 24 Jan 2024 16:17:57 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/</guid>
-      <description><![CDATA[Over the weekend, I was doing some gaming on my laptop with some newly purchased bluetooth controllers I just purchased. For some reason my download speeds were hovering around 1mbps to 10 mbps. First, I thought it was my VPN, I&rsquo;ve connected to various regions, and it wouldn&rsquo;t fix my issue. Second, I tested my DNS server, as that might cause issues, so I restarted my server, still, no dice. So then I checked if there was something wrong with the provider, I went to another computer that was hardwired into the router and it was getting the normal 400 mbps speeds, so that wasn&rsquo;t the issue.]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured.png" length="140385" type="image/png" />
+      <guid>http://localhost:46799/docs/linux/gaming/bluetooth-controller-slowing-downloads/</guid>
+      <description><![CDATA[Over the weekend, I was doing some gaming on my laptop with some newly purchased bluetooth controllers I just purchased. For some reason my download speeds were hovering around 1mbps to 10 mbps. First, I thought it was my VPN, I&rsquo;ve connected to various regions, and it wouldn&rsquo;t fix my issue. Second, I tested my DNS server, as that might cause issues, so I restarted my server, still, no dice. So then I checked if there was something wrong with the provider, I went to another computer that was hardwired into the router and it was getting the normal 400 mbps speeds, so that wasn&rsquo;t the issue.]]></description><enclosure url="http://localhost:46799/docs/linux/gaming/bluetooth-controller-slowing-downloads/featured.png" length="140385" type="image/png" />
     </item>
     
     <item>
       <title>Why Are People Buying Consoles?</title>
-      <link>http://localhost:40219/blog/2024/01/why-are-people-buying-consoles/</link>
+      <link>http://localhost:46799/blog/2024/01/why-are-people-buying-consoles/</link>
       <pubDate>Wed, 24 Jan 2024 14:25:39 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/01/why-are-people-buying-consoles/</guid>
+      <guid>http://localhost:46799/blog/2024/01/why-are-people-buying-consoles/</guid>
       <description><![CDATA[Credits to SGRAFO
-My Computing Journey So ever since I was a young child, in elementary, intermediate, high school, until now, in college, I&rsquo;ve always felt left out. It seemed to me that I was the only kid who didn&rsquo;t have an Xbox or a PlayStation. I only had access to a cheap PC my parents bought from Costco. So growing up, I pretty much only played BTD5 on Ninja Kiwi.]]></description><enclosure url="http://localhost:40219/blog/2024/01/why-are-people-buying-consoles/featured.png" length="1881174" type="image/png" />
+My Computing Journey So ever since I was a young child, in elementary, intermediate, high school, until now, in college, I&rsquo;ve always felt left out. It seemed to me that I was the only kid who didn&rsquo;t have an Xbox or a PlayStation. I only had access to a cheap PC my parents bought from Costco. So growing up, I pretty much only played BTD5 on Ninja Kiwi.]]></description><enclosure url="http://localhost:46799/blog/2024/01/why-are-people-buying-consoles/featured.png" length="1881174" type="image/png" />
     </item>
     
     <item>
       <title>Mfa and Why Our Most Sensitive Stuff Is the Least Secure</title>
-      <link>http://localhost:40219/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/</link>
+      <link>http://localhost:46799/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/</link>
       <pubDate>Tue, 23 Jan 2024 21:17:26 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/</guid>
+      <guid>http://localhost:46799/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/</guid>
       <description><![CDATA[Image stolen from https://cyberintro.net/what-is-sim-swapping-and-how-it-works/
-Gaming Services Are More Secure Than Financial Institutions I recently realized the terrible insecure state of our online accounts. Whenever somebody brings up something about bank security, I always have to bring up that my gaming accounts are actually probably safer than my life&rsquo;s savings. Steam, Itch, and Epic Games are all gaming accounts that I use frequently. What do they have in common? They all use 2FA.]]></description><enclosure url="http://localhost:40219/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/featured.png" length="192672" type="image/png" />
+Gaming Services Are More Secure Than Financial Institutions I recently realized the terrible insecure state of our online accounts. Whenever somebody brings up something about bank security, I always have to bring up that my gaming accounts are actually probably safer than my life&rsquo;s savings. Steam, Itch, and Epic Games are all gaming accounts that I use frequently. What do they have in common? They all use 2FA.]]></description><enclosure url="http://localhost:46799/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/featured.png" length="192672" type="image/png" />
     </item>
     
     <item>
       <title>Do You Really Need a /Home Partition?</title>
-      <link>http://localhost:40219/blog/2024/01/do-you-really-need-a-/home-partition/</link>
+      <link>http://localhost:46799/blog/2024/01/do-you-really-need-a-/home-partition/</link>
       <pubDate>Mon, 15 Jan 2024 14:02:37 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/01/do-you-really-need-a-/home-partition/</guid>
-      <description><![CDATA[So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last blog). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&rsquo;t enough space in usr/share for it to download anymore packages.]]></description><enclosure url="http://localhost:40219/blog/2024/01/do-you-really-need-a-/home-partition/featured.gif" length="3082050" type="image/gif" />
+      <guid>http://localhost:46799/blog/2024/01/do-you-really-need-a-/home-partition/</guid>
+      <description><![CDATA[So I use arch (btw), and I recently had to do a few reinstalls (wrote about in my last blog). This last fuck up was because I was trying to install some big files, but I partitioned it wrong. I trusted the archinstall script to basically do everything for me, and it separated the home partition. When it did that, there wasn&rsquo;t enough space in usr/share for it to download anymore packages.]]></description><enclosure url="http://localhost:46799/blog/2024/01/do-you-really-need-a-/home-partition/featured.gif" length="3082050" type="image/gif" />
     </item>
     
     <item>
       <title>I Broke My Computer...twice</title>
-      <link>http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/</link>
+      <link>http://localhost:46799/blog/2024/01/i-broke-my-computer...twice/</link>
       <pubDate>Sat, 13 Jan 2024 17:01:43 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/</guid>
+      <guid>http://localhost:46799/blog/2024/01/i-broke-my-computer...twice/</guid>
       <description><![CDATA[_image from IT Crowd S1E5
 I already messaged this to my friend already, so to keep myself from coming up with a new way to reformat those words, I&rsquo;ll just paste what I messaged them here.
-I don&rsquo;t have this blog listed on my resume or anything, so I feel like it would be kind of safe to curse on here. Albeit, if an employer is going through every repo and sees this they might be a little put off.]]></description><enclosure url="http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/featured.jpg" length="15156" type="image/jpeg" />
+I don&rsquo;t have this blog listed on my resume or anything, so I feel like it would be kind of safe to curse on here. Albeit, if an employer is going through every repo and sees this they might be a little put off.]]></description><enclosure url="http://localhost:46799/blog/2024/01/i-broke-my-computer...twice/featured.jpg" length="15156" type="image/jpeg" />
     </item>
     
     <item>
       <title>First Blog</title>
-      <link>http://localhost:40219/blog/2024/01/first-blog/</link>
+      <link>http://localhost:46799/blog/2024/01/first-blog/</link>
       <pubDate>Sat, 13 Jan 2024 16:42:42 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/01/first-blog/</guid>
+      <guid>http://localhost:46799/blog/2024/01/first-blog/</guid>
       <description><![CDATA[&quot;[Torc waterfall, co. Kerry, Ireland #photo #photography #iphone #iphone5s #iphoneography #ireland #landscape #travel #outdoor #nature #sky #clouds #lake(https://www.flickr.com/photos/87690240@N03/14133418959)]&quot; by Giuseppe Milo (www.pixael.com) is licensed under CC BY 2.0.
-I want to be able to visit my website under the /blog subdirectory and find some stuff here. So I&rsquo;m going to try to separate things; /docs for documentation and guides; leaving /blog for everything else, mostly me typing out what pops into my head and whatever I find interesting.]]></description><enclosure url="http://localhost:40219/blog/2024/01/first-blog/featured.jpg" length="388740" type="image/jpeg" />
+I want to be able to visit my website under the /blog subdirectory and find some stuff here. So I&rsquo;m going to try to separate things; /docs for documentation and guides; leaving /blog for everything else, mostly me typing out what pops into my head and whatever I find interesting.]]></description><enclosure url="http://localhost:46799/blog/2024/01/first-blog/featured.jpg" length="388740" type="image/jpeg" />
     </item>
     
     <item>
       <title>Markdown Kinda Sucks</title>
-      <link>http://localhost:40219/news/2024/01/markdown-kinda-sucks/</link>
+      <link>http://localhost:46799/news/2024/01/markdown-kinda-sucks/</link>
       <pubDate>Sun, 07 Jan 2024 16:32:37 -0800</pubDate>
       
-      <guid>http://localhost:40219/news/2024/01/markdown-kinda-sucks/</guid>
+      <guid>http://localhost:46799/news/2024/01/markdown-kinda-sucks/</guid>
       <description><![CDATA[Image stolen from Adam Michael Wood
-Basic font emphasis styles First of all, I think markdown is pretty good if you want to do basic stuff like italics, bold, strikeout, underli&ndash;. Oh what?? Markdown doesn&rsquo;t have a syntax for underline you say? Well what am I to do now. Oh maybe because markdown supports HTML5, I can use tags. What now? yOu cAN&rsquo;t dO thaT. This doesn&rsquo;t work either because this site can&rsquo;t do it for some inexplicable reason even though it&rsquo;s supposed to?]]></description><enclosure url="http://localhost:40219/news/2024/01/markdown-kinda-sucks/featured.png" length="688471" type="image/png" />
+Basic font emphasis styles First of all, I think markdown is pretty good if you want to do basic stuff like italics, bold, strikeout, underli&ndash;. Oh what?? Markdown doesn&rsquo;t have a syntax for underline you say? Well what am I to do now. Oh maybe because markdown supports HTML5, I can use tags. What now? yOu cAN&rsquo;t dO thaT. This doesn&rsquo;t work either because this site can&rsquo;t do it for some inexplicable reason even though it&rsquo;s supposed to?]]></description><enclosure url="http://localhost:46799/news/2024/01/markdown-kinda-sucks/featured.png" length="688471" type="image/png" />
     </item>
     
     <item>
       <title>Name Change and Regenerating GPG Keys</title>
-      <link>http://localhost:40219/news/2024/01/name-change-and-regenerating-gpg-keys/</link>
+      <link>http://localhost:46799/news/2024/01/name-change-and-regenerating-gpg-keys/</link>
       <pubDate>Sun, 07 Jan 2024 14:51:34 -0800</pubDate>
       
-      <guid>http://localhost:40219/news/2024/01/name-change-and-regenerating-gpg-keys/</guid>
+      <guid>http://localhost:46799/news/2024/01/name-change-and-regenerating-gpg-keys/</guid>
       <description><![CDATA[https://www.tenor.co/view/this-is-fine-gif-5263684
-I wonder how to give credit to the creator of this gif but the guy probably stole it from some other person, who stole it from some other person, and so on. Idk, you guys can check know your meme or something. Man this markdown thing is so janky. Why is it bold? I don&rsquo;t want it to be bold. How the heck do I put a caption underneath this gif?]]></description><enclosure url="http://localhost:40219/news/2024/01/name-change-and-regenerating-gpg-keys/featured.gif" length="1925183" type="image/gif" />
+I wonder how to give credit to the creator of this gif but the guy probably stole it from some other person, who stole it from some other person, and so on. Idk, you guys can check know your meme or something. Man this markdown thing is so janky. Why is it bold? I don&rsquo;t want it to be bold. How the heck do I put a caption underneath this gif?]]></description><enclosure url="http://localhost:46799/news/2024/01/name-change-and-regenerating-gpg-keys/featured.gif" length="1925183" type="image/gif" />
     </item>
     
     <item>
       <title>Second Thoughts?</title>
-      <link>http://localhost:40219/news/2024/01/second-thoughts/</link>
+      <link>http://localhost:46799/news/2024/01/second-thoughts/</link>
       <pubDate>Fri, 05 Jan 2024 20:20:08 -0800</pubDate>
       
-      <guid>http://localhost:40219/news/2024/01/second-thoughts/</guid>
+      <guid>http://localhost:46799/news/2024/01/second-thoughts/</guid>
       <description><![CDATA[&quot;Mirror Pond [Explore]&quot; by mclcbooks is licensed under CC BY-NC-ND 2.0.
-Would I be better off on a microblog site like Mastadon? This blog site is a bit more complicated than I thought. I mean some of you guys out there have probably made a website before, it&rsquo;s a bit&hellip;messy. Y&rsquo;all think it&rsquo;s easy to make all these sections? Bro, I spent the whole day figuring out how to properly make sections and nice little dropdown sidebar stuff for my docs.]]></description><enclosure url="http://localhost:40219/news/2024/01/second-thoughts/featured.png" length="1176614" type="image/png" />
+Would I be better off on a microblog site like Mastadon? This blog site is a bit more complicated than I thought. I mean some of you guys out there have probably made a website before, it&rsquo;s a bit&hellip;messy. Y&rsquo;all think it&rsquo;s easy to make all these sections? Bro, I spent the whole day figuring out how to properly make sections and nice little dropdown sidebar stuff for my docs.]]></description><enclosure url="http://localhost:46799/news/2024/01/second-thoughts/featured.png" length="1176614" type="image/png" />
     </item>
     
     <item>
       <title>Linux X11 Monitors Off</title>
-      <link>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</link>
+      <link>http://localhost:46799/docs/linux/misc/linux-x11-monitors-off/</link>
       <pubDate>Fri, 05 Jan 2024 18:31:01 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</guid>
+      <guid>http://localhost:46799/docs/linux/misc/linux-x11-monitors-off/</guid>
       <description><![CDATA[Image stolen from https://www.x.org
 For some reason turning on your monitors in Linux is a bit funky, so you might need to type a few commands in the terminal for monitors to power off. I believe this method only works on x11.
 To Turn Off:
 xset -display :0.0 dpms force off
 To Turn On:
 xset -display :0.0 dpms force on
-If your display turns off and then immediately back on then try the following which adds a delay of 1 second before turning the screen off.]]></description><enclosure url="http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/featured.png" length="9860" type="image/png" />
+If your display turns off and then immediately back on then try the following which adds a delay of 1 second before turning the screen off.]]></description><enclosure url="http://localhost:46799/docs/linux/misc/linux-x11-monitors-off/featured.png" length="9860" type="image/png" />
     </item>
     
     <item>
       <title>Team Fortress 2</title>
-      <link>http://localhost:40219/docs/linux/gaming/tf2/</link>
+      <link>http://localhost:46799/docs/linux/gaming/tf2/</link>
       <pubDate>Fri, 05 Jan 2024 18:23:25 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/linux/gaming/tf2/</guid>
+      <guid>http://localhost:46799/docs/linux/gaming/tf2/</guid>
       <description><![CDATA[Stolen from https://store.steampowered.com/app/440/Team_Fortress_2/
 Pretty OG game if I do say myself. Still can&rsquo;t access the chat for some reason, I think somebody said online that I gotta buy something from the store, so I might do that.
 Anyway, first you have to install lib32-gperftools
 Run this line in launch options:
-LD_PRELOAD=$LD_PRELOAD:/usr/lib32/libtcmalloc_minimal.so %command% -secure ]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/tf2/featured.png" length="372558" type="image/png" />
+LD_PRELOAD=$LD_PRELOAD:/usr/lib32/libtcmalloc_minimal.so %command% -secure ]]></description><enclosure url="http://localhost:46799/docs/linux/gaming/tf2/featured.png" length="372558" type="image/png" />
     </item>
     
     <item>
       <title>Apex Legends</title>
-      <link>http://localhost:40219/docs/linux/gaming/apex-legends/</link>
+      <link>http://localhost:46799/docs/linux/gaming/apex-legends/</link>
       <pubDate>Fri, 05 Jan 2024 16:59:46 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/linux/gaming/apex-legends/</guid>
+      <guid>http://localhost:46799/docs/linux/gaming/apex-legends/</guid>
       <description><![CDATA[Image stolen from https://store.steampowered.com/app/1172470/Apex_Legends/
 So over my winter break I&rsquo;ve been doing a little gaming here and there. One day, my friends invited me to play Apex Legends. So I decided to hop check out protondb and give it a try. Much to my luck Apex Legends actually works (with a few tweaks).
-Pretty much, all you have to do is run this line through the Steam launcher&rsquo;s launch options:]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/apex-legends/featured.png" length="486996" type="image/png" />
+Pretty much, all you have to do is run this line through the Steam launcher&rsquo;s launch options:]]></description><enclosure url="http://localhost:46799/docs/linux/gaming/apex-legends/featured.png" length="486996" type="image/png" />
     </item>
     
     <item>
       <title>Superflight</title>
-      <link>http://localhost:40219/docs/linux/gaming/superflight/</link>
+      <link>http://localhost:46799/docs/linux/gaming/superflight/</link>
       <pubDate>Fri, 05 Jan 2024 16:59:46 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/linux/gaming/superflight/</guid>
+      <guid>http://localhost:46799/docs/linux/gaming/superflight/</guid>
       <description><![CDATA[Image stolen from https://store.steampowered.com/app/732430/Superflight/
 Cool game introduced to me by my friend Nate. The game lags a bit but is overall pretty playable on Linux.
 Run this launch option:
-PROTON_USE_WINED3D=1 %command% ]]></description><enclosure url="http://localhost:40219/docs/linux/gaming/superflight/featured.png" length="222692" type="image/png" />
+PROTON_USE_WINED3D=1 %command% ]]></description><enclosure url="http://localhost:46799/docs/linux/gaming/superflight/featured.png" length="222692" type="image/png" />
     </item>
     
     <item>
       <title>First Post</title>
-      <link>http://localhost:40219/news/2024/01/first-post/</link>
+      <link>http://localhost:46799/news/2024/01/first-post/</link>
       <pubDate>Wed, 03 Jan 2024 16:50:23 -0800</pubDate>
       
-      <guid>http://localhost:40219/news/2024/01/first-post/</guid>
-      <description><![CDATA[Introduction This is my first post of my new blog website, Blog Dude (shoutout to whoever knows which game I&rsquo;m referring to). I couldn&rsquo;t have done it without the help of Razon Yang, the wonderful developer of the Hugo Bootstrap theme. He has helped me out a ton with this blog site (I&rsquo;ll be sure to clear the cache before I call you up). Well&hellip; I already took a week to figure out more git commands (I will never fully master all these confusing instructions), reading both Hugo docs and Razon&rsquo;s docs and trying to get GitHub pages to update my changes.]]></description><enclosure url="http://localhost:40219/news/2024/01/first-post/featured-sample.webp" length="498412" type="image/webp" />
+      <guid>http://localhost:46799/news/2024/01/first-post/</guid>
+      <description><![CDATA[Introduction This is my first post of my new blog website, Blog Dude (shoutout to whoever knows which game I&rsquo;m referring to). I couldn&rsquo;t have done it without the help of Razon Yang, the wonderful developer of the Hugo Bootstrap theme. He has helped me out a ton with this blog site (I&rsquo;ll be sure to clear the cache before I call you up). Well&hellip; I already took a week to figure out more git commands (I will never fully master all these confusing instructions), reading both Hugo docs and Razon&rsquo;s docs and trying to get GitHub pages to update my changes.]]></description><enclosure url="http://localhost:46799/news/2024/01/first-post/featured-sample.webp" length="498412" type="image/webp" />
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>http://localhost:40219/docs/introduction/</link>
+      <link>http://localhost:46799/docs/introduction/</link>
       <pubDate>Tue, 03 Jan 2023 23:42:25 +0800</pubDate>
       
-      <guid>http://localhost:40219/docs/introduction/</guid>
+      <guid>http://localhost:46799/docs/introduction/</guid>
       <description><![CDATA[Docs for whatever I&rsquo;m doing.]]></description>
     </item>
     

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Blog Dude</title>
-    <link>http://localhost:40219/categories/linux/</link>
+    <link>http://localhost:1313/categories/linux/</link>
     <description>Recent content in Linux on Blog Dude</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Sat, 13 Jan 2024 17:01:43 -0800</lastBuildDate><atom:link href="http://localhost:40219/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jan 2024 17:01:43 -0800</lastBuildDate><atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Broke My Computer...twice</title>
-      <link>http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/</link>
+      <link>http://localhost:1313/blog/2024/01/i-broke-my-computer...twice/</link>
       <pubDate>Sat, 13 Jan 2024 17:01:43 -0800</pubDate>
       
-      <guid>http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/</guid>
+      <guid>http://localhost:1313/blog/2024/01/i-broke-my-computer...twice/</guid>
       <description><![CDATA[_image from IT Crowd S1E5
 I already messaged this to my friend already, so to keep myself from coming up with a new way to reformat those words, I&rsquo;ll just paste what I messaged them here.
-I don&rsquo;t have this blog listed on my resume or anything, so I feel like it would be kind of safe to curse on here. Albeit, if an employer is going through every repo and sees this they might be a little put off.]]></description><enclosure url="http://localhost:40219/blog/2024/01/i-broke-my-computer...twice/featured.jpg" length="15156" type="image/jpeg" />
+I don&rsquo;t have this blog listed on my resume or anything, so I feel like it would be kind of safe to curse on here. Albeit, if an employer is going through every repo and sees this they might be a little put off.]]></description><enclosure url="http://localhost:1313/blog/2024/01/i-broke-my-computer...twice/featured.jpg" length="15156" type="image/jpeg" />
     </item>
     
     <item>
       <title>Linux X11 Monitors Off</title>
-      <link>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</link>
+      <link>http://localhost:1313/docs/linux/misc/linux-x11-monitors-off/</link>
       <pubDate>Fri, 05 Jan 2024 18:31:01 -0800</pubDate>
       
-      <guid>http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/</guid>
+      <guid>http://localhost:1313/docs/linux/misc/linux-x11-monitors-off/</guid>
       <description><![CDATA[Image stolen from https://www.x.org
 For some reason turning on your monitors in Linux is a bit funky, so you might need to type a few commands in the terminal for monitors to power off. I believe this method only works on x11.
 To Turn Off:
 xset -display :0.0 dpms force off
 To Turn On:
 xset -display :0.0 dpms force on
-If your display turns off and then immediately back on then try the following which adds a delay of 1 second before turning the screen off.]]></description><enclosure url="http://localhost:40219/docs/linux/misc/linux-x11-monitors-off/featured.png" length="9860" type="image/png" />
+If your display turns off and then immediately back on then try the following which adds a delay of 1 second before turning the screen off.]]></description><enclosure url="http://localhost:1313/docs/linux/misc/linux-x11-monitors-off/featured.png" length="9860" type="image/png" />
     </item>
     
   </channel>
