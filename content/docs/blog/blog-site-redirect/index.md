@@ -18,7 +18,7 @@ So over the course of this week, I didn't want to do my math homework, so I boug
 
 One of the main struggles of the migration was figuring out how I wanted to have my website structured. I was in between having it as blog.liluzibird.dev or liluzibird.dev/blog, so I ended up deciding on liluzibird.dev/blog. Now, as I am typing it, I realize that it should've stayed as blog.liluzibird.dev...I think I'm gonna change it again.
 
-Well...anyways, I did it and here are the steps. Very straightforward though if you just follow porkbun's guide. Porkbun is where I bought my domain and I highly recommend it as well. They are cheap and very helpful.
+Well...anyway, I did it and here are the steps. Very straightforward though if you just follow porkbun's guide. Porkbun is where I bought my domain and I highly recommend it as well. They are cheap and very helpful.
 
 
 https://kb.porkbun.com/article/39-how-to-set-up-url-forwarding
