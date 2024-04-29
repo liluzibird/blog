@@ -4,8 +4,6 @@ Disallow: /tags/blog/
 
 Disallow: /categories/blog/
 
-Disallow: /docs/blog/
-
 Disallow: /
 
 Disallow: /docs/blog/blog-site-redirect/
@@ -123,6 +121,8 @@ Disallow: /archives/
 Disallow: /authors/
 
 Disallow: /blog/
+
+Disallow: /docs/blog/
 
 Disallow: /categories/
 

@@ -1,6 +1,6 @@
 (() => {
   // ns-params:@params
-  var params_default = { fallback: "http://localhost:46799/", homes: { en: "http://localhost:46799/" } };
+  var params_default = { fallback: "http://localhost:1313/", homes: { en: "http://localhost:1313/" } };
 
   // <stdin>
   (() => {
