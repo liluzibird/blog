@@ -1,148 +1,160 @@
 User-agent: GPTBot
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
+Disallow: /tags/blog/
 
-Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
+Disallow: /categories/blog/
 
-Disallow: /hugo-theme-bootstrap-skeleton/
+Disallow: /
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/blog/blog-site-redirect/
+Disallow: /blog/2024/05/swapping-reposagain/
 
-Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
+Disallow: /docs/blog/blog-site-redirect/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/redirect/
+Disallow: /series/docs/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/website/
+Disallow: /tags/redirect/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/04/successful-migration/
+Disallow: /tags/website/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/04/last-post-changing-blog-website-link/
+Disallow: /blog/2024/04/successful-migration/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/openwrt/i-bought-a-new-router/
+Disallow: /blog/2024/04/last-post-changing-blog-website-link/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/networking/
+Disallow: /docs/networking/openwrt/i-bought-a-new-router/
 
-Disallow: /hugo-theme-bootstrap-skeleton/categories/networking/
+Disallow: /tags/networking/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/openwrt/
+Disallow: /categories/networking/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/router/
+Disallow: /tags/openwrt/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/02/how-to-erase-your-information-online/
+Disallow: /tags/router/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/privacy/
+Disallow: /blog/2024/02/how-to-erase-your-information-online/
 
-Disallow: /hugo-theme-bootstrap-skeleton/categories/privacy/
+Disallow: /tags/privacy/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/docker/
+Disallow: /categories/privacy/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/docker/docker-name-change/
+Disallow: /tags/docker/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/synology/
+Disallow: /docs/networking/docker/docker-name-change/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/nas/
+Disallow: /tags/synology/
 
-Disallow: /hugo-theme-bootstrap-skeleton/series/networking/
+Disallow: /tags/nas/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/server/
+Disallow: /series/networking/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/synology/updating-to-dsm-7.2.1/
+Disallow: /tags/server/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/bluetooth/
+Disallow: /docs/synology/updating-to-dsm-7.2.1/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/bluetooth-controller-slowing-downloads/
+Disallow: /tags/bluetooth/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/controllers/
+Disallow: /docs/linux/gaming/bluetooth-controller-slowing-downloads/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
+Disallow: /tags/controllers/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/consoles/
+Disallow: /tags/gaming/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/pc/
+Disallow: /tags/consoles/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/why-are-people-buying-consoles/
+Disallow: /tags/pc/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/2fa/
+Disallow: /blog/2024/01/why-are-people-buying-consoles/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/mfa/
+Disallow: /tags/2fa/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/
+Disallow: /tags/mfa/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/do-you-really-need-a-/home-partition/
+Disallow: /blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/i-broke-my-computer...twice/
+Disallow: /blog/2024/01/do-you-really-need-a-/home-partition/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/linux/
+Disallow: /blog/2024/01/i-broke-my-computer...twice/
 
-Disallow: /hugo-theme-bootstrap-skeleton/categories/linux/
+Disallow: /tags/linux/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/01/first-blog/
+Disallow: /categories/linux/
 
-Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/markdown-kinda-sucks/
+Disallow: /blog/2024/01/first-blog/
 
-Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/name-change-and-regenerating-gpg-keys/
+Disallow: /news/2024/01/markdown-kinda-sucks/
 
-Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/second-thoughts/
+Disallow: /news/2024/01/name-change-and-regenerating-gpg-keys/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/linux-x11-monitors-off/
+Disallow: /news/2024/01/second-thoughts/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/x11/
+Disallow: /docs/linux/misc/linux-x11-monitors-off/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/tf2/
+Disallow: /tags/x11/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/apex-legends/
+Disallow: /tags/team-fortress-2/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/superflight/
+Disallow: /docs/linux/gaming/tf2/
 
-Disallow: /hugo-theme-bootstrap-skeleton/news/2024/01/first-post/
+Disallow: /tags/tf2/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/introduction/
+Disallow: /tags/apex-legends/
 
-Disallow: /hugo-theme-bootstrap-skeleton/archives/2022/
+Disallow: /docs/linux/gaming/apex-legends/
 
-Disallow: /hugo-theme-bootstrap-skeleton/about/
+Disallow: /categories/gaming/
 
-Disallow: /hugo-theme-bootstrap-skeleton/albert-huynh/
+Disallow: /tags/superflight/
 
-Disallow: /hugo-theme-bootstrap-skeleton/authors/albert-huynh/
+Disallow: /docs/linux/gaming/superflight/
 
-Disallow: /hugo-theme-bootstrap-skeleton/archives/
+Disallow: /news/2024/01/first-post/
 
-Disallow: /hugo-theme-bootstrap-skeleton/authors/
+Disallow: /docs/introduction/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/
+Disallow: /archives/2022/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/blog/
+Disallow: /about/
 
-Disallow: /hugo-theme-bootstrap-skeleton/categories/
+Disallow: /albert-huynh/
 
-Disallow: /hugo-theme-bootstrap-skeleton/contact/
+Disallow: /authors/albert-huynh/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/docker/
+Disallow: /archives/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/
+Disallow: /authors/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/
+Disallow: /blog/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/
+Disallow: /docs/blog/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/misc/
+Disallow: /categories/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/
+Disallow: /contact/
 
-Disallow: /hugo-theme-bootstrap-skeleton/news/
+Disallow: /docs/networking/docker/
 
-Disallow: /hugo-theme-bootstrap-skeleton/offline/
+Disallow: /docs/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/openwrt/
+Disallow: /docs/linux/gaming/
 
-Disallow: /hugo-theme-bootstrap-skeleton/search/
+Disallow: /docs/linux/
 
-Disallow: /hugo-theme-bootstrap-skeleton/series/
+Disallow: /docs/linux/misc/
 
-Disallow: /hugo-theme-bootstrap-skeleton/docs/synology/
+Disallow: /docs/networking/
 
-Disallow: /hugo-theme-bootstrap-skeleton/tags/
+Disallow: /news/
+
+Disallow: /offline/
+
+Disallow: /docs/networking/openwrt/
+
+Disallow: /search/
+
+Disallow: /series/
+
+Disallow: /docs/synology/
+
+Disallow: /tags/
 
 Disallow: /
 
