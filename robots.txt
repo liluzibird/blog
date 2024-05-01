@@ -1,12 +1,22 @@
 User-agent: GPTBot
 
+Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
+
 Disallow: /hugo-theme-bootstrap-skeleton/categories/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/
 
-Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/04/last-post-changing-blog-website-link/
+Disallow: /hugo-theme-bootstrap-skeleton/docs/blog/blog-site-redirect/
 
 Disallow: /hugo-theme-bootstrap-skeleton/series/docs/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/redirect/
+
+Disallow: /hugo-theme-bootstrap-skeleton/tags/website/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/04/successful-migration/
+
+Disallow: /hugo-theme-bootstrap-skeleton/blog/2024/04/last-post-changing-blog-website-link/
 
 Disallow: /hugo-theme-bootstrap-skeleton/docs/networking/openwrt/i-bought-a-new-router/
 
@@ -45,8 +55,6 @@ Disallow: /hugo-theme-bootstrap-skeleton/docs/linux/gaming/bluetooth-controller-
 Disallow: /hugo-theme-bootstrap-skeleton/tags/controllers/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/gaming/
-
-Disallow: /hugo-theme-bootstrap-skeleton/tags/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/tags/consoles/
 
@@ -103,6 +111,8 @@ Disallow: /hugo-theme-bootstrap-skeleton/archives/
 Disallow: /hugo-theme-bootstrap-skeleton/authors/
 
 Disallow: /hugo-theme-bootstrap-skeleton/blog/
+
+Disallow: /hugo-theme-bootstrap-skeleton/docs/blog/
 
 Disallow: /hugo-theme-bootstrap-skeleton/categories/
 
