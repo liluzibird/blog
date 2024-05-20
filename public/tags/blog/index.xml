@@ -8,7 +8,16 @@
     <language>en</language>
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Sun, 28 Apr 2024 16:36:28 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 12:09:14 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swapping Repos(again)</title>
+      <link>http://localhost:1313/blog/2024/05/swapping-reposagain/</link>
+      <pubDate>Wed, 01 May 2024 12:09:14 -0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/2024/05/swapping-reposagain/</guid>
+      <description><![CDATA[I know, I know guys, I&rsquo;m sorry. So I don&rsquo;t know how many of you follow the progress on my github, but essentially, I&rsquo;ve been moving back and forth since I got this new domain (liluzibird.dev). Originally I had my blog site at my repo /liluzibird.github.io, then, I got my blog so I renamed /liluzibird.github.io to /old-blog-site and cloned it to have the new site at /blog. Now that I have my portfolio website at /liluzibird.]]></description><enclosure url="http://localhost:1313/blog/2024/05/swapping-reposagain/featured.png" length="762793" type="image/png" />
+    </item>
+    
     <item>
       <title>Blog Site Redirect</title>
       <link>http://localhost:1313/docs/blog/blog-site-redirect/</link>

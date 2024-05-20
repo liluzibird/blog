@@ -9,13 +9,22 @@
     <copyright>Copyright © 2023-2024 Albert Huynh. All Rights Reserved.
 </copyright><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Swapping Repos(again)</title>
+      <link>http://localhost:1313/blog/2024/05/swapping-reposagain/</link>
+      <pubDate>Wed, 01 May 2024 12:09:14 -0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/2024/05/swapping-reposagain/</guid>
+      <description><![CDATA[I know, I know guys, I&rsquo;m sorry. So I don&rsquo;t know how many of you follow the progress on my github, but essentially, I&rsquo;ve been moving back and forth since I got this new domain (liluzibird.dev). Originally I had my blog site at my repo /liluzibird.github.io, then, I got my blog so I renamed /liluzibird.github.io to /old-blog-site and cloned it to have the new site at /blog. Now that I have my portfolio website at /liluzibird.]]></description><enclosure url="http://localhost:1313/blog/2024/05/swapping-reposagain/featured.png" length="762793" type="image/png" />
+    </item>
+    
+    <item>
       <title>Successful Migration!</title>
       <link>http://localhost:1313/blog/2024/04/successful-migration/</link>
       <pubDate>Wed, 24 Apr 2024 00:28:25 -0700</pubDate>
       
       <guid>http://localhost:1313/blog/2024/04/successful-migration/</guid>
       <description><![CDATA[LFG boys, I successfully did it. Could&rsquo;ve gone a bit smoother but the result is as desired. Solid day of procrastinating from my classes if I do say so myself. Over the coming weeks, I&rsquo;ll probably upload my backlog of content that I&rsquo;ve written down ideas for.
-See you guys later.]]></description><enclosure url="http://localhost:1313/blog/2024/04/successful-migration/featured.png" length="137302" type="image/png" />
+See you guys later.]]></description><enclosure url="http://localhost:1313/blog/2024/04/successful-migration/featured.gif" length="232246" type="image/gif" />
     </item>
     
     <item>
