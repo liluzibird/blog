@@ -41,4 +41,8 @@ Some reasons being
 1. Hugo isn't really that critical to rollback anyway
 2. Even if Hugo was that critical, this is hosted on Github Pages and IDGAF if there was a vulnerability cause then that'd just be Microsoft's problem.
 
+
+Edit: Fucking hell, after I uploaded this, Github changed some weird things with upload-artifact so had to replace some things from the website. After I did that, fucking Hugo build wouldn't work because they still wanted me to update the paginate to pagination? I don't know man, but everything is working again after a couple rebuilds.
+
+
 So TLDR; expect more blogs cause I finally fixed my shit.
