@@ -6,6 +6,18 @@ Disallow: /categories/blog/
 
 Disallow: /
 
+Disallow: /tags/github/
+
+Disallow: /blog/2025/08/im-back-bitches/
+
+Disallow: /categories/linux/
+
+Disallow: /tags/linux/
+
+Disallow: /tags/sitedev/
+
+Disallow: /categories/sitedev/
+
 Disallow: /blog/2024/05/swapping-reposagain/
 
 Disallow: /docs/blog/blog-site-redirect/
@@ -73,10 +85,6 @@ Disallow: /blog/2024/01/mfa-and-why-our-most-sensitive-stuff-is-the-least-secure
 Disallow: /blog/2024/01/do-you-really-need-a-/home-partition/
 
 Disallow: /blog/2024/01/i-broke-my-computer...twice/
-
-Disallow: /tags/linux/
-
-Disallow: /categories/linux/
 
 Disallow: /blog/2024/01/first-blog/
 
