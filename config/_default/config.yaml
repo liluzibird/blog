@@ -11,8 +11,10 @@ disableLanguages:
   - zh-tw
   - zh-hans
   - es
-paginate: 10
-# paginatePath: page
+#paginate: 10
+# paginatePath: 
+pagination:
+  pagerSize: 10
 enableRobotsTXT: true
 enableEmoji: true
 pygmentsUseClasses: true
