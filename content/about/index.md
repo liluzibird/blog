@@ -38,7 +38,7 @@ The website's [code](https://github.com/liluzibird/blog) is written under the MI
 >
 >Copyright (c) 2022 Razon Yang
 >
->Copyright (c) 2024 Albert Huynh
+>Copyright (c) 2025 Albert Huynh
 >
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
