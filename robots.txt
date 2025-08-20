@@ -1,10 +1,20 @@
 User-agent: GPTBot
 
+Disallow: /
+
+Disallow: /tags/journal/
+
+Disallow: /series/journal/
+
+Disallow: /categories/journal/
+
+Disallow: /tags/random/
+
+Disallow: /blog/2025/08/random-thoughts/
+
 Disallow: /tags/blog/
 
 Disallow: /categories/blog/
-
-Disallow: /
 
 Disallow: /tags/github/
 
