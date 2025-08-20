@@ -26,25 +26,25 @@ TLDR; expect more blogs cause I finally fixed my shit.
 
 Alright people, your boy is back.
 
-Now you might be thinking to yourself a sleugh of things:
+Now you might be thinking to yourself a slew of things:
 - Damn I thought this blog was dead
-- I was waiting for his domain to expire so I can steal it.
+- I was waiting for his domain to expire, so I can steal it.
 - I thought this guy was dead
 
-But I can safely say that this blog will still going on and will be more consistent.
+But I can safely say that this blog will still be going on and will be more consistent.
 
 You might be wondering why it took me so long to upload stuff and that's partially to do with work and school, but more to do with me struggling to figure out how to get the blog back up and running again with all the new Hugo updates and changes.
 
-Some of you nerds might have noticed that I have not made any changes whatsoever to comply with the new Hugo updates. How astute of you? This is because I have not done any changes. Literally today, I decided I should kick this blog up and running again and decided to rollback my Hugo version instead of rolling forward my site to comply with Hugo.
+Some of you nerds might have noticed that I have not made any changes whatsoever to comply with the new Hugo updates. How astute of you? This is because I have not done any changes. Literally today, I decided I should kick this blog up and running again and decided to roll back my Hugo version instead of rolling forward my site to comply with Hugo.
 
 Some reasons being
 1. Hugo isn't really that critical to rollback anyway
-2. Even if Hugo was that critical, this is hosted on Github Pages and IDGAF if there was a vulnerability cause then that'd just be Microsoft's problem.
+2. Even if Hugo was that critical, this is hosted on GitHub Pages and IDGAF if there was a vulnerability cause then that'd just be Microsoft's problem.
 
 
-Edit: Fucking hell, after I uploaded this, Github changed some weird things with upload-artifact so had to replace some things from the website. After I did that, fucking Hugo build wouldn't work because they still wanted me to update the paginate to pagination? I don't know man, but everything is working again after a couple rebuilds.
+Edit: Fucking hell, after I uploaded this, GitHub changed some weird things with upload-artifact so had to replace some things from the website. After I did that, fucking Hugo build wouldn't work because they still wanted me to update to paginate to pagination? I don't know man, but everything is working again after a couple rebuilds.
 
-Edit2: Had to once again specify the hugo version again...
+Edit2: Had to once again specify the Hugo version again...
 
 
 So TLDR; expect more blogs cause I finally fixed my shit.
