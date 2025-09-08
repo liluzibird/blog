@@ -4,9 +4,17 @@ Disallow: /notes/cs-2610/2025-09-08/
 
 Disallow: /
 
+Disallow: /tags/cs-2610/
+
+Disallow: /tags/notes/
+
 Disallow: /notes/cs-3560/2025-09-08/
 
 Disallow: /notes/cs-2610/2025-09-05/
+
+Disallow: /categories/cs-2610/
+
+Disallow: /categories/notes/
 
 Disallow: /notes/test/2025-09-05/
 
@@ -18,9 +26,9 @@ Disallow: /categories/test/
 
 Disallow: /notes/cs-3560/2025-09-05/
 
-Disallow: /notes/cs-3560/2025-09-03/
+Disallow: /tags/cs-3560/
 
-Disallow: /tags/notes/
+Disallow: /notes/cs-3560/2025-09-03/
 
 Disallow: /blog/2025/09/starting-to-write-notes/
 
