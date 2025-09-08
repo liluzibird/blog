@@ -17,7 +17,9 @@ images: []
 
 What's a network? And other fucking drivel
 
+
 <!--more-->
+---
 
 In today's class, of computer security for noobs, we have a professor teaching us important things such as servers, routers, clients, etc
 
@@ -41,4 +43,5 @@ Types of network
 The last part of the class professor drew all the computers and IoT devices that are connected to the home network and how it connects to the ISP.
 
 So very wise of the professor.
+
 
