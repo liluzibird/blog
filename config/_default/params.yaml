@@ -3,6 +3,7 @@ mainSections:
   - posts
   - news
   - docs
+  - notes
 
 # titleSeparator: '|' # Title separator. Default to -.
 
