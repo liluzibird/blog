@@ -12,7 +12,7 @@ carousel: false
 series: 
 - test
 categories: [test]
-tags: [test]
+tags: [test, notes]
 images: []
 ---
 
