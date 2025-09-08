@@ -21,5 +21,7 @@ What's a network? And other fucking drivel
 
 In today's class, of computer security for noobs, we have a professor teaching us important things such as servers, routers, clients, etc
 
-Professor cleverly got us to describe what people see on Google's and Bing's homepage.
+Professor cleverly got us to describe what people see on Google's and Bing's homepage. Then, she told us that without a doubt, people like and use Google more.
+
+
 
