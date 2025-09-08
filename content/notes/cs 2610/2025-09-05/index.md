@@ -10,7 +10,7 @@ reward: true
 pinned: false
 carousel: false
 series:
-categories: []
+categories: [notes, cs 2610]
 tags: []
 images: []
 ---
