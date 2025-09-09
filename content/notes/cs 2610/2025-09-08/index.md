@@ -40,7 +40,7 @@ Types of network
     - Lots of small networks connected to larger network
 
 
-The last part of the class professor drew all the computers and IoT devices that are connected to the home network and how it connects to the ISP.
+The last part of the class professor drew all the computers and IoT devices that are connected to the home network and how it connects to the ISP (Utilizing, switches, APs, WAPs, and modems ofc).
 
 So very wise of the professor.
 
