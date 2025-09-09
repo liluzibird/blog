@@ -1,12 +1,16 @@
 User-agent: GPTBot
 
-Disallow: /notes/cs-2610/2025-09-08/
+Disallow: /notes/cs-3800/2025-09-09/
 
 Disallow: /
 
-Disallow: /tags/cs-2610/
+Disallow: /tags/cs-3800/
 
 Disallow: /tags/notes/
+
+Disallow: /notes/cs-2610/2025-09-08/
+
+Disallow: /tags/cs-2610/
 
 Disallow: /notes/cs-3560/2025-09-08/
 
@@ -177,6 +181,8 @@ Disallow: /docs/blog/
 Disallow: /categories/
 
 Disallow: /contact/
+
+Disallow: /notes/cs-3800/
 
 Disallow: /notes/cs-2610/
 
