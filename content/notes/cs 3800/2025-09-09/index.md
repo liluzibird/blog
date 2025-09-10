@@ -31,7 +31,7 @@ Clients:
 
 
 
-OSI Layer
+**OSI Layer**
 {{< mermaid >}}
 flowchart TD
     A(["Application
@@ -82,4 +82,5 @@ flowchart TD
 **Web caches/cookies**:
 - Useful for storing your login information and work
 - Very useful for advertisers
+
 
