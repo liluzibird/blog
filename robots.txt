@@ -1,12 +1,18 @@
 User-agent: GPTBot
 
-Disallow: /notes/cs-3800/2025-09-09/
+Disallow: /notes/cs-2610/2025-09-10/
 
 Disallow: /
 
-Disallow: /tags/cs-3800/
+Disallow: /notes/cs-3560/2025-09-10/
+
+Disallow: /tags/cs-3560/
 
 Disallow: /tags/notes/
+
+Disallow: /notes/cs-3800/2025-09-09/
+
+Disallow: /tags/cs-3800/
 
 Disallow: /notes/cs-2610/2025-09-08/
 
@@ -29,8 +35,6 @@ Disallow: /series/test/
 Disallow: /categories/test/
 
 Disallow: /notes/cs-3560/2025-09-05/
-
-Disallow: /tags/cs-3560/
 
 Disallow: /notes/cs-3560/2025-09-03/
 
