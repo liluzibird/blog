@@ -1,9 +1,9 @@
 ---
 type : notes
-title: 2025 09 10
+title: 2025-09-10
 date: 2025-09-10T12:47:07-07:00
 featured: false
-draft: true
+draft: false
 comment: true
 toc: true
 reward: true
@@ -15,7 +15,7 @@ tags: []
 images: []
 ---
 
-Summary.
+More bullshit from last lecture
 
 <!--more-->
 
