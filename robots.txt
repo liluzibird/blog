@@ -1,8 +1,18 @@
 User-agent: GPTBot
 
-Disallow: /notes/cs-2610/2025-09-10/
+Disallow: /notes/cs-2610/2025-09-19/
 
 Disallow: /
+
+Disallow: /notes/cs-3560/2025-09-19/
+
+Disallow: /notes/cs-2610/2025-09-17/
+
+Disallow: /notes/cs-3560/2025-09-15/
+
+Disallow: /notes/cs-3560/2025-09-12/
+
+Disallow: /notes/cs-2610/2025-09-10/
 
 Disallow: /notes/cs-3560/2025-09-10/
 
