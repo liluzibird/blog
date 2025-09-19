@@ -11,7 +11,7 @@ pinned: false
 carousel: false
 series:
 categories: []
-tags: []
+tags: [notes, CS 3560]
 images: []
 ---
 
