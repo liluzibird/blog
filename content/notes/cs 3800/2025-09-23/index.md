@@ -108,4 +108,5 @@ Performance of rdt3.0 (stop-and-wait)
 - Example: 1Gbps link, 15 ms prop. delay, 8000 bit packet
 	- time to transmit packet
 
-
+## Selective Repeat
+- Receiver *individually* acknowledges all correctly received packets
