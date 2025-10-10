@@ -1,8 +1,10 @@
 User-agent: GPTBot
 
-Disallow: /notes/cs-360/2025-10-10/
-
 Disallow: /
+
+Disallow: /blog/2025/10/im-not-back/
+
+Disallow: /notes/cs-360/2025-10-10/
 
 Disallow: /notes/cs-2610/2025-10-08/
 
